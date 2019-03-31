@@ -426,24 +426,6 @@ if (isset($_GET['schoolsearch-submit'])) {
 							}
 
 
-							//is there an image associated with AD?
-							$sql = "SELECT * FROM img WHERE idAdd=$idAdd";
-							$resultImage = mysqli_query($conn, $sql);
-							$imagePath = '';
-
-							if (mysqli_num_rows($resultImage)) {
-							    //there's an image, we should show it!
-							    $rowAddImg = mysqli_fetch_assoc($resultImage);
-
-							    //string starts with ../upl, gotta cut it
-								$imagePath = substr($rowAddImg["imageAdd"], 3); 
-							    
-							}
-							else {
-							    //there is no image, we go with stock
-							    $imagePath = 'img/book_icon_add.png';
-							}
-
 							//RATING 
 							$tmp = $row['uidUsers'];
 							$sql = "SELECT ROUND(AVG(rating)) AS avgrating FROM sold_ads JOIN adds USING (idAdd) WHERE uidUsers='$tmp' AND adChecked=0 AND rating!=0 GROUP BY uidUsers";
@@ -461,12 +443,98 @@ if (isset($_GET['schoolsearch-submit'])) {
 								$stars .= '<i class="fas fa-star text-primary"></i>';
 							}
 
+
+							//is there an image associated with AD?
+							$sql = "SELECT * FROM img WHERE idAdd=$idAdd";
+							$resultImage = mysqli_query($conn, $sql);
+							$imagePath = 'img/book_icon_add.png';
+
 							echo 	'
-									<li class="list-group-item shadow-sm p-3 rounded">
+									<li class="list-group-item shadow p-3 rounded">
 								  		<div class="row align-items-center">
 
 								  			<span class="col-sm text-center mt-1">
-								  				<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">
+
+								  				<div id="carouselExampleControls'.$idAdd.'" class="carousel slide" data-interval="false" data-ride="carousel">
+												  	<div class="carousel-inner">
+												    	
+												  		';
+
+												  		//There is one image or none, we don't show carousel arrows
+												  		if(mysqli_num_rows($resultImage) < 2){
+												  			if(!mysqli_num_rows($resultImage)){
+				  			echo 	'
+									  					   	<div class="carousel-item active">
+													      		<a href="'.$imagePath.'" data-fancybox data-caption="'.$nameBooks.'">
+															    	<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">			    
+																</a>
+												    		</div>
+												    	</div> 
+				  					';						
+				  											}
+
+				  											else {
+				  												//First carousel item is ACTIVE
+														  		$rowOfImages = mysqli_fetch_array($resultImage);
+
+														  		//string starts with ../upl, gotta cut it
+																$imagePath = substr($rowOfImages["imageAdd"], 3);
+
+							echo    '					    <div class="carousel-item active">
+													      		<a href="'.$imagePath.'" data-fancybox data-caption="'.$nameBooks.'">
+															    	<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">						    
+																</a>
+												    		</div>
+												    	</div>
+									';					  		
+					  											}
+												  		}
+
+												  		//There is more than one image, show carousel arrows
+												  		else {
+													  		//First carousel item is ACTIVE
+													  		$rowOfImages = mysqli_fetch_array($resultImage);
+
+													  		//string starts with ../upl, gotta cut it
+															$imagePath = substr($rowOfImages["imageAdd"], 3);
+
+							echo    '					    <div class="carousel-item active">
+													      		<a href="'.$imagePath.'" data-fancybox="gallery'.$idAdd.'" data-caption="'.$nameBooks.'">
+															    	<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">						    
+																</a>
+												    		</div>
+									';					  		
+
+													  		while($rowOfImages = mysqli_fetch_array($resultImage)){
+									    
+															   	//string starts with ../upl, gotta cut it
+																$imagePath = substr($rowOfImages["imageAdd"], 3);
+
+
+							echo    '					    <div class="carousel-item">
+													      		<a href="'.$imagePath.'" data-fancybox="gallery'.$idAdd.'" data-caption="'.$nameBooks.'">
+															    	<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">						    
+																</a>
+												    		</div>
+									';					
+																
+													    	}
+
+							echo    '       
+														</div>
+												  
+													  	<a class="carousel-control-next" href="#carouselExampleControls'.$idAdd.'" role="button" data-slide="next">
+													    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+													    	<span class="sr-only">Next</span>
+													  	</a>
+
+									';
+													    }
+
+							echo    '				
+												</div>
+
+								  												  				
 								  			</span>
 
 								  			<input class="sr-only" type="text" value="'.$row['uidUsers'].'">
@@ -530,7 +598,7 @@ if (isset($_GET['schoolsearch-submit'])) {
 								  			</span>
 
 								  			<span class="col-sm text-center mt-1">
-									  			<span class="badge badge-pill badge-primary text-center" style="width: 70px; height: 70px; vertical-align: middle; line-height: 60px">
+									  			<span class="badge badge-pill badge-white text-center text-primary shadow" style="width: 70px; height: 70px; vertical-align: middle; line-height: 60px">
 									  				<b style="font-size: 20px">'.$row["priceAdd"].'kn</b>
 									  			</span>
 									  		</span>	
@@ -674,9 +742,18 @@ if (isset($_GET['booksearch-submit'])) {
 
 				';
 	
+	$arrayOfIDs[] = 0;
 	if(mysqli_num_rows($result)){			
 		while($row = mysqli_fetch_array($result)){
 			
+			//some ads have multiple images, show only first -> THIS WILL SHOW ONLY ONE IMAGE PER AD
+			if(!in_array($row['idAdd'], $arrayOfIDs)){
+				array_push($arrayOfIDs, $row['idAdd']);
+			}
+			else{
+				continue;
+			}
+
 			//CHECKPOINT: ADS
 			//printing ads
 			$imagePath = '';
@@ -694,7 +771,9 @@ if (isset($_GET['booksearch-submit'])) {
 						<li class="list-group-item">
 					  		<div class="row align-items-center">
 					  			<span class="col-sm text-center mt-1">
-					  				<img src="'.$imagePath.'" style="max-height:100px; width: 100px;" alt="Nema slike">
+					  				<a href="'.$imagePath.'" data-fancybox data-caption="'.$nameBooks.'">
+								    	<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">			    
+									</a>
 					  			</span>			  			
 					  			<span class="col-sm text-center mt-1">
 					  				<i class="fas fa-calendar-alt mr-1"></i>

@@ -293,6 +293,13 @@ hr.light-100{
   color: #FEFEFE;
 }
 
+#modalForImages-body {
+  display: block;
+  max-width: 500px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+}
 
 /*---Media Queries --*/
 @media (max-width: 992px) {

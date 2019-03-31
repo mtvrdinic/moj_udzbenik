@@ -317,8 +317,11 @@ $(document).ready(function(){
         for(var i = 0; i < imgs.length; i++) {
             if(imgs[i].src == demoImg){
 
-                //to get span
+                //to get a [ADDED AFTER ADDING MODALS FOR IMAGES]
                 var parent = imgs[i].parentElement;
+
+                //to get span
+                parent = parent.parentElement;
 
                 //to get div
                 parent = parent.parentElement;
@@ -537,3 +540,11 @@ $(document).ready(function(){
         })
     })
 })
+
+
+//Ad image modals
+$(".image-modal").on("click", function() {
+   $('#modalForImages-body').attr('src', $(this).children().attr('src')); // here asign the image to the modal when the user click the enlarge link
+});
+
+

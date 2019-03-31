@@ -64,93 +64,99 @@ if (isset($_POST['add-submit'])) {
 		//lets obtain the ID of this new add
 		$last_id = mysqli_insert_id($conn);
 
-		//FOLLOWING CODE IS COPIED FROM W3 PHP 5 FILE UPLOAD
+		/*did user upload anything?  -> using "required"
+		if(empty(array_filter($_FILES['fileToUpload']['name']))){
+			echo "Gotta upload something";
+			exit();
+		}
+		*/
+
+		//FOLLOWING CODE IS COPIED FROM W3 PHP 5 FILE UPLOAD (AND MODIFIED TO ACCEPT MULTIPLE IMGS)
+		//https://www.codexworld.com/upload-multiple-images-store-in-database-php-mysql/  helped aswell
+		
 		//dealing with upload
 		$target_dir = "../uploads/";
-		$target_file = $target_dir . ("ID") . $last_id . ("name") . basename($_FILES["fileToUpload"]["name"]);
-		$uploadOk = 1;
-
-		$imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
 		
-		//in case img was not uploaded
-		if(!$_FILES["fileToUpload"]["tmp_name"]){
-			//closing connection
-			mysqli_stmt_close($stmt);
-			mysqli_close($conn);
+		//going through every uploaded file		
+		foreach($_FILES['fileToUpload']['name'] as $key => $val){
 
-			header("Location: ../profile.php?newadd=success");
-			exit();
-		}
+			$target_file = $target_dir . ("ID") . $last_id . ("name") . basename($_FILES["fileToUpload"]["name"][$key]);
+			$uploadOk = 1;
 
-		$check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
+			$imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
+			
 
-		//is the file an actual image or fake
-		if($check !== false) {
-	        echo "File is an image - " . $check["mime"] . ".";
-	        $uploadOk = 1;
-	    } else {
-	        echo "File is not an image.";
-	        $uploadOk = 0;
-	    }
+			$check = getimagesize($_FILES["fileToUpload"]["tmp_name"][$key]);
 
-	    // Check if file already exists
-		if (file_exists($target_file)) {
-		    echo "Sorry, file already exists.";
-		    exit();
-		    $uploadOk = 0;
-		}
-
-		//no room for huge files, check if it's too big -> 5MB
-		if ($_FILES["fileToUpload"]["size"] > 5000000) {
-		    echo "Sorry, your file is too large.";
-		    exit();
-		    $uploadOk = 0;
-		}
-
-		//allow certain file formats
-		if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg" && $imageFileType != "gif" ) {
-		    echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
-		    exit();
-		    $uploadOk = 0;
-		}
-
-		// Check if $uploadOk is set to 0 by an error
-		if ($uploadOk == 0) {
-		    echo "Sorry, your file was not uploaded.";
-		    exit();	
-		} 
-		// if everything is ok, try to upload file
-		else {
-		    if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-		        echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
+			//is the file an actual image or fake
+			if($check !== false) {
+		        echo "File is an image - " . $check["mime"] . ".";
+		        $uploadOk = 1;
 		    } else {
-		        echo "Sorry, there was an error uploading your file.";
-		        exit();
+		        echo "File is not an image.";
+		        $uploadOk = 0;
 		    }
+
+		    // Check if file already exists
+			if (file_exists($target_file)) {
+			    echo "Sorry, file already exists.";
+			    exit();
+			    $uploadOk = 0;
+			}
+
+			//no room for huge files, check if it's too big -> 5MB
+			if ($_FILES["fileToUpload"]["size"][$key] > 5000000) {
+			    echo "Sorry, your file is too large.";
+			    exit();
+			    $uploadOk = 0;
+			}
+
+			//allow certain file formats
+			if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg" && $imageFileType != "gif" ) {
+			    echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
+			    exit();
+			    $uploadOk = 0;
+			}
+
+			// Check if $uploadOk is set to 0 by an error
+			if ($uploadOk == 0) {
+			    echo "Sorry, your file was not uploaded.";
+			    exit();	
+			} 
+			// if everything is ok, try to upload file
+			else {
+			    if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"][$key], $target_file)) {
+			        echo "The file ". basename( $_FILES["fileToUpload"]["name"][$key]). " has been uploaded.";
+			    } else {
+			        echo "Sorry, there was an error uploading your file.";
+			        exit();
+			    }
+			}
+
+			//CHECKPOINT: image and id have to be stored inside DB
+			$sql = "INSERT INTO img (idAdd, imageAdd) VALUES (?, ?)";
+			$stmt = mysqli_stmt_init($conn);
+
+			//can this sql command actually work inside mysql?
+			if (!mysqli_stmt_prepare($stmt, $sql)) {
+				echo "This won't work!";
+				exit();
+			}
+			else{
+				//all good, we can bind parameters
+				mysqli_stmt_bind_param($stmt, "is", $last_id, $target_file);
+				mysqli_stmt_execute($stmt);
+			}
 		}
-
-		//CHECKPOINT: image and id have to be stored inside DB
-		$sql = "INSERT INTO img (idAdd, imageAdd) VALUES (?, ?)";
-		$stmt = mysqli_stmt_init($conn);
-
-		//can this sql command actually work inside mysql?
-		if (!mysqli_stmt_prepare($stmt, $sql)) {
-			echo "This won't work!";
-			exit();
-		}
-		else{
-			//all good, we can bind parameters
-			mysqli_stmt_bind_param($stmt, "is", $last_id, $target_file);
-			mysqli_stmt_execute($stmt);
-		} 
-
-		//closing connection
-		mysqli_stmt_close($stmt);
-		mysqli_close($conn);
-
-		header("Location: ../profile.php?newadd=success");
-		exit();
+		//end of for loop 		
 	}
+
+	//closing connection
+	mysqli_stmt_close($stmt);
+	mysqli_close($conn);
+
+	header("Location: ../profile.php?newadd=success");
+	exit();
 
 }
 

@@ -329,8 +329,8 @@
 										  			required>
 
 										  	<div class="upload-btn-wrapper my-1 mr-sm-2">
-											  	<button class="btn btn-danger">Dodaj sliku *</button>
-											  	<input type="file" name="fileToUpload" id="fileToUpload" multiple>
+											  	<button class="btn btn-danger">Dodaj slike</button>
+											  	<input type="file" name="fileToUpload[]" id="fileToUpload" multiple required>
 											</div>
 
 											<button type="submit" id="submit-newadd" name="add-submit" class="btn btn-success my-1 mr-sm-2">&nbsp;&nbsp;Predaj oglas&nbsp;&nbsp;</button>
@@ -407,38 +407,116 @@
 											if(mysqli_num_rows($result)){
 												while(($row = mysqli_fetch_array($result))){													
 													
-													//is there an image associated with ADD?
-													$tmp = $row["idAdd"];
-													$sql = "SELECT * FROM img WHERE idAdd = $tmp";
-													$resultImage = mysqli_query($conn, $sql);
-													$imagePath = '';
-
-													if (mysqli_num_rows($resultImage)) {
-													    //there's an image, we should show it!
-													    $rowAddImg = mysqli_fetch_assoc($resultImage);
-
-													    //string starts with ../upl, gotta cut it
-														$imagePath = substr($rowAddImg["imageAdd"], 3); 
-													    
-													}
-													else {
-													    //there is no image, we go with stock
-													    $imagePath = 'img/book_icon_add.png';
-													}
-
 													//it would be nice to show BOOK NAME aswell
 													$tmp = $row["idBooks"];
 													$sql = "SELECT * FROM books WHERE idBooks = $tmp";
 													$resultBook = mysqli_query($conn, $sql);
 
 													$bookName = mysqli_fetch_assoc($resultBook);
+													
+													//is there an image associated with ADD?
+													$idAdd = $row["idAdd"];
+
+													$sql = "SELECT * FROM img WHERE idAdd=$idAdd";
+													$resultImage = mysqli_query($conn, $sql);
+													$imagePath = 'img/book_icon_add.png';
 
 													$output .= 	'
-																<li class="list-group-item">
-															  		<div class="row align-items-center">
-															  			<span class="col-sm text-center">
-															  				<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">
-															  			</span>	
+															<li class="list-group-item">
+														  		<div class="row align-items-center">
+
+														  			<span class="col-sm text-center mt-1">
+
+														  				<div id="carouselExampleControls'.$idAdd.'" class="carousel slide" data-interval="false" data-ride="carousel">
+																		  	<div class="carousel-inner">
+																		    	
+																		  		';
+
+																		  		//There is one image or none, we don't show carousel arrows
+																		  		if(mysqli_num_rows($resultImage) < 2){
+																		  			if(!mysqli_num_rows($resultImage)){
+										  			$output .= 	'
+															  					   	<div class="carousel-item active">
+																			      		<a href="'.$imagePath.'" data-fancybox data-caption="'.$bookName['nameBooks'].'">
+																					    	<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">			    
+																						</a>
+																		    		</div>
+																		    	</div> 
+										  					';						
+										  											}
+
+										  											else {
+										  												//First carousel item is ACTIVE
+																				  		$rowOfImages = mysqli_fetch_array($resultImage);
+
+																				  		//string starts with ../upl, gotta cut it
+																						$imagePath = substr($rowOfImages["imageAdd"], 3);
+
+													$output .=    '					    <div class="carousel-item active">
+																			      		<a href="'.$imagePath.'" data-fancybox data-caption="'.$bookName['nameBooks'].'">
+																					    	<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">						    
+																						</a>
+																		    		</div>
+																		    	</div>
+															';					  		
+											  											}
+																		  		}
+
+																		  		//There is more than one image, show carousel arrows
+																		  		else {
+																			  		//First carousel item is ACTIVE
+																			  		$rowOfImages = mysqli_fetch_array($resultImage);
+
+																			  		//string starts with ../upl, gotta cut it
+																					$imagePath = substr($rowOfImages["imageAdd"], 3);
+
+													$output .=    '					    <div class="carousel-item active">
+																			      		<a href="'.$imagePath.'" data-fancybox="gallery'.$idAdd.'" data-caption="'.$bookName['nameBooks'].'">
+																					    	<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">						    
+																						</a>
+																		    		</div>
+															';					  		
+
+																			  		while($rowOfImages = mysqli_fetch_array($resultImage)){
+															    
+																					   	//string starts with ../upl, gotta cut it
+																						$imagePath = substr($rowOfImages["imageAdd"], 3);
+
+
+													$output .=    '					    <div class="carousel-item">
+																			      		<a href="'.$imagePath.'" data-fancybox="gallery'.$idAdd.'" data-caption="'.$bookName['nameBooks'].'">
+																					    	<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">						    
+																						</a>
+																		    		</div>
+															';					
+																						
+																			    	}
+
+													$output .=    '       
+																				</div>
+																		  
+																			  	<a class="carousel-control-next" href="#carouselExampleControls'.$idAdd.'" role="button" data-slide="next">
+																			    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+																			    	<span class="sr-only">Next</span>
+																			  	</a>
+
+															';
+																			    }
+
+													$output .=    '				
+																		</div>
+
+														  												  				
+														  			</span>
+														  	';
+
+													
+
+
+
+													
+
+													$output .= 	'																
 															  			<span class="col-sm text-center" style="font-size: 0.8em">
 															  				<strong>'.$bookName["nameBooks"].'</strong> <br>
 															  				<sub>OGLAS POSTAVLJEN: '.$row['dateAdd'].'</sub>
@@ -542,25 +620,6 @@
 											if(mysqli_num_rows($result)){
 												while(($row = mysqli_fetch_array($result))){													
 													
-													//is there an image associated with ADD?
-													$tmp = $row["idAdd"];
-													$sql = "SELECT * FROM img WHERE idAdd = $tmp";
-													$resultImage = mysqli_query($conn, $sql);
-													$imagePath = '';
-
-													if (mysqli_num_rows($resultImage)) {
-													    //there's an image, we should show it!
-													    $rowAddImg = mysqli_fetch_assoc($resultImage);
-
-													    //string starts with ../upl, gotta cut it
-														$imagePath = substr($rowAddImg["imageAdd"], 3); 
-													    
-													}
-													else {
-													    //there is no image, we go with stock
-													    $imagePath = 'img/book_icon_add.png';
-													}
-
 													//it would be nice to show BOOK NAME aswell
 													$tmp = $row["idBooks"];
 													$sql = "SELECT * FROM books WHERE idBooks = $tmp";
@@ -568,16 +627,111 @@
 
 													$bookName = mysqli_fetch_assoc($resultBook);
 
-													$output .= '
-																<li class="list-group-item">
-															  		<div class="row align-items-center">
-															  			<span class="col-sm text-center">
-															  				<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">
-															  			</span>	
+													//is there an image associated with ADD?
+													$idAdd = $row["idAdd"];
+
+													$sql = "SELECT * FROM img WHERE idAdd=$idAdd";
+													$resultImage = mysqli_query($conn, $sql);
+													$imagePath = 'img/book_icon_add.png';
+
+													$output .= 	'
+															<li class="list-group-item">
+														  		<div class="row align-items-center">
+
+														  			<span class="col-sm text-center mt-1">
+
+														  				<div id="carouselExampleControls'.$idAdd.'" class="carousel slide" data-interval="false" data-ride="carousel">
+																		  	<div class="carousel-inner">
+																		    	
+																		  		';
+
+																		  		//There is one image or none, we don't show carousel arrows
+																		  		if(mysqli_num_rows($resultImage) < 2){
+																		  			if(!mysqli_num_rows($resultImage)){
+										  			$output .= 	'
+															  					   	<div class="carousel-item active">
+																			      		<a href="'.$imagePath.'" data-fancybox data-caption="'.$bookName['nameBooks'].'">
+																					    	<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">			    
+																						</a>
+																		    		</div>
+																		    	</div> 
+										  					';						
+										  											}
+
+										  											else {
+										  												//First carousel item is ACTIVE
+																				  		$rowOfImages = mysqli_fetch_array($resultImage);
+
+																				  		//string starts with ../upl, gotta cut it
+																						$imagePath = substr($rowOfImages["imageAdd"], 3);
+
+													$output .=    '					    <div class="carousel-item active">
+																			      		<a href="'.$imagePath.'" data-fancybox data-caption="'.$bookName['nameBooks'].'">
+																					    	<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">						    
+																						</a>
+																		    		</div>
+																		    	</div>
+															';					  		
+											  											}
+																		  		}
+
+																		  		//There is more than one image, show carousel arrows
+																		  		else {
+																			  		//First carousel item is ACTIVE
+																			  		$rowOfImages = mysqli_fetch_array($resultImage);
+
+																			  		//string starts with ../upl, gotta cut it
+																					$imagePath = substr($rowOfImages["imageAdd"], 3);
+
+													$output .=    '					    <div class="carousel-item active">
+																			      		<a href="'.$imagePath.'" data-fancybox="gallery'.$idAdd.'" data-caption="'.$bookName['nameBooks'].'">
+																					    	<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">						    
+																						</a>
+																		    		</div>
+															';					  		
+
+																			  		while($rowOfImages = mysqli_fetch_array($resultImage)){
+															    
+																					   	//string starts with ../upl, gotta cut it
+																						$imagePath = substr($rowOfImages["imageAdd"], 3);
+
+
+													$output .=    '					    <div class="carousel-item">
+																			      		<a href="'.$imagePath.'" data-fancybox="gallery'.$idAdd.'" data-caption="'.$bookName['nameBooks'].'">
+																					    	<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">						    
+																						</a>
+																		    		</div>
+															';					
+																						
+																			    	}
+
+													$output .=    '       
+																				</div>
+																		  
+																			  	<a class="carousel-control-next" href="#carouselExampleControls'.$idAdd.'" role="button" data-slide="next">
+																			    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+																			    	<span class="sr-only">Next</span>
+																			  	</a>
+
+															';
+																			    }
+
+													$output .=    '				
+																		</div>
+
+														  												  				
+														  			</span>
+														  	';
+
+													$output .= '																	
 															  			<span class="col-sm text-center" style="font-size: 0.8em">
 															  				<strong>'.$bookName["nameBooks"].'</strong> <br>
 															  				<sub>OGLAS POSTAVLJEN: '.$row['dateAdd'].'</sub>
-															  			</span>															  		
+															  			</span>
+															  			<span class="col-sm text-center" style="font-size: 0.8em">
+															  				<i class="fas fa-user mr-1"></i>
+								  											<strong> '.$row["uidUsersBuyer"].' </strong>
+															  			</span> 															  		
 															  			<span class="col-sm text-center">
 																  			<span class="badge badge-pill badge-primary text-center" style="width: 70px; height: 70px; vertical-align: middle; line-height: 60px">
 																  				<b id="cijenaod'.$row['idAdd'].'" style="font-size: 20px">'.$row["priceAdd"].'</b>kn
@@ -679,27 +833,8 @@
 											$result = mysqli_stmt_get_result($stmt);
 
 											if(mysqli_num_rows($result)){
-												while(($row = mysqli_fetch_array($result))){													
+												while(($row = mysqli_fetch_array($result))){		
 													
-													//is there an image associated with ADD?
-													$tmp = $row["idAdd"];
-													$sql = "SELECT * FROM img WHERE idAdd = $tmp";
-													$resultImage = mysqli_query($conn, $sql);
-													$imagePath = '';
-
-													if (mysqli_num_rows($resultImage)) {
-													    //there's an image, we should show it!
-													    $rowAddImg = mysqli_fetch_assoc($resultImage);
-
-													    //string starts with ../upl, gotta cut it
-														$imagePath = substr($rowAddImg["imageAdd"], 3); 
-													    
-													}
-													else {
-													    //there is no image, we go with stock
-													    $imagePath = 'img/book_icon_add.png';
-													}
-
 													//it would be nice to show BOOK NAME aswell
 													$tmp = $row["idBooks"];
 													$sql = "SELECT * FROM books WHERE idBooks = $tmp";
@@ -707,12 +842,105 @@
 
 													$bookName = mysqli_fetch_assoc($resultBook);
 
+
+													//is there an image associated with ADD?
+													$idAdd = $row["idAdd"];
+
+													$sql = "SELECT * FROM img WHERE idAdd=$idAdd";
+													$resultImage = mysqli_query($conn, $sql);
+													$imagePath = 'img/book_icon_add.png';
+
 													$output .= 	'
-																<li class="list-group-item">
-															  		<div class="row align-items-center">
-															  			<span class="col-sm text-center">
-															  				<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">
-															  			</span>	
+															<li class="list-group-item">
+														  		<div class="row align-items-center">
+
+														  			<span class="col-sm text-center mt-1">
+
+														  				<div id="carouselExampleControls'.$idAdd.'" class="carousel slide" data-interval="false" data-ride="carousel">
+																		  	<div class="carousel-inner">
+																		    	
+																		  		';
+
+																		  		//There is one image or none, we don't show carousel arrows
+																		  		if(mysqli_num_rows($resultImage) < 2){
+																		  			if(!mysqli_num_rows($resultImage)){
+										  			$output .= 	'
+															  					   	<div class="carousel-item active">
+																			      		<a href="'.$imagePath.'" data-fancybox data-caption="'.$bookName['nameBooks'].'">
+																					    	<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">			    
+																						</a>
+																		    		</div>
+																		    	</div> 
+										  					';						
+										  											}
+
+										  											else {
+										  												//First carousel item is ACTIVE
+																				  		$rowOfImages = mysqli_fetch_array($resultImage);
+
+																				  		//string starts with ../upl, gotta cut it
+																						$imagePath = substr($rowOfImages["imageAdd"], 3);
+
+													$output .=    '					    <div class="carousel-item active">
+																			      		<a href="'.$imagePath.'" data-fancybox data-caption="'.$bookName['nameBooks'].'">
+																					    	<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">						    
+																						</a>
+																		    		</div>
+																		    	</div>
+															';					  		
+											  											}
+																		  		}
+
+																		  		//There is more than one image, show carousel arrows
+																		  		else {
+																			  		//First carousel item is ACTIVE
+																			  		$rowOfImages = mysqli_fetch_array($resultImage);
+
+																			  		//string starts with ../upl, gotta cut it
+																					$imagePath = substr($rowOfImages["imageAdd"], 3);
+
+													$output .=    '					    <div class="carousel-item active">
+																			      		<a href="'.$imagePath.'" data-fancybox="gallery'.$idAdd.'" data-caption="'.$bookName['nameBooks'].'">
+																					    	<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">						    
+																						</a>
+																		    		</div>
+															';					  		
+
+																			  		while($rowOfImages = mysqli_fetch_array($resultImage)){
+															    
+																					   	//string starts with ../upl, gotta cut it
+																						$imagePath = substr($rowOfImages["imageAdd"], 3);
+
+
+													$output .=    '					    <div class="carousel-item">
+																			      		<a href="'.$imagePath.'" data-fancybox="gallery'.$idAdd.'" data-caption="'.$bookName['nameBooks'].'">
+																					    	<img src="'.$imagePath.'" style="height:100px; width: 100px;" alt="Nema slike">						    
+																						</a>
+																		    		</div>
+															';					
+																						
+																			    	}
+
+													$output .=    '       
+																				</div>
+																		  
+																			  	<a class="carousel-control-next" href="#carouselExampleControls'.$idAdd.'" role="button" data-slide="next">
+																			    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+																			    	<span class="sr-only">Next</span>
+																			  	</a>
+
+															';
+																			    }
+
+													$output .=    '				
+																		</div>
+
+														  												  				
+														  			</span>
+														  	';
+
+
+													$output .= 	'
 															  			<span class="col-sm text-center" style="font-size: 0.8em">
 															  				<strong>'.$bookName["nameBooks"].'</strong> <br>
 															  				<sub>Vrijeme kupovine: '.$row['dateSold'].'</sub>
