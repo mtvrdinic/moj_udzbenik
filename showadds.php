@@ -377,7 +377,7 @@ if (isset($_GET['schoolsearch-submit'])) {
 							';
 
 					//finding all the adds of the selected book
-					$sql = "SELECT * FROM adds WHERE idBooks=? AND soldAdd = 0";
+					$sql = "SELECT * FROM adds WHERE idBooks=? AND soldAdd = 0 limit 7";
 
 					//initializing statement
 					$stmt = mysqli_stmt_init($conn);
@@ -608,17 +608,27 @@ if (isset($_GET['schoolsearch-submit'])) {
 								  	<br>
 								  	<br>
 									';
-
-
+									
 						}
 					}
 					else{
 						echo "Add not found :(";					
 					}
+					//here will more ads load
+					echo 	'<div id="show-more'.$idBooks.'">
 
-					echo 	'
-								</ul>
-							</div>
+							</div>';
+					//using the button to show more ads
+					echo 	'<li class="list-group shadow p-1 rounded">
+								  		<div class="row align-items-center">
+								  			<span class="col-sm text-center mt-1">
+								  				<button id='.$idBooks.' type="button" class="btn btn-light plus"><i class="fas fa-plus fa-1x"></i></button>
+							  					<input type="hidden" id=book'.$idBooks.' value="">
+							  				</span>
+								  		</div>
+						  	</li>
+						</ul>
+					</div>
 							';
 				}
 			}
@@ -640,7 +650,7 @@ if (isset($_GET['schoolsearch-submit'])) {
 		mysqli_close($conn);
 }
 
-
+//SEARCHING ADDS THROUGH BOOKS
 //check if the users actually clicked the SUBMIT button - book search
 if (isset($_GET['booksearch-submit'])) {
 
@@ -834,9 +844,8 @@ if (isset($_GET['booksearch-submit'])) {
 					  			</button>
 					  		</div>
 					  	</li>
-						';
+					  	';
 		}
-
 		echo $output .= '
 								</ul>
 							</div>
