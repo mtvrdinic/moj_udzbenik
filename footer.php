@@ -4,10 +4,9 @@
     		<div class="col-md-4">
     			<img src="img/logo2.footer.png">
     			<hr class="light">
-    			<p>098 980 098</p>
-    			<p>email@example.com</p>
-    			<p>100 Street Name</p>
-    			<p>City, State, 00000</p>
+    			<p>mojudzbenik@gmail.com</p>
+    			<p>Franje Čandeka 4, rampa</p>
+    			<p>51000 Rijeka, Hrvatska</p>
     		</div>
     		<div class="col-md-4">
     			<hr class="light">
@@ -22,7 +21,7 @@
     			<h5>Dev team</h5>
     			<hr class="light">
     			<p>Mislav Tvrdinić 099 844 3056</p>
-    			<p>Antonio Ronta 099 214 214</p>
+    			<p>Antonio Ronta 091 891 3177</p>
     		</div>
     		<div class="col-12">
     			<hr class="light-100">

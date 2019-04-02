@@ -218,3 +218,38 @@ $(document).ready(function(){
 
     });
 });
+
+//SKRIPTA ZA SHOW MORE ADDS (pretraga po školama)
+$(document).ready(function(){
+  var adCount = 0;
+  $(".plus").click(function(){
+    //dohvacanje id knjige spremanje ga u value i opet dohvacanje
+    var idknjige = $(this).attr('id');
+    $("#book"+idknjige).val(idknjige);
+    var idbook = $("#book"+idknjige).val();
+
+    //dohvacanje limita
+    var limit = $("#limit"+idbook).val();
+    if(limit === undefined){
+      adCount = 0;
+    }
+    adCount +=7;
+    
+    /*$("#show-more"+idbook).load("load-ads.php", {
+      newAdCount: adCount,
+      idBooks: idbook
+    });*/
+    $.ajax({
+      url: "load-ads.php",
+      method: "POST",
+      data: {
+              newAdCount: adCount,
+              idBooks: idbook
+            },
+      success: function(data){
+        $("#show-more"+idbook).append(data);
+      }      
+    })
+
+  });
+});
