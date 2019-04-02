@@ -14,11 +14,13 @@
 
 	  			<div class="form-group">
 				    <label for="exampleInputEmail1">Korisničko ime</label>
-				    <input class="form-control" name="uid" type="text" placeholder="UID" required>	 
+				    <input class="form-control" id="username-input" name="uid" type="text" placeholder="UID">
+				    <small id="usernameError" class="form-text text-danger" hidden>Korisničko ime nije valjano ili se već koristi.</small>	 
 				</div>
 				<div class="form-group">
 				    <label for="exampleInputEmail1">Email adresa</label>
-				    <input type="email" name="mail" class="form-control" aria-describedby="emailHelp" placeholder="Enter email" required>
+				    <input type="email" id="email-input" name="mail" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
+				    <small id="emailError" class="form-text text-danger" hidden>Email se već koristi.</small>	
 				    <small id="emailHelp" class="form-text text-muted">Vašu email adresu nećemo dijeliti javno.</small>
 				</div>
 				<div class="form-group">
@@ -59,8 +61,21 @@
 				</div>
 
 				<div class="form-group">
+				    <label for="inputAddress">Adresa i kućni broj</label>
+				    <input class="form-control" name="address" type="text" placeholder="Ul." required>
+				    <small id="addressHelp" class="form-text text-muted">Adresa na koju ćete primati naručene knjige.</small>	 
+				</div>
+
+				<div class="form-group">
+				    <label for="inputOIB">OIB</label>
+				    <input type="text" id="oib-input" name="oib-num" class="form-control" placeholder="73465510923">
+				    <small id="oibError" class="form-text text-danger" hidden> Uneseni OIB nije ispravan. </small>
+				    <small id="oibHelp" class="form-text text-muted">Vaš OIB nam je potreban zbog autentičnosti korisnika, nećemo ga dijeliti javno.</small>
+				</div>
+
+				<div class="form-group">
 				    <label for="exampleInputPassword1">Broj telefona</label>
-				    <input type="text" name="phone-num" class="form-control" placeholder="091 123 4567" required>
+				    <input type="text" name="phone-num" class="form-control" placeholder="091 123 4567" required pattern="[0-9]{7,10}">
 				</div>
 
 				<div class="card" id="profile-card" style="height: 160px; width: 150px">
@@ -74,7 +89,7 @@
 				<br>
 
 			    <div class="text-center">
-			    	<button type="submit" name="signup-submit" class="btn btn-primary btn-lg">Registriraj se</button>
+			    	<button type="submit" id="signup-submit-button" name="signup-submit" class="btn btn-primary btn-lg">Registriraj se</button>
 			    </div>
 			</form>
 

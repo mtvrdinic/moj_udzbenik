@@ -16,6 +16,8 @@ if (isset($_POST['signup-submit'])) {
 	$passwordRepeat = $_POST['pwd-repeat'];
 	$region = $_POST['region-select'];
 	$phoneNum = $_POST['phone-num'];
+	$address = $_POST['address'];
+	$oib = $_POST['oib-num'];
 	$avatarSrc = $_POST['signup-avatar-value'];
 
 	//basic error handlers, obsolete -> added 'required'
@@ -73,13 +75,13 @@ if (isset($_POST['signup-submit'])) {
 
 			//if there are any rows, it means that username is alredy in the database
 			if($resultCheck > 0){
-				header("Location: ../signup.php?error=usernametaken&mail=".$email);
+				header("Location: ../signup.php?error=usernametaken");
 				exit();
 			}
-			//now check if the email is taken
+			//now check if the email or oib are taken
 			else{
 
-				$sql = "SELECT emailUsers FROM users WHERE emailUsers=?";
+				$sql = "SELECT emailUsers FROM users WHERE emailUsers=? or oibUsers=?";
 				
 				//preparing statement
 				$stmt = mysqli_stmt_init($conn);
@@ -90,7 +92,7 @@ if (isset($_POST['signup-submit'])) {
 				}
 				else {
 					//inserting into DB and searching for matches
-					mysqli_stmt_bind_param($stmt, "s", $email);
+					mysqli_stmt_bind_param($stmt, "ss", $email, $oib);
 					mysqli_stmt_execute($stmt);
 
 					//stores result from DB to stmt
@@ -99,12 +101,12 @@ if (isset($_POST['signup-submit'])) {
 
 					//if there are any rows, it means that email is alredy in the database
 					if($resultCheck > 0){
-						header("Location: ../signup.php?error=emailtaken&uid=".$username);
+						header("Location: ../signup.php?error=taken");
 						exit();
 					}
 					//otherwise we can register the user
 					else {
-						$sql = "INSERT INTO users (uidUsers, emailUsers, pwdUsers, phoneNumUsers, regionUsers, avatarUsers) VALUES (?, ?, ?, ?, ?, ?)";
+						$sql = "INSERT INTO users (uidUsers, emailUsers, pwdUsers, phoneNumUsers, regionUsers, avatarUsers, addressUsers, oibUsers) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 						$stmt = mysqli_stmt_init($conn);
 
 						//can this sql command actually work inside mysql?
@@ -117,7 +119,7 @@ if (isset($_POST['signup-submit'])) {
 							$hashedPwd = password_hash($password, PASSWORD_DEFAULT);
 
 							//6 * s for 6 parameters
-							mysqli_stmt_bind_param($stmt, "ssssss", $username, $email, $hashedPwd, $phoneNum, $region, $avatarSrc);
+							mysqli_stmt_bind_param($stmt, "ssssss", $username, $email, $hashedPwd, $phoneNum, $region, $avatarSrc, $address, $oib);
 							mysqli_stmt_execute($stmt);
 							header("Location: ../index.php?registration=success");
 							exit();

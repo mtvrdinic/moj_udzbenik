@@ -746,7 +746,7 @@ if (isset($_GET['booksearch-submit'])) {
 	if(mysqli_num_rows($result)){			
 		while($row = mysqli_fetch_array($result)){
 			
-			//some ads have multiple images, show only first -> THIS WILL SHOW ONLY ONE IMAGE PER AD
+			//some ads have multiple images, show only first ->  THIS WILL SHOW ONLY ONE IMAGE PER AD
 			if(!in_array($row['idAdd'], $arrayOfIDs)){
 				array_push($arrayOfIDs, $row['idAdd']);
 			}

@@ -548,3 +548,115 @@ $(".image-modal").on("click", function() {
 });
 
 
+//Signup errors
+$(document).ready(function(){
+    if(document.URL.indexOf("signup.php?error=taken") >= 0){ 
+        alert("Registracija nije uspjela, email ili oib se već koriste.");
+    }
+
+    if(document.URL.indexOf("signup.php?error=sqlerror") >= 0){
+        alert("Registracije nije uspjela, grška s bazom podataka.");
+    }
+
+    if(document.URL.indexOf("signup.php?error=usernametaken") >= 0){
+        alert("Registracije nije uspjela, korisničko ime se već koristi.");
+    }
+
+    if(window.location.href.indexOf("error") > -1) {
+       alert("Registracije nije uspjela.");
+    }
+});
+
+
+// Validations
+$(document).ready(function(){
+
+    // Require them all
+    document.getElementById("username-input").required = true;
+    document.getElementById("email-input").required = true;
+    document.getElementById("oib-input").required = true;
+
+    // Username
+    $('#username-input').focusout(function() {
+        var input = $(this);
+        var query = $(this).val();
+            
+        if(query != ''){
+            $.ajax({
+                url: "includes/valitade-username.inc.php",
+                method: "GET",
+                data: {query:query},
+                success:    function(data){
+                                if(data == 1){
+                                    input.addClass('is-invalid');
+                                    $('#signup-submit-button').attr('disabled', true);
+                                    $('#usernameError').attr('hidden', false);
+                                }
+                                else {
+                                    input.removeClass('is-invalid');
+                                    $('#signup-submit-button').attr('disabled', false);
+                                    $('#usernameError').attr('hidden', true);
+                                }
+                            }
+            })
+        }        
+    });
+
+
+    // Email
+    $('#email-input').focusout(function() {
+        var input = $(this);
+        var query = $(this).val();
+            
+        if(query != ''){
+            $.ajax({
+                url: "includes/validate-email.inc.php",
+                method: "GET",
+                data: {query:query},
+                success:    function(data){
+                                if(data == 1){
+                                    input.addClass('is-invalid');
+                                    $('#signup-submit-button').attr('disabled', true);
+                                    $('#emailError').attr('hidden', false);
+                                }
+                                else {
+                                    input.removeClass('is-invalid');
+                                    $('#signup-submit-button').attr('disabled', false);
+                                    $('#emailError').attr('hidden', true);
+                                }
+                            }
+            })
+        }        
+    }); 
+
+    // Oib
+    $('#oib-input').focusout(function() {
+        var input = $(this);
+        var query = $(this).val();
+        
+        // Calculating control num
+        var sum = 10;
+        for(var i = 0; i < 10; i++) {
+            sum += parseInt(query[i]);
+            sum %= 10;
+            if(sum == 0) sum = 10;
+            sum *= 2;
+            sum %= 11;          
+        }
+        sum = 11 - sum;
+        if(sum == 10) sum = 0;
+
+        if(sum != parseInt(query[10]) || query[11] != undefined){
+            input.addClass('is-invalid');
+            $('#signup-submit-button').attr('disabled', true);
+            $('#oibError').attr('hidden', false);
+        }
+        else {
+            input.removeClass('is-invalid');
+            $('#signup-submit-button').attr('disabled', false);
+            $('#oibError').attr('hidden', true);
+        }
+       
+    });    
+
+});

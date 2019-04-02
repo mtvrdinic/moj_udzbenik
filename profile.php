@@ -588,6 +588,7 @@
 
 										//statement that we want to send to DB
 										$tmp = $_SESSION['userUid'];
+										
 										//BROJI KOLIKO IMA PRODANIH OGLASA
 										$sqlp = "SELECT COUNT(*) as broj FROM adds WHERE uidUsers ='$tmp' AND soldAdd=1";
                          				$result2 = mysqli_query($conn,$sqlp);
@@ -601,7 +602,7 @@
 
 
                          				//ZA ISPIS
-										$sql = "SELECT * FROM adds join sold_ads using (idAdd) WHERE uidUsers = '$tmp' AND soldAdd=1 order by dateSold desc";
+										$sql = "SELECT * FROM adds join sold_ads using (idAdd) join users ON sold_ads.uidUsersBuyer = users.uidUsers WHERE adds.uidUsers = '$tmp' AND soldAdd=1 order by dateSold desc";
 
 										$stmt = mysqli_stmt_init($conn);
 
@@ -728,9 +729,15 @@
 															  				<strong>'.$bookName["nameBooks"].'</strong> <br>
 															  				<sub>OGLAS POSTAVLJEN: '.$row['dateAdd'].'</sub>
 															  			</span>
-															  			<span class="col-sm text-center" style="font-size: 0.8em">
-															  				<i class="fas fa-user mr-1"></i>
-								  											<strong> '.$row["uidUsersBuyer"].' </strong>
+															  			<span class="col-sm text-center" style="font-size: 0.8em">  											
+								  											<button 	type="button" 
+								  														class="btn btn-lg btn-outline-light text-muted" 
+								  														data-toggle="popover"
+								  														data-trigger="focus" 
+								  														title="Adresa kupca" 
+								  														data-content="'. $row["addressUsers"] .', '. $row["regionUsers"] .'">
+								  															<i class="fas fa-user mr-1"></i> '.$row["uidUsersBuyer"].'
+								  											</button>
 															  			</span> 															  		
 															  			<span class="col-sm text-center">
 																  			<span class="badge badge-pill badge-primary text-center" style="width: 70px; height: 70px; vertical-align: middle; line-height: 60px">
