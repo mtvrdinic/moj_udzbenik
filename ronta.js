@@ -186,7 +186,6 @@ $(document).ready(function(){
 //NOTIFIKACIJE PORUKA
 $(document).ready(function(){
     var broj_unread = $("#unreadMess").val();
-    console.log(broj_unread);
     if(broj_unread == '0' || broj_unread == undefined){        
     }else{
       
@@ -240,13 +239,16 @@ $(document).ready(function(){
       idBooks: idbook
     });*/
     $.ajax({
-      url: "load-ads.php",
+      url: "includes/load-ads.inc.php",
       method: "POST",
       data: {
               newAdCount: adCount,
               idBooks: idbook
             },
       success: function(data){
+        if(data === "<b>Nema više dostupnih oglasa :(<b>"){
+          $("#"+idbook).hide();
+        }
         $("#show-more"+idbook).append(data);
       }      
     })

@@ -612,7 +612,7 @@ if (isset($_GET['schoolsearch-submit'])) {
 						}
 					}
 					else{
-						echo "Add not found :(";					
+						echo "Ad not found :(";					
 					}
 					//here will more ads load
 					echo 	'<div id="show-more'.$idBooks.'">

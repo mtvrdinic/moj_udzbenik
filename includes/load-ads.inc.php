@@ -1,6 +1,6 @@
 <?php
 	//run the connection to DATABASE
-	require 'includes/dbh.inc.php';   //now we got access to variable CONN - connection to the database
+	require 'dbh.inc.php';   //now we got access to variable CONN - connection to the database
 
 	//we want Č Ć Š Ž and other chars!
 	mysqli_set_charset($conn, "utf8");
@@ -269,10 +269,9 @@
 					';
 					
 		}
-	}
-	else{
-		echo "Nema više dostupnih oglasa :(";					
-	}
 	echo '<input type="hidden" id=limit'.$idBooks.' value='.$newAdCount.'>';
+	}else{
+		echo "<b>Nema više dostupnih oglasa :(<b>";					
+	}
 
 ?>
