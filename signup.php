@@ -23,13 +23,18 @@
 				    <small id="emailError" class="form-text text-danger" hidden>Email se već koristi.</small>	
 				    <small id="emailHelp" class="form-text text-muted">Vašu email adresu nećemo dijeliti javno.</small>
 				</div>
+				
+				<!-- Inline password check -->
 				<div class="form-group">
 				    <label for="exampleInputPassword1">Lozinka</label>
-				    <input type="password" name="pwd" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+				    <input 	type="password" name="pwd" class="form-control" id="exampleInputPassword1" placeholder="Password" pattern="^\S{6,}$" required
+				    		onchange="	this.setCustomValidity(this.validity.patternMismatch ? 'Lozinka mora sadržavati barem 6 znakova' : ''); 
+				    					if(this.checkValidity()) form.password_two.pattern = this.value;">
 				</div>
 				<div class="form-group">
 				    <label for="exampleInputPassword1">Ponovi lozinku</label>
-				    <input type="password" name="pwd-repeat" class="form-control" placeholder="Password" required>
+				    <input 	type="password" id="password_two" name="pwd-repeat" class="form-control" placeholder="Password" required
+				    		pattern="^\S{6,}$" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Lozinke moraju biti jednake' : '');">
 				</div>
 
 				<div class="form-group">

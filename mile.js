@@ -131,9 +131,11 @@ $(document).ready(function(){
 
 // Generating img src for signup avatar, SUPER COOL!
 $(document).ready(function(){
-    var tmpSrc = generateAvatar();
-    document.getElementById("signup-avatar").src = tmpSrc;
-    document.getElementById("signup-avatar-value").value = tmpSrc;
+    if(window.location.href.indexOf("signup") > -1){
+        var tmpSrc = generateAvatar();
+        document.getElementById("signup-avatar").src = tmpSrc;
+        document.getElementById("signup-avatar-value").value = tmpSrc;
+    }
 });
 
 $(document).on('click', '#signup-avatar', function(){
@@ -572,9 +574,11 @@ $(document).ready(function(){
 $(document).ready(function(){
 
     // Require them all
-    document.getElementById("username-input").required = true;
-    document.getElementById("email-input").required = true;
-    document.getElementById("oib-input").required = true;
+    if(window.location.href.indexOf("signup") > -1){
+        document.getElementById("username-input").required = true;
+        document.getElementById("email-input").required = true;
+        document.getElementById("oib-input").required = true;
+    }
 
     // Username
     $('#username-input').focusout(function() {

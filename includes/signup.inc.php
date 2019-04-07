@@ -119,8 +119,15 @@ if (isset($_POST['signup-submit'])) {
 							$hashedPwd = password_hash($password, PASSWORD_DEFAULT);
 
 							//6 * s for 6 parameters
-							mysqli_stmt_bind_param($stmt, "ssssss", $username, $email, $hashedPwd, $phoneNum, $region, $avatarSrc, $address, $oib);
+							mysqli_stmt_bind_param($stmt, "ssssssss", $username, $email, $hashedPwd, $phoneNum, $region, $avatarSrc, $address, $oib);
 							mysqli_stmt_execute($stmt);
+
+							// Sending registration email
+							session_start();
+							$_SESSION['mail']['address'] = $email;
+							
+							require_once('../emails/mail.inc.php');
+
 							header("Location: ../index.php?registration=success");
 							exit();
 						}

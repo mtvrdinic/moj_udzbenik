@@ -50,8 +50,22 @@ if(isset($_POST['checkout-submit']) && isset($_SESSION['userUid'])){
 		    exit();
 		}
 		else{
+
 			//execute parameters
 			mysqli_stmt_execute($stmt);
+
+			// Sending email to the seller
+			// Get his email
+			$sql = "SELECT emailUsers FROM users WHERE uidUsers = '$seller'";
+			$emailResult = mysqli_query($conn, $sql);
+			$row = mysqli_fetch_assoc($emailResult);
+			$hisEmail = $row['emailUsers'];
+
+			$_SESSION['mail']['address'] = $hisEmail;
+			$_SESSION['mail']['file'] = true;
+
+			require_once('mail.inc.php');
+
 		}
 
 
@@ -74,7 +88,7 @@ if(isset($_POST['checkout-submit']) && isset($_SESSION['userUid'])){
 		
 
 
-		
+		/* BASIC EXCHANGE OF FUNDS
 		//SHIPPING MONEY
 		//check if this seller is alredy in our array, therefore got his money
 		if(!in_array($seller, $uniqueSellers)){
@@ -118,6 +132,7 @@ if(isset($_POST['checkout-submit']) && isset($_SESSION['userUid'])){
 		//updating money for user
 		$sql = "UPDATE users SET moneyUsers = $moneySeller WHERE uidUsers = '$seller'";
 		mysqli_query($conn, $sql);
+		*/
 				
 	}
 
@@ -129,7 +144,7 @@ if(isset($_POST['checkout-submit']) && isset($_SESSION['userUid'])){
 	unset($_SESSION['uidUsersAd']);
 
 	//updating session money
-	$_SESSION['userMoney'] = $moneyUser;
+	//$_SESSION['userMoney'] = $moneyUser;
 
 	header("Location: ../profile.php");
 	exit();
