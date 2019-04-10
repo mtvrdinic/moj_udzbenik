@@ -74,6 +74,31 @@ void print(char s[]){
 	}
 }
 
+bool CheckWord(char* filename, string search){
+
+  int offset; 
+  string line;
+  ifstream Myfile;
+  Myfile.open (filename);
+
+  if(Myfile.is_open()){
+
+      while(!Myfile.eof()){
+
+          getline(Myfile,line);
+          if ((offset = line.find(search, 0)) != string::npos){
+           return true;
+          }  
+
+      }
+
+      Myfile.close();
+      
+  }  
+
+  return false;
+}
+
 
 int main() {
   ios_base::sync_with_stdio(false);
@@ -84,37 +109,59 @@ int main() {
   char razred[1000];
   char predmet[1000];
   char knjiga[1000];
-  int count = 0;
+  bool flag = false;
+  int count = 885;
+  int idGrade = 8048;
   
   for(int i = 0; i < 242400; i++){
   	cin.std::istream::getline (s, 1000);
 
   	if(linija_je_skola(s)){
   		strcpy(skola, s);
+
+      // Ova skola vec postoji u bazi, preskaci sve
+      string tmp(s);  
+      if(CheckWord("skole_koje_se_ponavljaju.txt", tmp.substr(0, tmp.find(";")))){      
+        flag = true;
+      }
+      else {
+        flag = false;
+        count++;
+      }
+
   		continue;
   	}
+
   	else if(linija_je_razred(s)){
-  		count++;
+  		//count++;
   		strcpy(razred, s);
+      
+      if(!flag){
+        idGrade++;
+      }
+
   		continue;
   	}
+
   	else if(linija_je_predmet(s)){
   		strcpy(predmet, s);
   		continue;
   	}
+
   	else if(linija_je_knjiga(s)){
   		strcpy(knjiga, s);
 
   		//PRINTAJ
-  		cout << count << ";";
-  		print(skola);
-  		cout << ";";
-  		print(razred);
-  		cout << ";";
-  		print(predmet);
-  		cout << ";";
-  		print(knjiga);
-  		cout << endl;
+      if(!flag){
+        cout << idGrade << ";";   
+        print(predmet);
+        cout << ";";
+        print(knjiga);
+        cout << endl;        
+      }
+
+
+      //cout << knjiga << endl;
   	}
   }
 

@@ -36,12 +36,38 @@ void linija_je_zup(char c[]){
   }
 }
 
+bool CheckWord(char* filename, char* search){
+
+  int offset; 
+  string line;
+  ifstream Myfile;
+  Myfile.open (filename);
+
+  if(Myfile.is_open()){
+
+      while(!Myfile.eof()){
+
+          getline(Myfile,line);
+          if ((offset = line.find(search, 0)) != string::npos){
+           return true;
+          }  
+
+      }
+
+      Myfile.close();
+
+  }  
+
+  return false;
+}
+
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
 
   char s[1000];
-  int counter = 1;
+  //int counter = 1;
+  int counter = 886;
   
   for(int i = 0; i < 242400; i++){
   	cin.std::istream::getline (s, 1000);
@@ -49,7 +75,7 @@ int main() {
     linija_je_zup(s);
 
   	if(linija_je_skola(s)){ 
-      cout << counter << ";";
+      //cout << counter << ";";
       counter++;
        		
       int j = 0;

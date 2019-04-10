@@ -1,0 +1,411 @@
+Srednja škola Dugo Selo;Zagrebačka
+Srednja škola Ivan Švear Ivanić Grad;Zagrebačka
+SREDNJA ŠKOLA JASTREBARSKO;Zagrebačka
+EKONOMSKA, TRGOVAČKA I UGOSTITELJSKA ŠKOLA;Zagrebačka
+GIMNAZIJA ANTUNA GUSTAVA MATOŠA;Zagrebačka
+SREDNJA STRUKOVNA ŠKOLA;Zagrebačka
+Glazbena škola Ferdo Livadić;Zagrebačka
+Ekonomska škola Velika Gorica;Zagrebačka
+GIMNAZIJA VELIKA GORICA;Zagrebačka
+SREDNJA STRUKOVNA ŠKOLA VELIKA GORICA;Zagrebačka
+Zrakoplovna tehnička škola Rudolfa Perešina;Zagrebačka
+SREDNJA ŠKOLA VRBOVEC;Zagrebačka
+Srednja škola Ban Josip Jelačić;Zagrebačka
+Srednja škola Dragutina Stražimira;Zagrebačka
+SREDNJA ŠKOLA KRAPINA;Krapinsko-Zagorska
+SREDNJA ŠKOLA ZABOK;Krapinsko-Zagorska
+Škola za umjetnost, dizajn, grafiku i odjeću Zabok;Krapinsko-Zagorska
+GIMNAZIJA ANTUNA GUSTAVA MATOŠA;Krapinsko-Zagorska
+SREDNJA ŠKOLA PREGRADA;Krapinsko-Zagorska
+SREDNJA ŠKOLA BEDEKOVČINA;Krapinsko-Zagorska
+SREDNJA ŠKOLA KONJŠĆINA;Krapinsko-Zagorska
+OSNOVNA ŠKOLA pri Specijalnoj bolnici za medicinsku rehabilitaciju Krapinske Toplice;Krapinsko-Zagorska
+Srednja škola Oroslavje;Krapinsko-Zagorska
+SREDNJA ŠKOLA ZLATAR;Krapinsko-Zagorska
+Srednja škola Glina;Sisačko-Moslavačka
+Srednja škola Ivana Trnskoga;Sisačko-Moslavačka
+SREDNJA ŠKOLA TINA UJEVIĆA;Sisačko-Moslavačka
+TEHNIČKA ŠKOLA KUTINA;Sisačko-Moslavačka
+SREDNJA ŠKOLA NOVSKA;Sisačko-Moslavačka
+SREDNJA ŠKOLA PETRINJA;Sisačko-Moslavačka
+GIMNAZIJA SISAK;Sisačko-Moslavačka
+Industrijsko-obrtnička škola Sisak;Sisačko-Moslavačka
+Srednja škola Viktorovac;Sisačko-Moslavačka
+Strukovna škola Sisak;Sisačko-Moslavačka
+Tehnička škola Sisak;Sisačko-Moslavačka
+EKONOMSKA ŠKOLA SISAK;Sisačko-Moslavačka
+Srednja škola Topusko;Sisačko-Moslavačka
+SREDNJA ŠKOLA DUGA RESA;Karlovačka
+CENTAR ZA ODGOJ I OBRAZOVANJE DJECE I MLADEŽI;Karlovačka
+GIMNAZIJA KARLOVAC;Karlovačka
+PRIRODOSLOVNA ŠKOLA KARLOVAC;Karlovačka
+EKONOMSKO - TURISTIČKA ŠKOLA;Karlovačka
+ŠUMARSKA I DRVODJELJSKA ŠKOLA KARLOVAC;Karlovačka
+MEDICINSKA ŠKOLA;Karlovačka
+TEHNIČKA ŠKOLA KARLOVAC;Karlovačka
+TRGOVAČKO - UGOSTITELJSKA ŠKOLA;Karlovačka
+MJEŠOVITA INDUSTRIJSKO - OBRTNIČKA ŠKOLA;Karlovačka
+OBRTNIČKA I TEHNIČKA ŠKOLA OGULIN;Karlovačka
+GIMNAZIJA BERNARDINA FRANKOPANA;Karlovačka
+SREDNJA ŠKOLA SLUNJ;Karlovačka
+Srednja škola Ivanec;Varaždinska
+Srednja škola u Maruševcu s pravom javnosti;Varaždinska
+Centar za odgoj i obrazovanje Tomislav Špoljar;Varaždinska
+Prva gimnazija Varaždin;Varaždinska
+Druga gimnazija Varaždin;Varaždinska
+Elektrostrojarska škola;Varaždinska
+Medicinska škola Varaždin;Varaždinska
+Gospodarska škola Varaždin;Varaždinska
+STROJARSKA I PROMETNA ŠKOLA;Varaždinska
+Srednja strukovna škola;Varaždinska
+Graditeljska, prirodoslovna i rudarska škola;Varaždinska
+Glazbena škola u Varaždinu;Varaždinska
+PRVA PRIVATNA GIMNAZIJA S PRAVOM JAVNOSTI VARAŽDIN;Varaždinska
+Privatna srednja škola Varaždin s pravom javnosti;Varaždinska
+Privatna varaždinska gimnazija s pravom javnosti;Varaždinska
+Srednja škola Ludbreg;Varaždinska
+Srednja škola Novi Marof;Varaždinska
+Srednja škola Arboretum Opeka;Varaždinska
+STRUKOVNA ŠKOLA ĐURĐEVAC;Koprivničko-Križevačka
+GIMNAZIJA DR. IVANA KRANJČEVA ĐURĐEVAC;Koprivničko-Križevačka
+CENTAR ZA ODGOJ, OBRAZOVANJE I REHABILITACIJU PODRAVSKO SUNCE;Koprivničko-Križevačka
+GIMNAZIJA  FRAN GALOVIĆ KOPRIVNICA;Koprivničko-Križevačka
+OBRTNIČKA ŠKOLA KOPRIVNICA;Koprivničko-Križevačka
+SREDNJA ŠKOLA KOPRIVNICA;Koprivničko-Križevačka
+CENTAR ZA ODGOJ, OBRAZOVANJE I REHABILITACIJU KRIŽEVCI;Koprivničko-Križevačka
+GIMNAZIJA IVANA ZAKMARDIJA DIJANKOVEČKOGA KRIŽEVCI;Koprivničko-Križevačka
+SREDNJA ŠKOLA IVAN SELJANEC KRIŽEVCI;Koprivničko-Križevačka
+SREDNJA GOSPODARSKA ŠKOLA KRIŽEVCI;Koprivničko-Križevačka
+GIMNAZIJA BJELOVAR;Bjelovarsko-Bilogorska
+MEDICINSKA ŠKOLA BJELOVAR;Bjelovarsko-Bilogorska
+KOMERCIJALNA I TRGOVAČKA ŠKOLA BJELOVAR;Bjelovarsko-Bilogorska
+EKONOMSKA I BIROTEHNIČKA ŠKOLA BJELOVAR;Bjelovarsko-Bilogorska
+TEHNIČKA ŠKOLA BJELOVAR;Bjelovarsko-Bilogorska
+OBRTNIČKA ŠKOLA BJELOVAR;Bjelovarsko-Bilogorska
+TURISTIČKO-UGOSTITELJSKA I PREHRAMBENA ŠKOLA BJELOVAR;Bjelovarsko-Bilogorska
+SREDNJA ŠKOLA ČAZMA;Bjelovarsko-Bilogorska
+CENTAR ZA ODGOJ I OBRAZOVANJE RUDOLF STEINER DARUVAR;Bjelovarsko-Bilogorska
+TEHNIČKA ŠKOLA DARUVAR;Bjelovarsko-Bilogorska
+GIMNAZIJA DARUVAR;Bjelovarsko-Bilogorska
+EKONOMSKA I TURISTIČKA ŠKOLA DARUVAR;Bjelovarsko-Bilogorska
+GLAZBENA ŠKOLA BRUNE BJELINSKOG DARUVAR;Bjelovarsko-Bilogorska
+SREDNJA ŠKOLA AUGUST ŠENOA;Bjelovarsko-Bilogorska
+SREDNJA ŠKOLA BARTOLA KAŠIĆA;Bjelovarsko-Bilogorska
+Srednja škola dr. Antuna Barca Crikvenica;Primorsko-Goranska
+Srednja škola Vladimir Nazor;Primorsko-Goranska
+SREDNJA ŠKOLA DELNICE;Primorsko-Goranska
+Srednja škola Hrvatski kralj Zvonimir;Primorsko-Goranska
+UGOSTITELJSKA ŠKOLA OPATIJA;Primorsko-Goranska
+Gimnazija Eugena Kumičića Opatija;Primorsko-Goranska
+OBRTNIČKA ŠKOLA;Primorsko-Goranska
+HOTELIJERSKO - TURISTIČKA ŠKOLA;Primorsko-Goranska
+Srednja škola Markantuna de Dominisa Rab;Primorsko-Goranska
+Strojarska škola za industrijska i obrtnička zanimanja;Primorsko-Goranska
+SREDNJA TALIJANSKA ŠKOLA - RIJEKA SCUOLA MEDIA SUPERIORE ITALIANA - FIUME;Primorsko-Goranska
+Trgovačka i tekstilna škola u Rijeci;Primorsko-Goranska
+Srednja škola za elektrotehniku i računalstvo;Primorsko-Goranska
+EKONOMSKA ŠKOLA MIJE MIRKOVIĆA RIJEKA;Primorsko-Goranska
+PRVA RIJEČKA HRVATSKA GIMNAZIJA;Primorsko-Goranska
+PRIRODOSLOVNA I GRAFIČKA ŠKOLA RIJEKA;Primorsko-Goranska
+Građevinska tehnička škola;Primorsko-Goranska
+PRVA SUŠAČKA HRVATSKA GIMNAZIJA U RIJECI;Primorsko-Goranska
+GIMNAZIJA ANDRIJE MOHOROVIČIĆA RIJEKA;Primorsko-Goranska
+STROJARSKO BRODOGRAĐEVNA ŠKOLA ZA INDUSTRIJSKA I OBRTNIČKA ZANIMANJA;Primorsko-Goranska
+Tehnička škola za strojarstvo i brodogradnju;Primorsko-Goranska
+Elektroindustrijska i obrtnička škola Rijeka;Primorsko-Goranska
+GRADITELJSKA ŠKOLA ZA INDUSTRIJU I OBRT;Primorsko-Goranska
+MEDICINSKA ŠKOLA U RIJECI;Primorsko-Goranska
+PROMETNA ŠKOLA;Primorsko-Goranska
+SALEZIJANSKA KLASIČNA GIMNAZIJA - s pravom javnosti;Primorsko-Goranska
+Glazbena škola Ivana Matetića Ronjgova Rijeka;Primorsko-Goranska
+Škola za primijenjenu umjetnost u Rijeci;Primorsko-Goranska
+Željeznička tehnička škola Moravice;Primorsko-Goranska
+POMORSKA ŠKOLA;Primorsko-Goranska
+SREDNJA ŠKOLA AMBROZA HARAČIĆA;Primorsko-Goranska
+STRUKOVNA ŠKOLA GOSPIĆ;Ličko-Senjska
+GIMNAZIJA GOSPIĆ;Ličko-Senjska
+SREDNJA ŠKOLA OTOČAC;Ličko-Senjska
+SREDNJA ŠKOLA PAVLA RITTERA VITEZOVIĆA U SENJU;Ličko-Senjska
+Srednja škola Plitvička jezera;Ličko-Senjska
+SREDNJA ŠKOLA STJEPAN IVŠIĆ;Virovitičko-Podravska
+Srednja škola Marka Marulića Slatina;Virovitičko-Podravska
+Industrijsko-obrtnička škola Slatina;Virovitičko-Podravska
+CENTAR ZA ODGOJ, OBRAZOVANJE I REHABILITACIJU VIROVITICA;Virovitičko-Podravska
+GIMNAZIJA PETRA PRERADOVIĆA;Virovitičko-Podravska
+TEHNIČKA ŠKOLA VIROVITICA;Virovitičko-Podravska
+INDUSTRIJSKO-OBRTNIČKA ŠKOLA VIROVITICA;Virovitičko-Podravska
+STRUKOVNA ŠKOLA VIROVITICA;Virovitičko-Podravska
+KATOLIČKA KLASIČNA GIMNAZIJA S PRAVOM JAVNOSTI U VIROVITICI;Virovitičko-Podravska
+Srednja škola Pakrac;Požeško-Slavonska
+Gimnazija;Požeško-Slavonska
+Ekonomska škola, Požega;Požeško-Slavonska
+POLJOPRIVREDNO-PREHRAMBENA ŠKOLA;Požeško-Slavonska
+TEHNIČKA ŠKOLA;Požeško-Slavonska
+OBRTNIČKA ŠKOLA;Požeško-Slavonska
+Glazbena škola Požega;Požeško-Slavonska
+Katolička gimnazija s pravom javnosti;Požeško-Slavonska
+GIMNAZIJA NOVA GRADIŠKA;Brodsko-Posavska
+INDUSTRIJSKO OBRTNIČKA ŠKOLA;Brodsko-Posavska
+Elektrotehnička i Ekonomska škola;Brodsko-Posavska
+OSNOVNA ŠKOLA MILAN AMRUŠ;Brodsko-Posavska
+SREDNJA ŠKOLA MATIJE ANTUNA RELJKOVIĆA SLAVONSKI BROD;Brodsko-Posavska
+Obrtnička škola;Brodsko-Posavska
+Gimnazija Matija Mesić;Brodsko-Posavska
+INDUSTRIJSKO-OBRTNIČKA ŠKOLA;Brodsko-Posavska
+TEHNIČKA ŠKOLA;Brodsko-Posavska
+EKONOMSKO-BIROTEHNIČKA ŠKOLA;Brodsko-Posavska
+SREDNJA MEDICINSKA ŠKOLA;Brodsko-Posavska
+Klasična gimnazija fra Marijana Lanosovića s pravom javnosti;Brodsko-Posavska
+Glazbena škola Slavonski Brod;Brodsko-Posavska
+SREDNJA ŠKOLA KNEZA BRANIMIRA, BENKOVAC;Zadarska
+SREDNJA ŠKOLA BIOGRAD NA MORU;Zadarska
+SREDNJA ŠKOLA GRAČAC;Zadarska
+SREDNJA ŠKOLA OBROVAC;Zadarska
+SREDNJA ŠKOLA BARTULA KAŠIĆA;Zadarska
+Osnovna škola Voštarnica - Zadar;Zadarska
+GIMNAZIJA FRANJE PETRIĆA ZADAR;Zadarska
+GIMNAZIJA VLADIMIRA NAZORA;Zadarska
+GIMNAZIJA JURJA BARAKOVIĆA;Zadarska
+KLASIČNA GIMNAZIJA IVANA PAVLA II. S PRAVOM JAVNOSTI;Zadarska
+POMORSKA ŠKOLA ZADAR;Zadarska
+MEDICINSKA ŠKOLA ANTE KUZMANIĆA-ZADAR;Zadarska
+TEHNIČKA ŠKOLA;Zadarska
+Strukovna škola Vice Vlatkovića;Zadarska
+Prirodoslovno - grafička škola;Zadarska
+Poljoprivredna, prehrambena i veterinarska škola Stanka Ožanića;Zadarska
+ŠKOLA PRIMIJENJENE UMJETNOSTI I DIZAJNA;Zadarska
+EKONOMSKO-BIROTEHNIČKA I TRGOVAČKA ŠKOLA;Zadarska
+HOTELIJERSKO-TURISTIČKA I UGOSTITELJSKA ŠKOLA;Zadarska
+Glazbena škola Blagoje Bersa Zadar;Zadarska
+Zadarska privatna gimnazija s pravom javnosti;Zadarska
+GIMNAZIJA BELI MANASTIR;Osječko-Baranjska
+PRVA SREDNJA ŠKOLA BELI MANASTIR;Osječko-Baranjska
+DRUGA SREDNJA ŠKOLA BELI MANASTIR;Osječko-Baranjska
+Srednja škola Donji Miholjac;Osječko-Baranjska
+EKONOMSKA ŠKOLA BRAĆA RADIĆ;Osječko-Baranjska
+GIMNAZIJA A.G.MATOŠA;Osječko-Baranjska
+SREDNJA STRUKOVNA ŠKOLA ANTUNA HORVATA;Osječko-Baranjska
+Srednja škola Isidora Kršnjavoga Našice;Osječko-Baranjska
+Centar za odgoj i obrazovanje Ivan Štark;Osječko-Baranjska
+PROSVJETNO-KULTURNI CENTAR MAĐARA U REPUBLICI HRVATSKOJ;Osječko-Baranjska
+Elektrotehnička i prometna škola Osijek;Osječko-Baranjska
+Strojarska tehnička škola Osijek;Osječko-Baranjska
+I. Gimnazija Osijek;Osječko-Baranjska
+II. gimnazija Osijek;Osječko-Baranjska
+III. Gimnazija Osijek;Osječko-Baranjska
+Medicinska škola Osijek;Osječko-Baranjska
+Poljoprivredna i veterinarska škola Osijek;Osječko-Baranjska
+GRADITELJSKO - GEODETSKA ŠKOLA OSIJEK;Osječko-Baranjska
+Tehnička škola i prirodoslovna gimnazija Ruđera Boškovića;Osječko-Baranjska
+EKONOMSKA I UPRAVNA ŠKOLA OSIJEK;Osječko-Baranjska
+UGOSTITELJSKO-TURISTIČKA ŠKOLA;Osječko-Baranjska
+Obrtnička škola Osijek;Osječko-Baranjska
+TRGOVAČKA I KOMERCIJALNA ŠKOLA DAVOR MILAS;Osječko-Baranjska
+ŠKOLA PRIMIJENJENE UMJETNOSTI I DIZAJNA OSIJEK;Osječko-Baranjska
+Škola za osposobljavanje i obrazovanje Vinko Bek;Osječko-Baranjska
+GLAZBENA ŠKOLA FRANJE KUHAČA Osijek;Osječko-Baranjska
+ISUSOVAČKA KLASIČNA GIMNAZIJA S PRAVOM JAVNOSTI U OSIJEKU;Osječko-Baranjska
+Srednja škola Valpovo;Osječko-Baranjska
+SREDNJA ŠKOLA JOSIPA KOZARCA ĐURĐENOVAC;Osječko-Baranjska
+SREDNJA ŠKOLA DALJ;Osječko-Baranjska
+SREDNJA ŠKOLA IVANA MEŠTROVIĆA DRNIŠ;Šibensko-Kninska
+SREDNJA ŠKOLA LOVRE MONTIJA;Šibensko-Kninska
+SREDNJA STRUKOVNA ŠKOLA KRALJA ZVONIMIRA;Šibensko-Kninska
+EKONOMSKA ŠKOLA ŠIBENIK;Šibensko-Kninska
+PROMETNO-TEHNIČKA ŠKOLA ŠIBENIK;Šibensko-Kninska
+MEDICINSKA I KEMIJSKA ŠKOLA;Šibensko-Kninska
+TURISTIČKO-UGOSTITELJSKA ŠKOLA ŠIBENIK;Šibensko-Kninska
+GIMNAZIJA ANTUNA VRANČIĆA;Šibensko-Kninska
+TEHNIČKA ŠKOLA;Šibensko-Kninska
+INDUSTRIJSKO-OBRTNIČKA ŠKOLA ŠIBENIK;Šibensko-Kninska
+SREDNJA STRUKOVNA ŠKOLA ŠIBENIK;Šibensko-Kninska
+GLAZBENA ŠKOLA IVANA LUKAČIĆA;Šibensko-Kninska
+ŠIBENSKA PRIVATNA GIMNAZIJA S PRAVOM JAVNOSTI;Šibensko-Kninska
+Tehnička škola Ruđera Boškovića Vinkovci;Vukovarsko-Srijemska
+Gimnazija Matije Antuna Reljkovića;Vukovarsko-Srijemska
+Ekonomska i trgovačka škola Ivana Domca;Vukovarsko-Srijemska
+Drvodjelska tehnička škola;Vukovarsko-Srijemska
+Srednja strukovna škola Vinkovci;Vukovarsko-Srijemska
+Zdravstvena i veterinarska škola Dr. Andrije Štampara Vinkovci;Vukovarsko-Srijemska
+POLJOPRIVREDNO ŠUMARSKA ŠKOLA VINKOVCI;Vukovarsko-Srijemska
+Osnovna škola Josipa Matoša;Vukovarsko-Srijemska
+GIMNAZIJA VUKOVAR;Vukovarsko-Srijemska
+Ekonomska škola Vukovar;Vukovarsko-Srijemska
+TEHNIČKA ŠKOLA NIKOLE TESLE;Vukovarsko-Srijemska
+Strukovna škola Vukovar;Vukovarsko-Srijemska
+OBRTNIČKO - INDUSTRIJSKA ŠKOLA, Županja;Vukovarsko-Srijemska
+Gimnazija Županja;Vukovarsko-Srijemska
+Tehnička škola Županja;Vukovarsko-Srijemska
+SREDNJA ŠKOLA ILOK;Vukovarsko-Srijemska
+SREDNJA ŠKOLA HVAR;Splitsko-Dalmatinska
+OBRTNIČKO-INDUSTRIJSKA ŠKOLA U IMOTSKOM;Splitsko-Dalmatinska
+EKONOMSKA ŠKOLA;Splitsko-Dalmatinska
+TEHNIČKA ŠKOLA U IMOTSKOM;Splitsko-Dalmatinska
+GIMNAZIJA DR. MATE UJEVIĆA;Splitsko-Dalmatinska
+SREDNJA ŠKOLA FRA ANDRIJE KAČIĆA MIOŠIĆA;Splitsko-Dalmatinska
+SREDNJA STRUKOVNA ŠKOLA - MAKARSKA;Splitsko-Dalmatinska
+Srednja škola Jure Kaštelan;Splitsko-Dalmatinska
+Srednja strukovna škola bana Josipa Jelačića;Splitsko-Dalmatinska
+GIMNAZIJA DINKA ŠIMUNOVIĆA U SINJU;Splitsko-Dalmatinska
+TEHNIČKA I INDUSTRIJSKA ŠKOLA RUĐERA BOŠKOVIĆA U SINJU;Splitsko-Dalmatinska
+FRANJEVAČKA KLASIČNA GIMNAZIJA U SINJU S PRAVOM JAVNOSTI;Splitsko-Dalmatinska
+Srednja škola IVANA LUCIĆA - TROGIR;Splitsko-Dalmatinska
+SREDNJA STRUKOVNA ŠKOLA BLAŽ JURJEV TROGIRANIN;Splitsko-Dalmatinska
+SREDNJA ŠKOLA ANTUN MATIJAŠEVIĆ - KARAMANEO;Splitsko-Dalmatinska
+SREDNJA ŠKOLA TIN UJEVIĆ VRGORAC;Splitsko-Dalmatinska
+SREDNJA ŠKOLA BRAĆA RADIĆ;Splitsko-Dalmatinska
+PRIRODOSLOVNA TEHNIČKA ŠKOLA - SPLIT;Splitsko-Dalmatinska
+ELEKTROTEHNIČKA ŠKOLA - SPLIT;Splitsko-Dalmatinska
+GRADITELJSKO-GEODETSKA TEHNIČKA ŠKOLA;Splitsko-Dalmatinska
+OBRTNIČKA ŠKOLA;Splitsko-Dalmatinska
+I. GIMNAZIJA SPLIT;Splitsko-Dalmatinska
+II. GIMNAZIJA;Splitsko-Dalmatinska
+III. GIMNAZIJA;Splitsko-Dalmatinska
+IV. GIMNAZIJA MARKO MARULIĆ;Splitsko-Dalmatinska
+V. GIMNAZIJA VLADIMIR NAZOR SPLIT;Splitsko-Dalmatinska
+Nadbiskupijska klasična gimnazija Don FRANE BULIĆ - s pravom javnosti;Splitsko-Dalmatinska
+EKONOMSKO-BIROTEHNIČKA ŠKOLA;Splitsko-Dalmatinska
+KOMERCIJALNO-TRGOVAČKA ŠKOLA SPLIT;Splitsko-Dalmatinska
+SREDNJA TEHNIČKA PROMETNA ŠKOLA;Splitsko-Dalmatinska
+TEHNIČKA ŠKOLA ZA STROJARSTVO I MEHATRONIKU;Splitsko-Dalmatinska
+OBRTNA TEHNIČKA ŠKOLA;Splitsko-Dalmatinska
+INDUSTRIJSKA ŠKOLA;Splitsko-Dalmatinska
+ŠKOLA ZA DIZAJN, GRAFIKU I ODRŽIVU GRADNJU;Splitsko-Dalmatinska
+POMORSKA ŠKOLA;Splitsko-Dalmatinska
+ŠKOLA LIKOVNIH UMJETNOSTI;Splitsko-Dalmatinska
+Zdravstvena škola;Splitsko-Dalmatinska
+TURISTIČKO - UGOSTITELJSKA ŠKOLA, SPLIT;Splitsko-Dalmatinska
+GLAZBENA ŠKOLA JOSIPA HATZEA;Splitsko-Dalmatinska
+SREDNJA ŠKOLA DENTAL CENTAR MARUŠIĆ;Splitsko-Dalmatinska
+Privatna jezična gimnazija PITAGORA, srednja škola s pravom javnosti;Splitsko-Dalmatinska
+Privatna srednja škola Marko Antun de Dominis, s pravom javnosti;Splitsko-Dalmatinska
+GIMNAZIJSKI KOLEGIJ KRALJICA JELENA s pravom javnosti;Splitsko-Dalmatinska
+Umjetnička gimnazija ARS ANIMAE s pravom javnosti;Splitsko-Dalmatinska
+Privatna srednja škola Wallner;Splitsko-Dalmatinska
+PRIVATNA JEZIČNO-INFORMATIČKA GIMNAZIJA LEONARDO DA VINCI;Splitsko-Dalmatinska
+SREDNJA ŠKOLA BOL;Splitsko-Dalmatinska
+KLESARSKA ŠKOLA PUČIŠĆA;Splitsko-Dalmatinska
+SREDNJA ŠKOLA BRAČ;Splitsko-Dalmatinska
+SREDNJA ŠKOLA VLADIMIR GORTAN - SCUOLA MEDIA SUPERIORE VLADIMIR GORTAN;Istarska
+Talijanska srednja škola - Scuola media superiore italiana Leonardo da Vinci;Istarska
+GOSPODARSKA ŠKOLA ISTITUTO PROFESSIONALE;Istarska
+SREDNJA ŠKOLA BUZET;Istarska
+Srednja škola Mate Blažine Labin;Istarska
+Gimnazija i strukovna škola Jurja Dobrile, Pazin;Istarska
+PAZINSKI KOLEGIJ - KLASIČNA GIMNAZIJA PAZIN s pravom javnosti;Istarska
+Srednja škola Mate Balote;Istarska
+TURISTIČKO - UGOSTITELJSKA ŠKOLA ANTONA ŠTIFANIĆA POREČ;Istarska
+Škola za turizam, ugostiteljstvo i trgovinu;Istarska
+Gimnazija Pula;Istarska
+INDUSTRIJSKO - OBRTNIČKA ŠKOLA PULA;Istarska
+Škola primijenjenih umjetnosti i dizajna - Pula;Istarska
+TALIJANSKA SREDNJA ŠKOLA DANTE ALIGHIERI, PULA - SCUOLA MEDIA SUPERIORE ITALIANA DANTE ALIGHIERI, POLA;Istarska
+Ekonomska škola Pula;Istarska
+Medicinska škola Pula;Istarska
+TEHNIČKA ŠKOLA PULA;Istarska
+Strukovna škola Pula;Istarska
+Glazbena škola Ivana Matetića - Ronjgova Pula;Istarska
+Privatna gimnazija Juraj Dobrila, s pravom javnosti;Istarska
+Talijanska srednja škola - Scuola media superiore italiana Rovinj - Rovigno;Istarska
+SREDNJA ŠKOLA ZVANE ČRNJE ROVINJ, SCUOLA MEDIA SUPERIORE ZVANE ČRNJA ROVIGNO;Istarska
+STRUKOVNA ŠKOLA EUGENA KUMIČIĆA ROVINJ - SCUOLA DI FORMAZIONE PROFESSIONALE EUGEN KUMIČIĆ ROVIGNO;Istarska
+OBRTNIČKA ŠKOLA;Dubrovačko-Neretvanska
+BISKUPIJSKA KLASIČNA GIMNAZIJA RUĐERA BOŠKOVIĆA s pravom javnosti;Dubrovačko-Neretvanska
+EKONOMSKA I TRGOVAČKA ŠKOLA;Dubrovačko-Neretvanska
+GIMNAZIJA DUBROVNIK;Dubrovačko-Neretvanska
+MEDICINSKA ŠKOLA DUBROVNIK;Dubrovačko-Neretvanska
+POMORSKO-TEHNIČKA ŠKOLA DUBROVNIK;Dubrovačko-Neretvanska
+TURISTIČKA I UGOSTITELJSKA ŠKOLA DUBROVNIK;Dubrovačko-Neretvanska
+UMJETNIČKA ŠKOLA LUKE SORKOČEVIĆA DUBROVNIK;Dubrovačko-Neretvanska
+Dubrovačka privatna gimnazija;Dubrovačko-Neretvanska
+SREDNJA ŠKOLA PETRA ŠEGEDINA;Dubrovačko-Neretvanska
+Srednja škola Vela Luka;Dubrovačko-Neretvanska
+SREDNJA ŠKOLA METKOVIĆ;Dubrovačko-Neretvanska
+Gimnazija METKOVIĆ;Dubrovačko-Neretvanska
+SREDNJA ŠKOLA FRA ANDRIJE KAČIĆA MIOŠIĆA;Dubrovačko-Neretvanska
+Srednja škola Blato;Dubrovačko-Neretvanska
+SREDNJA POLJOPRIVREDNA I TEHNIČKA ŠKOLA;Dubrovačko-Neretvanska
+CENTAR ZA ODGOJ I OBRAZOVANJE ČAKOVEC;Međimurska
+Gimnazija Josipa Slavenskog Čakovec;Međimurska
+GRADITELJSKA ŠKOLA ČAKOVEC;Međimurska
+TEHNIČKA ŠKOLA ČAKOVEC;Međimurska
+EKONOMSKA I TRGOVAČKA ŠKOLA;Međimurska
+GOSPODARSKA ŠKOLA;Međimurska
+Srednja škola Čakovec;Međimurska
+SREDNJA ŠKOLA PRELOG;Međimurska
+CENTAR ZA ODGOJ I OBRAZOVANJE GOLJAK;Grad Zagreb
+CENTAR ZA AUTIZAM;Grad Zagreb
+OSNOVNA ŠKOLA NAD LIPOM;Grad Zagreb
+Poliklinika za rehabilitaciju slušanja i govora SUVAG;Grad Zagreb
+Centar za odgoj i obrazovanje Dubrava;Grad Zagreb
+I. GIMNAZIJA;Grad Zagreb
+II. gimnazija;Grad Zagreb
+III. GIMNAZIJA;Grad Zagreb
+IV. Gimnazija;Grad Zagreb
+V. gimnazija;Grad Zagreb
+GORNJOGRADSKA GIMNAZIJA;Grad Zagreb
+VII. GIMNAZIJA;Grad Zagreb
+Gimnazija Tituša Brezovačkog;Grad Zagreb
+IX. GIMNAZIJA;Grad Zagreb
+X. gimnazija Ivan Supek;Grad Zagreb
+XI. GIMNAZIJA;Grad Zagreb
+XII. Gimnazija;Grad Zagreb
+XIII. gimnazija;Grad Zagreb
+Gimnazija Lucijana Vranjanina;Grad Zagreb
+XV. GIMNAZIJA;Grad Zagreb
+XVI. GIMNAZIJA;Grad Zagreb
+KLASIČNA GIMNAZIJA;Grad Zagreb
+XVIII. gimnazija;Grad Zagreb
+ZDRAVSTVENO UČILIŠTE;Grad Zagreb
+ŠKOLA ZA MEDICINSKE SESTRE MLINARSKA;Grad Zagreb
+ŠKOLA ZA MEDICINSKE SESTRE VINOGRADSKA;Grad Zagreb
+ŠKOLA ZA PRIMALJE;Grad Zagreb
+ŠKOLA ZA MEDICINSKE SESTRE VRAPČE;Grad Zagreb
+Veterinarska škola;Grad Zagreb
+I. tehnička škola Tesla;Grad Zagreb
+Elektrotehnička škola;Grad Zagreb
+Elektrostrojarska obrtnička škola;Grad Zagreb
+GRADITELJSKA TEHNIČKA ŠKOLA;Grad Zagreb
+Geodetska tehnička škola;Grad Zagreb
+PRVA EKONOMSKA ŠKOLA;Grad Zagreb
+DRUGA EKONOMSKA ŠKOLA;Grad Zagreb
+Treća ekonomska škola;Grad Zagreb
+PRIRODOSLOVNA ŠKOLA VLADIMIRA PRELOGA;Grad Zagreb
+UGOSTITELJSKO-TURISTIČKO UČILIŠTE;Grad Zagreb
+Poštanska i telekomunikacijska škola;Grad Zagreb
+POLJOPRIVREDNA ŠKOLA;Grad Zagreb
+PREHRAMBENO-TEHNOLOŠKA ŠKOLA;Grad Zagreb
+Škola za modu i dizajn;Grad Zagreb
+Grafička škola u Zagrebu;Grad Zagreb
+NADBISKUPSKA KLASIČNA GIMNAZIJA s pravom javnosti;Grad Zagreb
+STROJARSKA TEHNIČKA ŠKOLA FAUSTA VRANČIĆA;Grad Zagreb
+Strojarska tehnička škola Frana Bošnjakovića;Grad Zagreb
+Drvodjeljska škola Zagreb;Grad Zagreb
+Tehnička škola Zagreb;Grad Zagreb
+OBRTNIČKA ŠKOLA ZA OSOBNE USLUGE;Grad Zagreb
+INDUSTRIJSKA STROJARSKA ŠKOLA;Grad Zagreb
+OBRTNIČKA I INDUSTRIJSKA GRADITELJSKA ŠKOLA;Grad Zagreb
+Upravna škola Zagreb;Grad Zagreb
+TRGOVAČKA ŠKOLA;Grad Zagreb
+ŠKOLA PRIMIJENJENE UMJETNOSTI I DIZAJNA;Grad Zagreb
+ŠPORTSKA GIMNAZIJA;Grad Zagreb
+GIMNAZIJA SESVETE;Grad Zagreb
+Ženska opća gimnazija Družbe sestara milosrdnica - s pravom javnosti;Grad Zagreb
+TEHNIČKA ŠKOLA RUĐERA BOŠKOVIĆA;Grad Zagreb
+ŠKOLA SUVREMENOG PLESA ANE MALETIĆ;Grad Zagreb
+Glazbena škola Blagoja Berse;Grad Zagreb
+Hotelijersko-turistička škola u Zagrebu;Grad Zagreb
+Islamska gimnazija dr. Ahmeda Smajlovića;Grad Zagreb
+SRPSKA PRAVOSLAVNA OPĆA GIMNAZIJA KANTAKUZINA-KATARINA BRANKOVIĆ ustanova ˝s pravom javnosti˝;Grad Zagreb
+Zagrebačka umjetnička gimnazija s pravom javnosti;Grad Zagreb
+Gimnazija i ekonomska škola Benedikta Kotruljevića, s pravom javnosti;Grad Zagreb
+Privatna gimnazija i ekonomska škola Katarina Zrinski;Grad Zagreb
+LINIGRA-privatna škola s pravom javnosti;Grad Zagreb
+Privatna srednja ekonomska škola INOVA s pravom javnosti;Grad Zagreb
+Privatna umjetnička gimnazija, s pravom javnosti;Grad Zagreb
+Privatna gimnazija Dr. Časl, s pravom javnosti;Grad Zagreb
+PRVA PRIVATNA GIMNAZIJA s pravom javnosti;Grad Zagreb
+PRIVATNA KLASIČNA GIMNAZIJA S PRAVOM JAVNOSTI;Grad Zagreb
+OPĆA PRIVATNA GIMNAZIJA;Grad Zagreb
+Srednja škola Jelkovec;Grad Zagreb
+Privatna sportska i jezična gimnazija Franjo Bučar;Grad Zagreb

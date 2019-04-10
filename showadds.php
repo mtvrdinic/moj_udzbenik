@@ -67,7 +67,7 @@ if (isset($_GET['schoolsearch-submit'])) {
 
 	//grabbing values
 	$nameSchool = $_GET['schoolsearch'];
-	$numGrade = $_GET['classsearch'];
+	$nameGrade = $_GET['classsearch'];
 	$idSchool;
 	$idGrade;
 	$subjectLink;
@@ -77,7 +77,7 @@ if (isset($_GET['schoolsearch-submit'])) {
 
 
 	//SMARTBUY MODAL - getting subjects
-	$sql = "SELECT DISTINCT subjectLink FROM school JOIN grade USING (idSchool) JOIN link USING (idGrade) WHERE nameSchool = ? AND numGrade = ?";
+	$sql = "SELECT DISTINCT subjectLink FROM school JOIN grade USING (idSchool) JOIN link USING (idGrade) WHERE nameSchool = ? AND nameGrade = ?";
 
 	//initializing statement
 	$stmt = mysqli_stmt_init($conn);
@@ -89,7 +89,7 @@ if (isset($_GET['schoolsearch-submit'])) {
 	}
 	else{
 		//binding
-		mysqli_stmt_bind_param($stmt, "si", $nameSchool, $numGrade);
+		mysqli_stmt_bind_param($stmt, "ss", $nameSchool, $nameGrade);
 		
 		//execute parameters
 		mysqli_stmt_execute($stmt);
@@ -129,7 +129,7 @@ if (isset($_GET['schoolsearch-submit'])) {
 
 		echo 	'      				
 									<input class="sr-only" name="school" value="'. $nameSchool .'">
-									<input class="sr-only" name="grade" value="'. $numGrade .'">
+									<input class="sr-only" name="grade" value="'. $nameGrade .'">
 
 									</div>
                     				
@@ -183,10 +183,10 @@ if (isset($_GET['schoolsearch-submit'])) {
 		exit();
 	}
 
-	//CHECKPOINT: now we got idSchool and numGrade, we can find idGrade!
+	//CHECKPOINT: now we got idSchool and nameGrade, we can find idGrade!
 
 	//statement that we want to send to DB
-	$sql = "SELECT idGrade FROM grade WHERE idSchool=? AND numGrade=?";
+	$sql = "SELECT idGrade FROM grade WHERE idSchool=? AND nameGrade=?";
 
 	//initializing statement
 	$stmt = mysqli_stmt_init($conn);
@@ -198,7 +198,7 @@ if (isset($_GET['schoolsearch-submit'])) {
 	}
 	else{
 		//binding
-		mysqli_stmt_bind_param($stmt, "ii", $idSchool, $numGrade);
+		mysqli_stmt_bind_param($stmt, "is", $idSchool, $nameGrade);
 		
 		//execute parameters
 		mysqli_stmt_execute($stmt);

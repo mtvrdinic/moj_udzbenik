@@ -18,6 +18,25 @@ $(document).ready(function(){
         else{
             $('#schoolList').fadeOut();
             $('#schoolList').html("");
+        }        
+    });
+
+    // Also, we need to get nameGrade if we're searching for highschools
+    $(document).on('click', 'li', function(){
+        var query = $(this).text();       
+
+        if(query != ''){
+            $.ajax({
+                url: "includes/name-grade.inc.php",
+                method: "GET",
+                data: {query:query},
+                success: function(data){
+                    // Fill grade dropdown
+                    if(data !== ""){
+                        $('#classsearchselect').html(data);                    
+                    }
+                }
+            })
         }
     });
         
@@ -47,6 +66,28 @@ $(document).ready(function(){
         });
 
     });
+
+    // Also, we need to get nameGrade if we're searching for highschools
+    $("#regionSchoolList").change(function(){
+        var query = $(this).val();   
+
+        if(query != ''){
+            $.ajax({
+                url: "includes/name-grade.inc.php",
+                method: "GET",
+                data: {query:query},
+                success: function(data){
+                    // Fill grade dropdown
+                    if(data !== ""){
+                        $('#regionsearchselect').html(data);
+                    }                    
+                }
+            })
+        }
+
+    });
+
+
 });
 
 $(document).ready(function(){

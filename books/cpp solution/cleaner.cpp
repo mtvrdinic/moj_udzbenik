@@ -23,13 +23,19 @@ int main() {
   		
   		//is it alredy known?
   		std::string::size_type sz;   // alias of size_t
+
+      char tmp[10];
+      for(int j = 0; j < 10; j++){
+        if(s[j] == ';') continue;
+        else tmp[j] = s[j];
+      }
   		
-  		int i_dec = std::stoi (s,&sz);
+  		int i_dec = std::stoi (tmp,&sz);
 
   		if(knownString[i_dec]) continue;
 
   		knownString[i_dec] = true;
-  		if(i_dec < 10){
+  		if(i_dec < 10000){
         cout << s << endl;
       }
   	}

@@ -1,0 +1,888 @@
+Osnovna škola Josipa Zorića;Zagrebačka
+Osnovna škola Ivan Benković;Zagrebačka
+OSNOVNA ŠKOLA ĐURE DEŽELIĆA IVANIĆ GRAD;Zagrebačka
+Osnovna škola Stjepana Basaričeka;Zagrebačka
+OSNOVNA ŠKOLA JOSIPA BADALIĆA GRABERJE IVANIĆKO;Zagrebačka
+Osnovna škola Posavski Bregi;Zagrebačka
+Osnovna škola Ljubo Babić;Zagrebačka
+OSNOVNA ŠKOLA BOGUMILA TONIJA;Zagrebačka
+OSNOVNA ŠKOLA MIHAELA ŠILOBODA;Zagrebačka
+OSNOVNA ŠKOLA SAMOBOR;Zagrebačka
+OSNOVNA ŠKOLA MILANA LANGA;Zagrebačka
+OSNOVNA ŠKOLA RUDE;Zagrebačka
+Glazbena škola Ferdo Livadić;Zagrebačka
+OSNOVNA ŠKOLA EUGENA KVATERNIKA;Zagrebačka
+OSNOVNA ŠKOLA JURJA HABDELIĆA;Zagrebačka
+Osnovna škola Vukovina;Zagrebačka
+Osnovna škola Nikole Hribara;Zagrebačka
+Osnovna škola Eugena Kumičića;Zagrebačka
+Osnovna škola VELIKA MLAKA;Zagrebačka
+Osnovna škola ŠĆITARJEVO;Zagrebačka
+I. OSNOVNA ŠKOLA VRBOVEC;Zagrebačka
+II. OSNOVNA ŠKOLA VRBOVEC;Zagrebačka
+Osnovna škola Antuna Augustinčića;Zagrebačka
+OSNOVNA ŠKOLA LJUDEVITA GAJA;Zagrebačka
+Osnovna škola Kupljenovo;Zagrebačka
+OSNOVNA ŠKOLA DRAGUTINA DOMJANIĆA;Zagrebačka
+OSNOVNA ŠKOLA KSAVERA ŠANDORA ĐALSKOG;Zagrebačka
+Osnovna škola Ivana Perkovca;Zagrebačka
+Osnovna škola Ivane Brlić-Mažuranić;Zagrebačka
+OSNOVNA ŠKOLA PAVAO BELAS;Zagrebačka
+Osnovna škola Rugvica;Zagrebačka
+Osnovna škola Stjepan Radić;Zagrebačka
+Osnovna škola Pušća;Zagrebačka
+Osnovna škola Sveta Nedelja;Zagrebačka
+OSNOVNA ŠKOLA KLINČA SELA;Zagrebačka
+Osnovna škola Vladimir Nazor;Zagrebačka
+Osnovna škola Kardinal Alojzije Stepinac;Zagrebačka
+Osnovna škola Gradec;Zagrebačka
+Osnovna škola Dubrava;Zagrebačka
+Osnovna škola Jakovlje;Zagrebačka
+Osnovna škola braće Radića;Zagrebačka
+Osnovna škola MILKE TRNINE;Zagrebačka
+Osnovna škola Ante Kovačića;Zagrebačka
+Osnovna škola POKUPSKO;Zagrebačka
+OSNOVNA ŠKOLA SLAVKA KOLARA;Zagrebačka
+Osnovna škola Bistra;Zagrebačka
+Osnovna škola Luka;Zagrebačka
+Osnovna škola Bedenica;Zagrebačka
+OSNOVNA ŠKOLA DONJA STUBICA;Krapinsko-Zagorska
+Osnovna škola Stubičke Toplice;Krapinsko-Zagorska
+Osnovna škola Antuna Mihanovića;Krapinsko-Zagorska
+Osnovna škola Augusta Cesarca, Krapina;Krapinsko-Zagorska
+Osnovna škola Ljudevit Gaj u Krapini;Krapinsko-Zagorska
+Osnovna škola Ksavera Šandora Gjalskog;Krapinsko-Zagorska
+Osnovna škola Zlatar Bistrica;Krapinsko-Zagorska
+OSNOVNA ŠKOLA JANKA LESKOVARA;Krapinsko-Zagorska
+OSNOVNA ŠKOLA BEDEKOVČINA;Krapinsko-Zagorska
+Osnovna škola Stjepana Radića Brestovec Orehovički;Krapinsko-Zagorska
+Osnovna škola VLADIMIR NAZOR BUDINŠĆINA;Krapinsko-Zagorska
+OSNOVNA ŠKOLA ĐURE PREJCA DESINIĆ;Krapinsko-Zagorska
+OSNOVNA ŠKOLA ĐURMANEC;Krapinsko-Zagorska
+Osnovna škola Matije Gupca;Krapinsko-Zagorska
+OSNOVNA ŠKOLA VIKTORA KOVAČIĆA;Krapinsko-Zagorska
+Osnovna škola PAVLA ŠTOOSA;Krapinsko-Zagorska
+Osnovna škola LIJEPA NAŠA;Krapinsko-Zagorska
+OSNOVNA ŠKOLA KONJŠČINA;Krapinsko-Zagorska
+OSNOVNA ŠKOLA KRAPINSKE TOPLICE;Krapinsko-Zagorska
+OSNOVNA ŠKOLA pri Specijalnoj bolnici za medicinsku rehabilitaciju Krapinske Toplice;Krapinsko-Zagorska
+Osnovna škola Franje Horvata Kiša;Krapinsko-Zagorska
+Osnovna škola Mače;Krapinsko-Zagorska
+Osnovna škola Marija Bistrica;Krapinsko-Zagorska
+OSNOVNA ŠKOLA LJUDEVIT GAJ Mihovljan;Krapinsko-Zagorska
+Osnovna škola Oroslavje;Krapinsko-Zagorska
+Osnovna škola Antuna Mihanovića Petrovsko;Krapinsko-Zagorska
+OSNOVNA ŠKOLA SIDE KOŠUTIĆ RADOBOJ;Krapinsko-Zagorska
+OSNOVNA ŠKOLA SVETI KRIŽ ZAČRETJE;Krapinsko-Zagorska
+Osnovna škola Veliko Trgovišće;Krapinsko-Zagorska
+Osnovna škola Ante Kovačića;Krapinsko-Zagorska
+Osnovna škola Belec;Krapinsko-Zagorska
+Osnovna škola GORNJE JESENJE;Krapinsko-Zagorska
+Osnovna škola Josipa Broza;Krapinsko-Zagorska
+Osnovna škola Dvor;Sisačko-Moslavačka
+OSNOVNA ŠKOLA GLINA;Sisačko-Moslavačka
+OSNOVNA ŠKOLA DAVORINA TRSTENJAKA;Sisačko-Moslavačka
+OSNOVNA ŠKOLA BANOVA JARUGA;Sisačko-Moslavačka
+OSNOVNA ŠKOLA MATE LOVRAKA;Sisačko-Moslavačka
+OSNOVNA ŠKOLA VLADIMIRA VIDRIĆA;Sisačko-Moslavačka
+OSNOVNA ŠKOLA STJEPANA KEFELJE;Sisačko-Moslavačka
+OSNOVNA ŠKOLA ZVONIMIRA FRANKA;Sisačko-Moslavačka
+OSNOVNA ŠKOLA NOVSKA;Sisačko-Moslavačka
+OSNOVNA ŠKOLA RAJIĆ;Sisačko-Moslavačka
+I. OSNOVNA ŠKOLA PETRINJA;Sisačko-Moslavačka
+OSNOVNA ŠKOLA MATE LOVRAKA PETRINJA;Sisačko-Moslavačka
+OSNOVNA ŠKOLA DRAGUTINA TADIJANOVIĆA PETRINJA;Sisačko-Moslavačka
+Osnovna škola Ivan Goran Kovačić;Sisačko-Moslavačka
+OSNOVNA ŠKOLA IVANA KUKULJEVIĆA SISAK;Sisačko-Moslavačka
+Osnovna škola 22. lipnja;Sisačko-Moslavačka
+OSNOVNA ŠKOLA BRAĆA BOBETKO SISAK;Sisačko-Moslavačka
+Osnovna škola Braća Ribar;Sisačko-Moslavačka
+Osnovna škola Viktorovac;Sisačko-Moslavačka
+Osnovna škola Galdovo;Sisačko-Moslavačka
+Osnovna škola Sela;Sisačko-Moslavačka
+Osnovna škola Budaševo-Topolovac-Gušće;Sisačko-Moslavačka
+OSNOVNA ŠKOLA KOMAREVO;Sisačko-Moslavačka
+Osnovna škola Gvozd;Sisačko-Moslavačka
+OSNOVNA ŠKOLA JOSIPA KOZARCA;Sisačko-Moslavačka
+Osnovna škola Mladost;Sisačko-Moslavačka
+Osnovna škola Braća Radić;Sisačko-Moslavačka
+Osnovna škola Jasenovac;Sisačko-Moslavačka
+OSNOVNA ŠKOLA JABUKOVAC;Sisačko-Moslavačka
+OSNOVNA ŠKOLA POPOVAČA;Sisačko-Moslavačka
+OSNOVNA ŠKOLA LUDINA;Sisačko-Moslavačka
+OSNOVNA ŠKOLA SUNJA;Sisačko-Moslavačka
+Osnovna škola Vladimir Nazor Topusko;Sisačko-Moslavačka
+Osnovna škola Katarina Zrinska Mečenčani;Sisačko-Moslavačka
+Osnovna škola Ivo Kozarčanin;Sisačko-Moslavačka
+OSNOVNA ŠKOLA VLADIMIR NAZOR;Karlovačka
+OSNOVNA ŠKOLA IVAN GORAN KOVAČIĆ;Karlovačka
+OSNOVNA ŠKOLA BANIJA;Karlovačka
+OSNOVNA ŠKOLA REČICA;Karlovačka
+OSNOVNA ŠKOLA ŠVARČA;Karlovačka
+OSNOVNA ŠKOLA GRABRIK;Karlovačka
+OSNOVNA ŠKOLA DUBOVAC;Karlovačka
+OSNOVNA ŠKOLA TURANJ;Karlovačka
+OSNOVNA ŠKOLA MAHIČNO;Karlovačka
+OSNOVNA ŠKOLA DRAGOJLE JARNEVIĆ;Karlovačka
+CENTAR ZA ODGOJ I OBRAZOVANJE DJECE I MLADEŽI;Karlovačka
+OSNOVNA ŠKOLA BRAĆA SELJAN;Karlovačka
+OSNOVNA ŠKOLA SKAKAVAC;Karlovačka
+PRVA OSNOVNA ŠKOLA;Karlovačka
+Osnovna škola Ivane Brlić - Mažuranić Ogulin;Karlovačka
+OSNOVNA ŠKOLA SLAVA RAŠKAJ;Karlovačka
+OSNOVNA ŠKOLA SLUNJ;Karlovačka
+Osnovna škola Vojnić;Karlovačka
+OSNOVNA ŠKOLA ˝ANTUN KLASINC˝ LASINJA;Karlovačka
+OSNOVNA ŠKOLA BARILOVIĆ;Karlovačka
+OSNOVNA ŠKOLA CETINGRAD;Karlovačka
+OSNOVNA ŠKOLA DRAGANIĆI;Karlovačka
+OSNOVNA ŠKOLA GENERALSKI STOL;Karlovačka
+OSNOVNA ŠKOLA KATARINE ZRINSKI;Karlovačka
+OSNOVNA ŠKOLA NETRETIĆ;Karlovačka
+OSNOVNA ŠKOLA JOSIPDOL;Karlovačka
+OSNOVNA ŠKOLA PLAŠKI;Karlovačka
+OSNOVNA ŠKOLA EUGENA KVATERNIKA;Karlovačka
+OSNOVNA ŠKOLA ŽAKANJE;Karlovačka
+Osnovna škola Ivana Kukuljevića Sakcinskog;Varaždinska
+Osnovna škola Metel Ožegović;Varaždinska
+Osnovna škola Ludbreg;Varaždinska
+Osnovna škola Novi Marof;Varaždinska
+Osnovna škola Podrute;Varaždinska
+I. OSNOVNA ŠKOLA VARAŽDIN;Varaždinska
+II. osnovna škola Varaždin;Varaždinska
+III. OSNOVNA ŠKOLA VARAŽDIN;Varaždinska
+IV. osnovna škola Varaždin;Varaždinska
+V. osnovna škola Varaždin;Varaždinska
+VI. osnovna škola Varaždin;Varaždinska
+Centar za odgoj i obrazovanje Tomislav Špoljar;Varaždinska
+VII. osnovna škola Varaždin;Varaždinska
+Glazbena škola u Varaždinu;Varaždinska
+Osnovna škola Cestica;Varaždinska
+Osnovna škola Kneginec Gornji;Varaždinska
+Osnovna škola Petar Zrinski;Varaždinska
+Osnovna škola Vidovec;Varaždinska
+Osnovna škola Petrijanec;Varaždinska
+Osnovna škola Vladimir Nazor;Varaždinska
+Osnovna škola Beletinec;Varaždinska
+Osnovna škola Trnovec;Varaždinska
+Osnovna škola Šemovec;Varaždinska
+Osnovna škola Vinica;Varaždinska
+Osnovna škola Sračinec;Varaždinska
+Osnovna škola Franje Serta Bednja;Varaždinska
+Osnovna škola Gustav Krklec Maruševec;Varaždinska
+Osnovna škola grofa Janka Draškovića;Varaždinska
+Osnovna škola Andrije Kačića Miošića;Varaždinska
+Osnovna škola Ante Starčevića;Varaždinska
+Osnovna škola Ivana Rangera, Kamenica;Varaždinska
+Osnovna škola Izidora Poljaka, Višnjica;Varaždinska
+Osnovna škola Martijanec;Varaždinska
+Osnovna škola Sveti Đurđ;Varaždinska
+Osnovna škola Veliki Bukovec;Varaždinska
+Osnovna škola Antuna i Ivana Kukuljevića;Varaždinska
+Osnovna škola Svibovec;Varaždinska
+Osnovna škola Breznički Hum;Varaždinska
+Osnovna škola Ljubešćica;Varaždinska
+Osnovna škola Bisag;Varaždinska
+Osnovna škola Visoko;Varaždinska
+Osnovna škola Tužno;Varaždinska
+OSNOVNA ŠKOLA GRGURA KARLOVČANA;Koprivničko-Križevačka
+OSNOVNA ŠKOLA ANTUN NEMČIĆ GOSTOVINSKI;Koprivničko-Križevačka
+OSNOVNA ŠKOLA Braća Radić;Koprivničko-Križevačka
+OSNOVNA ŠKOLA ĐURO ESTER;Koprivničko-Križevačka
+CENTAR ZA ODGOJ, OBRAZOVANJE I REHABILITACIJU PODRAVSKO SUNCE;Koprivničko-Križevačka
+OSNOVNA ŠKOLA LJUDEVITA MODECA KRIŽEVCI;Koprivničko-Križevačka
+OSNOVNA ŠKOLA VLADIMIR NAZOR KRIŽEVCI;Koprivničko-Križevačka
+CENTAR ZA ODGOJ, OBRAZOVANJE I REHABILITACIJU KRIŽEVCI;Koprivničko-Križevačka
+OSNOVNA ŠKOLA KOPRIVNIČKI BREGI;Koprivničko-Križevačka
+OSNOVNA ŠKOLA FRAN KONCELAK DRNJE;Koprivničko-Križevačka
+OSNOVNA ŠKOLA GOLA;Koprivničko-Križevačka
+OSNOVNA ŠKOLA LEGRAD;Koprivničko-Križevačka
+OSNOVNA ŠKOLA MIHOVIL PAVLEK MIŠKINA ĐELEKOVEC;Koprivničko-Križevačka
+OSNOVNA ŠKOLA PROF.BLAŽ MAĐER, Novigrad Podravski;Koprivničko-Križevačka
+Osnovna škola ANDRIJE PALMOVIĆA;Koprivničko-Križevačka
+OSNOVNA ŠKOLA SOKOLOVAC;Koprivničko-Križevačka
+OSNOVNA ŠKOLA SVETI PETAR OREHOVEC;Koprivničko-Križevačka
+OSNOVNA ŠKOLA SIDONIJE RUBIDO ERDODY;Koprivničko-Križevačka
+OSNOVNA ŠKOLA KLOŠTAR PODRAVSKI;Koprivničko-Križevačka
+OSNOVNA ŠKOLA GRIGOR VITEZ;Koprivničko-Križevačka
+OSNOVNA ŠKOLA MOLVE;Koprivničko-Križevačka
+OSNOVNA ŠKOLA FERDINANDOVAC;Koprivničko-Križevačka
+OSNOVNA ŠKOLA PROF. FRANJE VIKTORA ŠIGNJARA;Koprivničko-Križevačka
+OSNOVNA ŠKOLA IVAN LACKOVIĆ CROATA KALINOVAC;Koprivničko-Križevačka
+OSNOVNA ŠKOLA KALNIK;Koprivničko-Križevačka
+I. OSNOVNA ŠKOLA BJELOVAR;Bjelovarsko-Bilogorska
+II. OSNOVNA ŠKOLA BJELOVAR;Bjelovarsko-Bilogorska
+III. OSNOVNA ŠKOLA BJELOVAR;Bjelovarsko-Bilogorska
+IV. OSNOVNA ŠKOLA BJELOVAR;Bjelovarsko-Bilogorska
+V OSNOVNA ŠKOLA;Bjelovarsko-Bilogorska
+OSNOVNA ŠKOLA ČAZMA;Bjelovarsko-Bilogorska
+OSNOVNA ŠKOLA VLADIMIRA NAZORA;Bjelovarsko-Bilogorska
+ČEŠKA OSNOVNA ŠKOLA JANA AMOSA KOMENSKOG - ČESKÁ ZÁKLADNÍ ŠKOLA JANA AMOSE KOMENSKÉHO;Bjelovarsko-Bilogorska
+CENTAR ZA ODGOJ I OBRAZOVANJE RUDOLF STEINER DARUVAR;Bjelovarsko-Bilogorska
+GLAZBENA ŠKOLA BRUNE BJELINSKOG DARUVAR;Bjelovarsko-Bilogorska
+OSNOVNA ŠKOLA GAREŠNICA;Bjelovarsko-Bilogorska
+OSNOVNA ŠKOLA TRNOVITIČKI POPOVAC;Bjelovarsko-Bilogorska
+OSNOVNA ŠKOLA IVANA NEPOMUKA JEMERŠIĆA;Bjelovarsko-Bilogorska
+OSNOVNA ŠKOLA MIRKA PEREŠA;Bjelovarsko-Bilogorska
+OSNOVNA ŠKOLA VELIKO TROJSTVO;Bjelovarsko-Bilogorska
+OSNOVNA ŠKOLA NOVA RAČA;Bjelovarsko-Bilogorska
+OSNOVNA ŠKOLA VELIKA PISANICA;Bjelovarsko-Bilogorska
+ČEŠKA OSNOVNA ŠKOLA JOSIPA RUŽIČKE KONČANICA-ČESKÁ ZÁKLADNÍ ŠKOLA JOSEFA RŮŽIČKY KONČENICE;Bjelovarsko-Bilogorska
+OSNOVNA ŠKOLA DEŽANOVAC;Bjelovarsko-Bilogorska
+OSNOVNA ŠKOLA SIRAČ;Bjelovarsko-Bilogorska
+OSNOVNA ŠKOLA U ĐULOVCU;Bjelovarsko-Bilogorska
+OSNOVNA ŠKOLA IVANSKA;Bjelovarsko-Bilogorska
+OSNOVNA ŠKOLA ŠTEFANJE;Bjelovarsko-Bilogorska
+OSNOVNA ŠKOLA MATE LOVRAKA;Bjelovarsko-Bilogorska
+OSNOVNA ŠKOLA BEREK;Bjelovarsko-Bilogorska
+OSNOVNA ŠKOLA Slavka Kolara;Bjelovarsko-Bilogorska
+OSNOVNA ŠKOLA ROVIŠĆE;Bjelovarsko-Bilogorska
+OSNOVNA ŠKOLA TRNOVITICA;Bjelovarsko-Bilogorska
+OSNOVNA ŠKOLA VLADIMIRA NAZORA CRIKVENICA;Primorsko-Goranska
+Osnovna škola Zvonka Cara;Primorsko-Goranska
+Osnovna škola Petar Zrinski Čabar;Primorsko-Goranska
+Osnovna škola Ivana Gorana Kovačića;Primorsko-Goranska
+Osnovna škola Frana Krste Frankopana;Primorsko-Goranska
+Osnovna škola Fran Krsto Frankopan Krk;Primorsko-Goranska
+OSNOVNA ŠKOLA FRANE PETRIĆA;Primorsko-Goranska
+Osnovna škola Rikard Katalinić Jeretov;Primorsko-Goranska
+OSNOVNA ŠKOLA IVANA RABLJANINA RAB;Primorsko-Goranska
+OSNOVNA ŠKOLA - SCUOLA ELEMENTARE BELVEDERE;Primorsko-Goranska
+Osnovna škola Brajda;Primorsko-Goranska
+OSNOVNA ŠKOLA CENTAR;Primorsko-Goranska
+OSNOVNA ŠKOLA ZAMET;Primorsko-Goranska
+Osnovna škola - Scuola elementare Dolac;Primorsko-Goranska
+Osnovna škola - Scuola elementare Gelsi;Primorsko-Goranska
+OSNOVNA ŠKOLA - SCUOLA ELEMENTARE ˝SAN NICOLO˝;Primorsko-Goranska
+Osnovna škola Vladimir Gortan;Primorsko-Goranska
+Osnovna škola ˝Kantrida˝;Primorsko-Goranska
+OSNOVNA ŠKOLA KOZALA;Primorsko-Goranska
+OSNOVNA ŠKOLA EUGEN KUMIČIĆ;Primorsko-Goranska
+Osnovna škola Pećine;Primorsko-Goranska
+OSNOVNA ŠKOLA PODMURVICE;Primorsko-Goranska
+Osnovna škola Nikola Tesla;Primorsko-Goranska
+OSNOVNA ŠKOLA ŠKURINJE RIJEKA;Primorsko-Goranska
+OSNOVNA ŠKOLA TRSAT;Primorsko-Goranska
+Osnovna škola Turnić;Primorsko-Goranska
+Osnovna škola Vežica;Primorsko-Goranska
+Osnovna škola Gornja Vežica;Primorsko-Goranska
+Osnovna škola Ivana Zajca;Primorsko-Goranska
+Osnovna škola Srdoči;Primorsko-Goranska
+Osnovna škola Fran Franković;Primorsko-Goranska
+OSNOVNA ŠKOLA PEHLIN;Primorsko-Goranska
+Glazbena škola Ivana Matetića Ronjgova Rijeka;Primorsko-Goranska
+Osnovna škola Ivana Gorana Kovačića Vrbovsko;Primorsko-Goranska
+OSNOVNA ŠKOLA KOSTRENA;Primorsko-Goranska
+OSNOVNA ŠKOLA BAKAR;Primorsko-Goranska
+OSNOVNA ŠKOLA HRELJIN;Primorsko-Goranska
+Osnovna škola ČAVLE;Primorsko-Goranska
+OSNOVNA ŠKOLA RUDOLFA STROHALA;Primorsko-Goranska
+Osnovna škola JELENJE - DRAŽICE;Primorsko-Goranska
+Osnovna škola ˝Milan Brozović˝;Primorsko-Goranska
+Osnovna škola Klana;Primorsko-Goranska
+Osnovna škola SVETI MATEJ;Primorsko-Goranska
+Osnovna škola Kraljevica;Primorsko-Goranska
+Osnovna škola Ivanke Trohar;Primorsko-Goranska
+OSNOVNA ŠKOLA VIKTORA CARA EMINA;Primorsko-Goranska
+OSNOVNA ŠKOLA MARIA MARTINOLIĆA;Primorsko-Goranska
+OSNOVNA ŠKOLA Dr. ANDRIJA MOHOROVIČIĆ;Primorsko-Goranska
+OSNOVNA ŠKOLA DRAGO GERVAIS;Primorsko-Goranska
+Osnovna škola Ivana Mažuranića;Primorsko-Goranska
+Osnovna škola dr. Josipa Pančića Bribir;Primorsko-Goranska
+Osnovna škola Jurja Klovića Tribalj;Primorsko-Goranska
+Osnovna škola Skrad;Primorsko-Goranska
+Osnovna škola Dr. Branimira Markovića;Primorsko-Goranska
+Osnovna škola Mrkopalj;Primorsko-Goranska
+Osnovna škola Brod Moravice;Primorsko-Goranska
+OSNOVNA ŠKOLA DONJI LAPAC;Ličko-Senjska
+OSNOVNA ŠKOLA DR. JURE TURIĆA;Ličko-Senjska
+Osnovna škola Dr. Franje Tuđmana Lički Osik;Ličko-Senjska
+OSNOVNA ŠKOLA DR. ANTE STARČEVIĆ PAZARIŠTE-KLANAC;Ličko-Senjska
+OSNOVNA ŠKOLA ZRINSKIH I FRANKOPANA;Ličko-Senjska
+OSNOVNA ŠKOLA SILVIJA STRAHIMIRA KRANJČEVIĆA SENJ;Ličko-Senjska
+OSNOVNA ŠKOLA LUKE PERKOVIĆA BRINJE;Ličko-Senjska
+OSNOVNA ŠKOLA KARLOBAG;Ličko-Senjska
+OSNOVNA ŠKOLA PERUŠIĆ;Ličko-Senjska
+OSNOVNA ŠKOLA ANŽ FRANKOPAN KOSINJ;Ličko-Senjska
+Osnovna škola A. G. Matoša Novalja;Ličko-Senjska
+Osnovna škola Lovinac;Ličko-Senjska
+Osnovna škola KRALJA TOMISLAVA;Ličko-Senjska
+OSNOVNA ŠKOLA PLITVIČKA JEZERA;Ličko-Senjska
+Osnovna škola dr. Franje Tuđmana;Ličko-Senjska
+OSNOVNA ŠKOLA IVANE BRLIĆ-MAŽURANIĆ ORAHOVICA;Virovitičko-Podravska
+OSNOVNA ŠKOLA EUGENA KUMIČIĆA;Virovitičko-Podravska
+OSNOVNA ŠKOLA JOSIPA KOZARCA;Virovitičko-Podravska
+OSNOVNA ŠKOLA IVANE BRLIĆ-MAŽURANIĆ VIROVITICA;Virovitičko-Podravska
+OSNOVNA ŠKOLA VLADIMIR NAZOR VIROVITICA;Virovitičko-Podravska
+CENTAR ZA ODGOJ, OBRAZOVANJE I REHABILITACIJU VIROVITICA;Virovitičko-Podravska
+OSNOVNA ŠKOLA IVAN GORAN KOVAČIĆ;Virovitičko-Podravska
+OSNOVNA ŠKOLA ANTUNA GUSTAVA MATOŠA;Virovitičko-Podravska
+OSNOVNA ŠKOLA IVANA GORANA KOVAČIĆA GORNJE BAZJE;Virovitičko-Podravska
+OSNOVNA ŠKOLA GRADINA;Virovitičko-Podravska
+OSNOVNA ŠKOLA DAVORIN TRSTENJAK ČAĐAVICA;Virovitičko-Podravska
+OSNOVNA ŠKOLA VLADIMIRA NAZORA;Virovitičko-Podravska
+OSNOVNA ŠKOLA MIKLEUŠ;Virovitičko-Podravska
+OSNOVNA ŠKOLA VOĆIN;Virovitičko-Podravska
+OSNOVNA ŠKOLA SUHOPOLJE;Virovitičko-Podravska
+OSNOVNA ŠKOLA AUGUST CESAREC;Virovitičko-Podravska
+OSNOVNA ŠKOLA PETRA PRERADOVIĆA;Virovitičko-Podravska
+OSNOVNA ŠKOLA BRAĆE RADIĆA PAKRAC;Požeško-Slavonska
+Osnovna škola Dobriša Cesarić;Požeško-Slavonska
+Osnovna škola Julija Kempfa;Požeško-Slavonska
+OSNOVNA ŠKOLA ANTUNA KANIŽLIĆA;Požeško-Slavonska
+Katolička osnovna škola u Požegi;Požeško-Slavonska
+Glazbena škola Požega;Požeško-Slavonska
+Osnovna škola Dragutina Lermana;Požeško-Slavonska
+OSNOVNA ŠKOLA STJEPANA RADIĆA ČAGLIN;Požeško-Slavonska
+Osnovna škola Mladost;Požeško-Slavonska
+Osnovna škola Vilima Korajca;Požeško-Slavonska
+Osnovna škola Zdenka Turkovića;Požeško-Slavonska
+Osnovna škola fra Kaje Adžića Pleternica;Požeško-Slavonska
+OSNOVNA ŠKOLA IVAN GORAN KOVAČIĆ;Požeško-Slavonska
+OSNOVNA ŠKOLA VLADIMIR NAZOR;Požeško-Slavonska
+Osnovna škola Lipik;Požeško-Slavonska
+OSNOVNA ŠKOLA GRIGORA VITEZA POLJANA;Požeško-Slavonska
+Osnovna škola Ljudevita Gaja Nova Gradiška;Brodsko-Posavska
+Osnovna škola Mato Lovrak;Brodsko-Posavska
+OSNOVNA ŠKOLA IVAN GORAN KOVAČIĆ;Brodsko-Posavska
+OSNOVNA ŠKOLA ANTUN MIHANOVIĆ;Brodsko-Posavska
+OSNOVNA ŠKOLA HUGO BADALIĆ;Brodsko-Posavska
+OSNOVNA ŠKOLA ĐURO PILAR;Brodsko-Posavska
+OSNOVNA ŠKOLA BOGOSLAV ŠULEK;Brodsko-Posavska
+OSNOVNA ŠKOLA VLADIMIR NAZOR;Brodsko-Posavska
+OSNOVNA ŠKOLA IVANA BRLIĆ-MAŽURANIĆ;Brodsko-Posavska
+OSNOVNA ŠKOLA BLAŽ TADIJANOVIĆ;Brodsko-Posavska
+OSNOVNA ŠKOLA MILAN AMRUŠ;Brodsko-Posavska
+Osnovna škola Dragutin Tadijanović;Brodsko-Posavska
+Glazbena škola Slavonski Brod;Brodsko-Posavska
+OSNOVNA ŠKOLA ANTUN MATIJA RELJKOVIĆ;Brodsko-Posavska
+OSNOVNA ŠKOLA VIKTOR CAR EMIN;Brodsko-Posavska
+OSNOVNA ŠKOLA AUGUSTA ŠENOE;Brodsko-Posavska
+OSNOVNA ŠKOLA VJEKOSLAV KLAIĆ;Brodsko-Posavska
+OSNOVNA ŠKOLA IVAN MAŽURANIĆ;Brodsko-Posavska
+OSNOVNA ŠKOLA JOSIP KOZARAC SLAVONSKI ŠAMAC;Brodsko-Posavska
+Osnovna škola Sikirevci;Brodsko-Posavska
+OSNOVNA ŠKOLA DR. STJEPAN ILIJAŠEVIĆ;Brodsko-Posavska
+OSNOVNA ŠKOLA LJUDEVIT GAJ;Brodsko-Posavska
+OSNOVNA ŠKOLA IVAN MEŠTROVIĆ;Brodsko-Posavska
+OSNOVNA ŠKOLA IVAN FILIPOVIĆ;Brodsko-Posavska
+Osnovna škola Stjepan Radić Oprisavci;Brodsko-Posavska
+Osnovna škola Matija Gubec Cernik;Brodsko-Posavska
+Osnovna škola Matija Antun Relković;Brodsko-Posavska
+Osnovna škola Dragalić;Brodsko-Posavska
+Osnovna škola Antun Mihanović Nova Kapela Batrina;Brodsko-Posavska
+Osnovna škola Okučani;Brodsko-Posavska
+Osnovna škola Ante Starčevića;Brodsko-Posavska
+Osnovna škola Vladimir Nazor;Brodsko-Posavska
+Osnovna škola Ivana Gorana Kovačića;Brodsko-Posavska
+Osnovna škola Markovac;Brodsko-Posavska
+Osnovna škola Šećerana;Osječko-Baranjska
+OSNOVNA ŠKOLA DR. FRANJO TUĐMAN;Osječko-Baranjska
+Osnovna škola August Harambašić;Osječko-Baranjska
+Osnovna škola Hrvatski sokol;Osječko-Baranjska
+Osnovna škola Budrovci;Osječko-Baranjska
+Osnovna škola Ivan Goran Kovačić;Osječko-Baranjska
+Osnovna škola Vladimir Nazor;Osječko-Baranjska
+Osnovna škola Josipa Antuna Ćolnića;Osječko-Baranjska
+Osnovna škola Đakovački Selci;Osječko-Baranjska
+Osnovna škola Matija Gubec;Osječko-Baranjska
+Osnovna škola Dore Pejačević Našice;Osječko-Baranjska
+Osnovna škola Ivana Brnjika Slovaka;Osječko-Baranjska
+OSNOVNA ŠKOLA KRALJA TOMISLAVA;Osječko-Baranjska
+Centar za odgoj i obrazovanje Ivan Štark;Osječko-Baranjska
+Osnovna škola Svete Ane u Osijeku;Osječko-Baranjska
+Osnovna škola Franje Krežme;Osječko-Baranjska
+Osnovna škola Antuna Mihanovića;Osječko-Baranjska
+Osnovna škola Vladimira Becića Osijek;Osječko-Baranjska
+Osnovna škola Mladost;Osječko-Baranjska
+Osnovna škola Frana Krste Frankopana;Osječko-Baranjska
+Osnovna škola Vijenac;Osječko-Baranjska
+Osnovna škola Ljudevita Gaja;Osječko-Baranjska
+Osnovna škola Jagode Truhelke;Osječko-Baranjska
+Osnovna škola Grigor Vitez;Osječko-Baranjska
+Osnovna škola Tin Ujević;Osječko-Baranjska
+Osnovna škola Tenja;Osječko-Baranjska
+Osnovna škola Dobriša Cesarić;Osječko-Baranjska
+Osnovna škola August Šenoa;Osječko-Baranjska
+Osnovna škola Josipovac;Osječko-Baranjska
+OSNOVNA ŠKOLA VIŠNJEVAC;Osječko-Baranjska
+Osnovna škola Ivana Filipovića;Osječko-Baranjska
+Osnovna škola Retfala;Osječko-Baranjska
+PROSVJETNO-KULTURNI CENTAR MAĐARA U REPUBLICI HRVATSKOJ;Osječko-Baranjska
+GLAZBENA ŠKOLA FRANJE KUHAČA Osijek;Osječko-Baranjska
+Osnovna škola Matije Petra Katančića;Osječko-Baranjska
+Osnovna škola Ladimirevci;Osječko-Baranjska
+OSNOVNA ŠKOLA VLADIMIRA NAZORA;Osječko-Baranjska
+Osnovna škola Josipa Jurja Strossmayera;Osječko-Baranjska
+OSNOVNA ŠKOLA HINKA JUHNA PODGORAČ;Osječko-Baranjska
+Osnovna škola Čeminac;Osječko-Baranjska
+Osnovna škola Jagodnjak;Osječko-Baranjska
+Osnovna škola Popovac;Osječko-Baranjska
+Osnovna škola Kneževi Vinogradi;Osječko-Baranjska
+OSNOVNA ŠKOLA ZMAJEVAC;Osječko-Baranjska
+Osnovna škola Bilje;Osječko-Baranjska
+Osnovna škola Lug - Laskói Általános Iskola;Osječko-Baranjska
+Osnovna škola Draž;Osječko-Baranjska
+Osnovna škola Darda;Osječko-Baranjska
+Osnovna škola Ivana Kukuljevića;Osječko-Baranjska
+Osnovna škola Bratoljuba Klaića;Osječko-Baranjska
+Osnovna škola Vladimir Nazor;Osječko-Baranjska
+Osnovna škola Miroslava Krleže;Osječko-Baranjska
+Osnovna škola Ernestinovo;Osječko-Baranjska
+Osnovna škola Laslovo;Osječko-Baranjska
+Osnovna škola Gorjani;Osječko-Baranjska
+Osnovna škola Josip Kozarac;Osječko-Baranjska
+Osnovna škola Drenje;Osječko-Baranjska
+Osnovna škola Ivane Brlić Mažuranić;Osječko-Baranjska
+Osnovna škola Petrijevci;Osječko-Baranjska
+Osnovna škola Josipa Jurja Strossmayera;Osječko-Baranjska
+Osnovna škola Josipa Kozarca;Osječko-Baranjska
+Osnovna škola Ivana Brlić Mažuranić;Osječko-Baranjska
+Osnovna škola Silvije Strahimir Kranjčević;Osječko-Baranjska
+Osnovna škola Milka Cepelića;Osječko-Baranjska
+Osnovna škola Mate Lovraka;Osječko-Baranjska
+OSNOVNA ŠKOLA LUKA BOTIĆ;Osječko-Baranjska
+Osnovna škola Matija Gubec;Osječko-Baranjska
+Osnovna škola Dalj;Osječko-Baranjska
+Osnovna škola Bijelo Brdo;Osječko-Baranjska
+Osnovna škola Antunovac;Osječko-Baranjska
+Osnovna škola Ante Starčevića Viljevo;Osječko-Baranjska
+OSNOVNA ŠKOLA BENKOVAC;Zadarska
+Osnovna škola Biograd;Zadarska
+OSNOVNA ŠKOLA NIKOLE TESLE;Zadarska
+OSNOVNA ŠKOLA OBROVAC;Zadarska
+OSNOVNA ŠKOLA JURJA DALMATINCA PAG;Zadarska
+OSNOVNA ŠKOLA STANOVI;Zadarska
+OSNOVNA ŠKOLA KRUNE KRSTIĆA - ZADAR;Zadarska
+OSNOVNA ŠKOLA PETRA PRERADOVIĆA;Zadarska
+OSNOVNA ŠKOLA ŠIMUNA KOŽIČIĆA BENJE;Zadarska
+Osnovna škola Šime Budinića - Zadar;Zadarska
+Osnovna škola Smiljevac;Zadarska
+Osnovna škola BARTULA KAŠIĆA;Zadarska
+Osnovna škola Voštarnica - Zadar;Zadarska
+Osnovna škola ZADARSKI OTOCI - Zadar;Zadarska
+Privatna osnovna škola NOVA;Zadarska
+Glazbena škola Blagoje Bersa Zadar;Zadarska
+OSNOVNA ŠKOLA STJEPANA RADIĆA-BIBINJE;Zadarska
+OSNOVNA ŠKOLA SUKOŠAN;Zadarska
+OSNOVNA ŠKOLA ZEMUNIK;Zadarska
+OSNOVNA ŠKOLA GALOVAC;Zadarska
+Osnovna škola Vladimira Nazora - Škabrnje;Zadarska
+OSNOVNA ŠKOLA POLIČNIK;Zadarska
+Osnovna škola Braća Ribar;Zadarska
+OSNOVNA ŠKOLA NOVIGRAD;Zadarska
+OSNOVNA ŠKOLA BRAĆE RADIĆ;Zadarska
+Osnovna škola Starigrad;Zadarska
+Osnovna škola Jurja Barakovića;Zadarska
+OSNOVNA ŠKOLA ˝PETAR ZORANIĆ˝;Zadarska
+OSNOVNA ŠKOLA PRIVLAKA;Zadarska
+Osnovna škola VALENTIN KLARIN Preko;Zadarska
+Osnovna škola PETAR LORINI;Zadarska
+OSNOVNA ŠKOLA VLADIMIR NAZOR;Zadarska
+Osnovna škola Pakoštane;Zadarska
+Osnovna škola Sv. Filip i Jakov;Zadarska
+OSNOVNA ŠKOLA PETRA ZORANIĆA;Zadarska
+OSNOVNA ŠKOLA FRANKA LISICE POLAČA;Zadarska
+Osnovna škola Ivan Goran Kovačić;Zadarska
+OSNOVNA ŠKOLA PETAR ZORANIĆ;Zadarska
+OSNOVNA ŠKOLA ANTUNA MIHANOVIĆA PETROPOLJSKOG;Šibensko-Kninska
+OSNOVNA ŠKOLA DOMOVINSKE ZAHVALNOSTI;Šibensko-Kninska
+OSNOVNA ŠKOLA DR. FRANJE TUĐMANA;Šibensko-Kninska
+OSNOVNA ŠKOLA FAUSTA VRANČIĆA;Šibensko-Kninska
+Osnovna škola Petra Krešimira IV.;Šibensko-Kninska
+Osnovna škola JURJA ŠIŽGORIĆA;Šibensko-Kninska
+Osnovna škola JURJA DALMATINCA ŠIBENIK;Šibensko-Kninska
+Osnovna škola Tina Ujevića;Šibensko-Kninska
+OSNOVNA ŠKOLA VIDICI;Šibensko-Kninska
+Osnovna škola Vrpolje;Šibensko-Kninska
+Osnovna škola Brodarica;Šibensko-Kninska
+KATOLIČKA OSNOVNA ŠKOLA;Šibensko-Kninska
+Osnovna škola Meterize;Šibensko-Kninska
+GLAZBENA ŠKOLA IVANA LUKAČIĆA;Šibensko-Kninska
+Osnovna škola Kistanje;Šibensko-Kninska
+OSNOVNA ŠKOLA PRIMOŠTEN;Šibensko-Kninska
+OSNOVNA ŠKOLA ROGOZNICA;Šibensko-Kninska
+OSNOVNA ŠKOLA SKRADIN;Šibensko-Kninska
+OSNOVNA ŠKOLA VJEKOSLAVA KALEBA;Šibensko-Kninska
+Osnovna škola MURTERSKI ŠKOJI;Šibensko-Kninska
+OSNOVNA ŠKOLA PIROVAC;Šibensko-Kninska
+OSNOVNA ŠKOLA VODICE;Šibensko-Kninska
+OSNOVNA ŠKOLA ČISTA VELIKA;Šibensko-Kninska
+Osnovna škola Jakova Gotovca;Šibensko-Kninska
+Osnovna škola Bartola Kašića;Vukovarsko-Srijemska
+OSNOVNA ŠKOLA JOSIPA KOZARCA, Vinkovci;Vukovarsko-Srijemska
+Osnovna škola Ivana Gorana Kovačića;Vukovarsko-Srijemska
+Osnovna škola Vladimira Nazora;Vukovarsko-Srijemska
+Osnovna škola Ivana Mažuranića;Vukovarsko-Srijemska
+Osnovna škola Nikole Tesle;Vukovarsko-Srijemska
+Osnovna škola Antun Gustav Matoš;Vukovarsko-Srijemska
+Osnovna škola Dragutina Tadijanovića;Vukovarsko-Srijemska
+OSNOVNA ŠKOLA NIKOLE ANDRIĆA;Vukovarsko-Srijemska
+OSNOVNA ŠKOLA MITNICA;Vukovarsko-Srijemska
+Osnovna škola Josipa Matoša;Vukovarsko-Srijemska
+OSNOVNA ŠKOLA ANTUNA BAUERA;Vukovarsko-Srijemska
+Osnovna škola Ivana Kozarca Županja;Vukovarsko-Srijemska
+Osnovna škola Mate Lovraka;Vukovarsko-Srijemska
+Osnovna škola Ivan Goran Kovačić Štitar;Vukovarsko-Srijemska
+Osnovna škola fra Bernardina Tome Leakovića;Vukovarsko-Srijemska
+Osnovna škola Siniše Glavaševića;Vukovarsko-Srijemska
+Osnovna škola Blage Zadre;Vukovarsko-Srijemska
+Osnovna škola BOROVO;Vukovarsko-Srijemska
+Osnovna škola Matija Antun Reljković;Vukovarsko-Srijemska
+Osnovna škola GRADIŠTE;Vukovarsko-Srijemska
+Osnovna škola Antun i Stjepan Radić;Vukovarsko-Srijemska
+Osnovna škola Ivan Meštrović Drenovci;Vukovarsko-Srijemska
+Osnovna škola Ivan Filipović;Vukovarsko-Srijemska
+Osnovna škola Davorin Trstenjak;Vukovarsko-Srijemska
+Osnovna škola Julija Benešića;Vukovarsko-Srijemska
+Osnovna škola dr. Franjo Tuđman;Vukovarsko-Srijemska
+Osnovna škola August Cesarec;Vukovarsko-Srijemska
+Osnovna škola Ane Katarine Zrinski;Vukovarsko-Srijemska
+Osnovna škola Matija Gubec;Vukovarsko-Srijemska
+Osnovna škola Lovas;Vukovarsko-Srijemska
+Osnovna škola Antun Gustav Matoš Tovarnik;Vukovarsko-Srijemska
+OSNOVNA ŠKOLA ZRINSKIH NUŠTAR;Vukovarsko-Srijemska
+Osnovna škola Ivan Kozarac;Vukovarsko-Srijemska
+Osnovna škola LIPOVAC;Vukovarsko-Srijemska
+Osnovna škola Ilača-Banovci;Vukovarsko-Srijemska
+Osnovna škola Josipa Lovretića;Vukovarsko-Srijemska
+Osnovna škola Vladimir Nazor;Vukovarsko-Srijemska
+Osnovna škola Stjepana Antolovića;Vukovarsko-Srijemska
+Osnovna škola ČAKOVCI;Vukovarsko-Srijemska
+Osnovna škola STARI JANKOVCI;Vukovarsko-Srijemska
+Osnovna škola Slakovci;Vukovarsko-Srijemska
+Osnovna škola Stjepana Cvrkovića;Vukovarsko-Srijemska
+Osnovna škola Korog, Korog;Vukovarsko-Srijemska
+Osnovna škola MARKUŠICA;Vukovarsko-Srijemska
+Osnovna škola Tordinci;Vukovarsko-Srijemska
+Osnovna škola TRPINJA;Vukovarsko-Srijemska
+Osnovna škola BOBOTA;Vukovarsko-Srijemska
+Osnovna škola Bršadin;Vukovarsko-Srijemska
+Osnovna škola Mare Švel-Gamiršek;Vukovarsko-Srijemska
+Osnovna škola Josip Kozarac Soljani;Vukovarsko-Srijemska
+Osnovna škola Ivana Brlić-Mažuranić Rokovci-Andrijaševci;Vukovarsko-Srijemska
+Osnovna škola Mijat Stojanović;Vukovarsko-Srijemska
+Osnovna škola NEGOSLAVCI;Vukovarsko-Srijemska
+Osnovna škola HVAR;Splitsko-Dalmatinska
+Osnovna škola STJEPAN RADIĆ;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA o.PETRA PERICE MAKARSKA;Splitsko-Dalmatinska
+Osnovna škola STJEPANA IVIČEVIĆA;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA JOSIP PUPAČIĆ;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA 1. LISTOPADA 1942.;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA Gornja Poljica;Splitsko-Dalmatinska
+Osnovna škola Ivana Lovrića;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA MARKA MARULIĆA;Splitsko-Dalmatinska
+Osnovna škola Fra Pavla Vučkovića;Splitsko-Dalmatinska
+Osnovna škola Stjepan Radić;Splitsko-Dalmatinska
+Osnovna škola Majstora Radovana;Splitsko-Dalmatinska
+Osnovna škola Petar Berislavić;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA VIS;Splitsko-Dalmatinska
+Osnovna škola VRGORAC;Splitsko-Dalmatinska
+Osnovna škola kneza Mislava;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA KNEZA TRPIMIRA;Splitsko-Dalmatinska
+Osnovna škola OSTROG;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA BIJAĆI;Splitsko-Dalmatinska
+Osnovna škola prof. Filipa Lukasa;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA DON LOVRE KATIĆA;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA VJEKOSLAVA PARAĆA;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA KRALJICE JELENE;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA MARJAN;Splitsko-Dalmatinska
+Osnovna škola DOBRI;Splitsko-Dalmatinska
+Osnovna škola ˝Bol˝;Splitsko-Dalmatinska
+Osnovna škola SKALICE;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA MANUŠ;Splitsko-Dalmatinska
+Osnovna škola Spinut;Splitsko-Dalmatinska
+Osnovna škola Pojišan;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA LUČAC;Splitsko-Dalmatinska
+Osnovna škola Brda;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA MEJE;Splitsko-Dalmatinska
+Osnovna škola Trstenik;Splitsko-Dalmatinska
+Osnovna škola BLATINE-ŠKRAPE;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA PLOKITE;Splitsko-Dalmatinska
+Osnovna škola Kman-Kocunar;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA SPLIT 3;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA RAVNE NJIVE;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA SUĆIDAR;Splitsko-Dalmatinska
+Osnovna škola Mertojak;Splitsko-Dalmatinska
+Osnovna škola Gripe;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA MEJAŠI;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA PUJANKI;Splitsko-Dalmatinska
+Osnovna škola ŽRNOVNICA;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA SRINJINE;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA VISOKA;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA STOBREČ;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA KAMEN-ŠINE;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA SLATINE;Splitsko-Dalmatinska
+GLAZBENA ŠKOLA JOSIPA HATZEA;Splitsko-Dalmatinska
+Osnovna škola Kralja Zvonimira;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA Strožanac;Splitsko-Dalmatinska
+Osnovna škola BOL;Splitsko-Dalmatinska
+Osnovna škola PUČIŠĆA;Splitsko-Dalmatinska
+Osnovna škola Vladimira Nazora;Splitsko-Dalmatinska
+Osnovna škola SELCA;Splitsko-Dalmatinska
+Osnovna škola Kneza Branimira;Splitsko-Dalmatinska
+Osnovna škola Neorić-Sutina;Splitsko-Dalmatinska
+Osnovna škola BRAĆE RADIĆA;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA JESENICE DUGI RAT;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA GROHOTE;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA DINKA ŠIMUNOVIĆA;Splitsko-Dalmatinska
+Osnovna škola TIN UJEVIĆ;Splitsko-Dalmatinska
+Osnovna škola I.G. Kovačića;Splitsko-Dalmatinska
+Osnovna škola Aržano;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA SILVIJA STRAHIMIRA KRANJČEVIĆA LOVREĆ;Splitsko-Dalmatinska
+Osnovna škola STUDENCI;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA IVAN LEKO;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA RUNOVIĆ;Splitsko-Dalmatinska
+Osnovna škola JELSA;Splitsko-Dalmatinska
+Osnovna škola ANTE ANĐELINOVIĆ;Splitsko-Dalmatinska
+Osnovna škola Primorski Dolac;Splitsko-Dalmatinska
+Osnovna škola don Mihovila Pavlinovića;Splitsko-Dalmatinska
+Osnovna škola GRADAC;Splitsko-Dalmatinska
+Osnovna škola dr. Franje Tuđmana Brela;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA BARIŠE GRANIĆA MEŠTRA;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA IVAN DUKNOVIĆ;Splitsko-Dalmatinska
+Osnovna škola KAMEŠNICA;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA IVANA MAŽURANIĆA;Splitsko-Dalmatinska
+Osnovna škola Ante Starčevića Dicmo;Splitsko-Dalmatinska
+Osnovna škola Petra Kružića Klis;Splitsko-Dalmatinska
+Osnovna škola DUGOPOLJE;Splitsko-Dalmatinska
+Osnovna škola Supetar;Splitsko-Dalmatinska
+Osnovna škola MILNA;Splitsko-Dalmatinska
+Osnovna škola PETRA HEKTOROVIĆA Stari Grad;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA DR. FRA KARLO BALIĆ;Splitsko-Dalmatinska
+Osnovna škola Trilj;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA MILANA BEGOVIĆA;Splitsko-Dalmatinska
+Osnovna škola Komiža;Splitsko-Dalmatinska
+Osnovna škola Zagvozd;Splitsko-Dalmatinska
+OSNOVNA ŠKOLA ZMIJAVCI;Splitsko-Dalmatinska
+Osnovna škola Tučepi;Splitsko-Dalmatinska
+Osnovna škola - Scuola elementare Mate Balote Buje - Buie;Istarska
+Talijanska osnovna škola, Scuola elementare italiana Edmondo De Amicis Buje, Buie;Istarska
+Osnovna škola VAZMOSLAV GRŽALJA;Istarska
+Osnovna škola Matije Vlačića;Istarska
+Osnovna škola Ivo Lola Ribar Labin;Istarska
+OSNOVNA ŠKOLA VLADIMIRA NAZORA PAZIN;Istarska
+OSNOVNA ŠKOLA POREČ;Istarska
+Osnovna škola Tar - Vabriga - Scuola elementare Torre - Abrega;Istarska
+Talijanska osnovna škola - Scuola elementare italiana Bernardo Parentin Poreč - Parenzo;Istarska
+OSNOVNA ŠKOLA ŠIJANA PULA;Istarska
+Osnovna škola Stoja;Istarska
+Osnovna škola Centar;Istarska
+Osnovna škola-Scuola elementare Giuseppina Martinuzzi Pula-Pola;Istarska
+OSNOVNA ŠKOLA TONE PERUŠKA PULA;Istarska
+OSNOVNA ŠKOLA KAŠTANJER PULA;Istarska
+OSNOVNA ŠKOLA VIDIKOVAC;Istarska
+Osnovna škola Monte Zaro;Istarska
+OSNOVNA ŠKOLA VERUDA PULA;Istarska
+Osnovna škola Veli Vrh Pula;Istarska
+PRVA PRIVATNA OSNOVNA ŠKOLA JURAJ DOBRILA s pravom javnosti;Istarska
+Glazbena škola Ivana Matetića - Ronjgova Pula;Istarska
+Talijanska osnovna škola Bernardo Benussi Rovinj;Istarska
+Osnovna škola Vladimira Nazora - Scuola elementare Vladimir Nazor;Istarska
+Osnovna škola Jurja Dobrile Rovinj;Istarska
+Osnovna škola Jure Filipovića Barban;Istarska
+OSNOVNA ŠKOLA PETRA STUDENCA Kanfanar;Istarska
+Osnovna škola Ivan Goran Kovačić Čepić;Istarska
+Osnovna škola Vladimira Nazora;Istarska
+Osnovna škola Ivana Batelića - Raša;Istarska
+Osnovna škola Joakima Rakovca;Istarska
+Osnovna škola Marčana;Istarska
+OSNOVNA ŠKOLA VLADIMIRA NAZORA - KRNICA;Istarska
+Osnovna škola Divšići;Istarska
+Osnovna škola dr Mate Demarina;Istarska
+Osnovna škola Vitomir Širola - Pajo;Istarska
+Osnovna škola - scuola elementare RIVARELA;Istarska
+Talijanska osnovna škola Novigrad - Scuola elementare italiana Cittanova;Istarska
+Osnovna škola - Scuola elementare Milana Šorga Oprtalj - Portole;Istarska
+OSNOVNA ŠKOLA SVETVINČENAT;Istarska
+Osnovna škola JURŠIĆI;Istarska
+Osnovna škola Marije i Line;Istarska
+Talijanska osnovna škola Galileo Galilei;Istarska
+OSNOVNA ŠKOLA JOŽE ŠURANA VIŠNJAN;Istarska
+OSNOVNA ŠKOLA VODNJAN - SCUOLA ELEMENTARE DIGNANO;Istarska
+OSNOVNA ŠKOLA FAŽANA;Istarska
+Osnovna škola Vladimira Nazora;Istarska
+Osnovna škola Vladimira Gortana;Istarska
+Osnovna škola Marina Getaldića;Dubrovačko-Neretvanska
+Osnovna škola Lapad;Dubrovačko-Neretvanska
+Osnovna škola MARINA DRŽIĆA;Dubrovačko-Neretvanska
+OSNOVNA ŠKOLA IVANA GUNDULIĆA;Dubrovačko-Neretvanska
+OSNOVNA ŠKOLA ANTUNA MASLE - ORAŠAC;Dubrovačko-Neretvanska
+Osnovna škola Mokošica, Dubrovnik;Dubrovačko-Neretvanska
+UMJETNIČKA ŠKOLA LUKE SORKOČEVIĆA DUBROVNIK;Dubrovačko-Neretvanska
+Osnovna škola PETRA KANAVELIĆA;Dubrovačko-Neretvanska
+Osnovna škola ANTE CURAĆ-PINJAC;Dubrovačko-Neretvanska
+OSNOVNA ŠKOLA BRAĆA GLUMAC;Dubrovačko-Neretvanska
+OSNOVNA ŠKOLA STJEPANA RADIĆA;Dubrovačko-Neretvanska
+Osnovna škola Don Mihovila Pavlinovića;Dubrovačko-Neretvanska
+OSNOVNA ŠKOLA VLADIMIR NAZOR;Dubrovačko-Neretvanska
+Osnovna škola FRA ANTE GNJEČA;Dubrovačko-Neretvanska
+OSNOVNA ŠKOLA IVO DUGANDŽIĆ-MIŠIĆ;Dubrovačko-Neretvanska
+OSNOVNA ŠKOLA CAVTAT;Dubrovačko-Neretvanska
+OSNOVNA ŠKOLA GRUDA;Dubrovačko-Neretvanska
+Osnovna škola STON;Dubrovačko-Neretvanska
+Osnovna škola Janjina;Dubrovačko-Neretvanska
+OSNOVNA ŠKOLA OREBIĆ;Dubrovačko-Neretvanska
+Osnovna škola Kuna;Dubrovačko-Neretvanska
+Osnovna škola Mljet;Dubrovačko-Neretvanska
+OSNOVNA ŠKOLA BLATO;Dubrovačko-Neretvanska
+OSNOVNA ŠKOLA OPUZEN;Dubrovačko-Neretvanska
+OSNOVNA ŠKOLA KULA NORINSKA;Dubrovačko-Neretvanska
+Osnovna škola Otrići-Dubrave;Dubrovačko-Neretvanska
+Osnovna škola Vela Luka;Dubrovačko-Neretvanska
+OSNOVNA ŠKOLA SMOKVICA;Dubrovačko-Neretvanska
+OSNOVNA ŠKOLA SLANO;Dubrovačko-Neretvanska
+OSNOVNA ŠKOLA PRIMORJE;Dubrovačko-Neretvanska
+OSNOVNA ŠKOLA TRPANJ;Dubrovačko-Neretvanska
+Osnovna škola ŽUPA DUBROVAČKA;Dubrovačko-Neretvanska
+I. OSNOVNA ŠKOLA ČAKOVEC;Međimurska
+II. OSNOVNA ŠKOLA ČAKOVEC;Međimurska
+III. OSNOVNA ŠKOLA ČAKOVEC;Međimurska
+OSNOVNA ŠKOLA VLADIMIRA NAZORA;Međimurska
+CENTAR ZA ODGOJ I OBRAZOVANJE ČAKOVEC;Međimurska
+OSNOVNA ŠKOLA IVANOVEC;Međimurska
+OSNOVNA ŠKOLA KURŠANEC;Međimurska
+OSNOVNA ŠKOLA Dr. VINKA ŽGANCA VRATIŠINEC;Međimurska
+OSNOVNA ŠKOLA BELICA;Međimurska
+OSNOVNA ŠKOLA DONJA DUBRAVA;Međimurska
+Osnovna škola Hodošan;Međimurska
+OSNOVNA ŠKOLA GORIČAN;Međimurska
+OSNOVNA ŠKOLA TOMAŠA GORIČANCA MALA SUBOTICA;Međimurska
+OSNOVNA ŠKOLA OREHOVICA;Međimurska
+OSNOVNA ŠKOLA MURSKO SREDIŠĆE;Međimurska
+OSNOVNA ŠKOLA NEDELIŠĆE;Međimurska
+Osnovna škola Dr. Ivana Novaka Macinec;Međimurska
+OSNOVNA ŠKOLA PODTUREN;Međimurska
+OSNOVNA ŠKOLA PRELOG;Međimurska
+OSNOVNA ŠKOLA DONJI KRALJEVEC;Međimurska
+OSNOVNA ŠKOLA DRAŠKOVEC;Međimurska
+OSNOVNA ŠKOLA IVANA GORANA KOVAČIĆA SVETI JURAJ NA BREGU;Međimurska
+OSNOVNA ŠKOLA SVETI MARTIN NA MURI;Međimurska
+OSNOVNA ŠKOLA SELNICA;Međimurska
+OSNOVNA ŠKOLA ŠTRIGOVA;Međimurska
+Osnovna škola Domašinec;Međimurska
+OSNOVNA ŠKOLA JOŽE HORVATA KOTORIBA;Međimurska
+OSNOVNA ŠKOLA GORNJI MIHALJEVEC;Međimurska
+OSNOVNA ŠKOLA STRAHONINEC;Međimurska
+OSNOVNA ŠKOLA SVETA MARIJA;Međimurska
+OSNOVNA ŠKOLA PETAR ZRINSKI ŠENKOVEC;Međimurska
+Osnovna škola Ivana Gundulića;Grad Zagreb
+Osnovna škola Jabukovac - Zagreb;Grad Zagreb
+Osnovna škola Miroslava Krleže;Grad Zagreb
+Osnovna škola Šestine;Grad Zagreb
+Osnovna škola Pantovčak;Grad Zagreb
+Osnovna škola Izidora Kršnjavoga;Grad Zagreb
+Osnovna škola Ksavera Šandora Gjalskog;Grad Zagreb
+Osnovna škola Josipa Jurja Strossmayera;Grad Zagreb
+Osnovna škola Otona Ivekovića;Grad Zagreb
+OSNOVNA ŠKOLA KUSTOŠIJA;Grad Zagreb
+OSNOVNA ŠKOLA IVANA CANKARA;Grad Zagreb
+Osnovna škola Medvedgrad;Grad Zagreb
+OSNOVNA ŠKOLA PAVLEKA MIŠKINE;Grad Zagreb
+Osnovna škola Petra Zrinskog;Grad Zagreb
+OSNOVNA ŠKOLA ANTUNA MIHANOVIĆA;Grad Zagreb
+OSNOVNA ŠKOLA RETKOVEC;Grad Zagreb
+OSNOVNA ŠKOLA ŽUTI BRIJEG;Grad Zagreb
+Osnovna škola dr. Ante Starčevića;Grad Zagreb
+Osnovna škola Granešina;Grad Zagreb
+Osnovna škola IVANA MAŽURANIĆA;Grad Zagreb
+Osnovna škola Mate Lovraka;Grad Zagreb
+OSNOVNA ŠKOLA MARIJE JURIĆ ZAGORKE;Grad Zagreb
+Osnovna škola Čučerje;Grad Zagreb
+Osnovna škola Vjenceslava Novaka;Grad Zagreb
+Osnovna škola Antuna Branka Šimića;Grad Zagreb
+Osnovna škola Vladimira Nazora;Grad Zagreb
+OSNOVNA ŠKOLA ANTUNA GUSTAVA MATOŠA;Grad Zagreb
+Osnovna škola Augusta Harambašića;Grad Zagreb
+Osnovna škola Ivana Filipovića;Grad Zagreb
+OSNOVNA ŠKOLA MARKUŠEVEC;Grad Zagreb
+OSNOVNA ŠKOLA JORDANOVAC;Grad Zagreb
+OSNOVNA ŠKOLA BUKOVAC;Grad Zagreb
+Osnovna škola Gračani;Grad Zagreb
+OSNOVNA ŠKOLA IVANA GORANA KOVAČIĆA;Grad Zagreb
+OSNOVNA ŠKOLA MATKA LAGINJE;Grad Zagreb
+OSNOVNA ŠKOLA DR. IVAN MERZ;Grad Zagreb
+Osnovna škola Silvija Strahimira Kranjčevića;Grad Zagreb
+Osnovna škola Augusta Cesarca;Grad Zagreb
+OSNOVNA ŠKOLA DOBRIŠE CESARIĆA;Grad Zagreb
+OSNOVNA ŠKOLA ŽITNJAK;Grad Zagreb
+OSNOVNA ŠKOLA FRANA KRSTE FRANKOPANA;Grad Zagreb
+Osnovna škola Lovre pl. Matačića;Grad Zagreb
+Osnovna škola Petra Preradovića;Grad Zagreb
+Osnovna škola Dr. Vinka Žganca;Grad Zagreb
+Osnovna škola Dragutina Kušlana;Grad Zagreb
+OSNOVNA ŠKOLA VUKOMEREC;Grad Zagreb
+Osnovna škola Stenjevec;Grad Zagreb
+Osnovna škola Ante Kovačića;Grad Zagreb
+Osnovna škola Dragutina Domjanića;Grad Zagreb
+Osnovna škola Dragutina Tadijanovića;Grad Zagreb
+OSNOVNA ŠKOLA BANA JOSIPA JELAČIĆA;Grad Zagreb
+OSNOVNA ŠKOLA GROFA JANKA DRAŠKOVIĆA;Grad Zagreb
+OSNOVNA ŠKOLA TITUŠA BREZOVAČKOG;Grad Zagreb
+OSNOVNA ŠKOLA GORNJE VRAPČE;Grad Zagreb
+Osnovna škola Malešnica;Grad Zagreb
+OSNOVNA ŠKOLA AUGUSTA ŠENOE;Grad Zagreb
+Osnovna škola Horvati;Grad Zagreb
+Osnovna škola kralja Tomislava;Grad Zagreb
+OSNOVNA ŠKOLA IVANA MEŠTROVIĆA;Grad Zagreb
+Osnovna škola Josipa Račića;Grad Zagreb
+OSNOVNA ŠKOLA JULIJA KLOVIĆA;Grad Zagreb
+Osnovna škola Prečko;Grad Zagreb
+Osnovna škola Matije Gupca;Grad Zagreb
+Osnovna škola Rudeš;Grad Zagreb
+OSNOVNA ŠKOLA VOLTINO;Grad Zagreb
+Osnovna škola Nikole Tesle;Grad Zagreb
+OSNOVNA ŠKOLA LJUBLJANICA ZAGREB;Grad Zagreb
+Osnovna škola Alojzija Stepinca;Grad Zagreb
+Osnovna škola Vrbani;Grad Zagreb
+OSNOVNA ŠKOLA CVJETNO NASELJE;Grad Zagreb
+OSNOVNA ŠKOLA JURE KAŠTELANA;Grad Zagreb
+OSNOVNA ŠKOLA GRIGORA VITEZA;Grad Zagreb
+Osnovna škola Tina Ujevića;Grad Zagreb
+Osnovna škola Rapska;Grad Zagreb
+Osnovna škola Marina Držića;Grad Zagreb
+OSNOVNA ŠKOLA DAVORINA TRSTENJAKA;Grad Zagreb
+Osnovna škola Trnjanska;Grad Zagreb
+Osnovna škola Savski Gaj;Grad Zagreb
+Osnovna škola BRAĆE RADIĆ;Grad Zagreb
+OSNOVNA ŠKOLA BREZOVICA;Grad Zagreb
+OSNOVNA ŠKOLA LUČKO;Grad Zagreb
+OSNOVNA ŠKOLA GUSTAVA KRKLECA;Grad Zagreb
+Osnovna škola Ive Andrića;Grad Zagreb
+I. osnovna škola Dugave;Grad Zagreb
+Osnovna škola Zapruđe;Grad Zagreb
+OSNOVNA ŠKOLA TRNSKO;Grad Zagreb
+OSNOVNA ŠKOLA SVETA KLARA;Grad Zagreb
+Osnovna škola MLADOST;Grad Zagreb
+Osnovna škola Stjepana Bencekovića;Grad Zagreb
+OSNOVNA ŠKOLA ODRA;Grad Zagreb
+Osnovna škola Većeslava Holjevca;Grad Zagreb
+Osnovna škola OTOK;Grad Zagreb
+OSNOVNA ŠKOLA FRANA GALOVIĆA;Grad Zagreb
+Prva katolička osnovna škola u Gradu Zagrebu;Grad Zagreb
+OSNOVNA ŠKOLA VUGROVEC-KAŠINA;Grad Zagreb
+OSNOVNA ŠKOLA IVANA GRANĐE;Grad Zagreb
+Osnovna škola SESVETE;Grad Zagreb
+Osnovna škola Sesvetski Kraljevec;Grad Zagreb
+CENTAR ZA ODGOJ I OBRAZOVANJE GOLJAK;Grad Zagreb
+CENTAR ZA AUTIZAM;Grad Zagreb
+OSNOVNA ŠKOLA NAD LIPOM;Grad Zagreb
+Poliklinika za rehabilitaciju slušanja i govora SUVAG;Grad Zagreb
+Osnovna škola Brestje;Grad Zagreb
+OSNOVNA ŠKOLA BOROVJE;Grad Zagreb
+OSNOVNA ŠKOLA REMETE;Grad Zagreb
+Osnovna škola Špansko Oranice;Grad Zagreb
+Osnovna škola Sesvetska Sela;Grad Zagreb
+Osnovna škola Sesvetska Sopnica;Grad Zagreb
+Osnovna škola Luka;Grad Zagreb
+OSNOVNA ŠKOLA BARTOLA KAŠIĆA;Grad Zagreb
+OSNOVNA MONTESSORI ŠKOLA BARUNICE DEDEE VRANYCZANY;Grad Zagreb
+Centar za odgoj i obrazovanje Dubrava;Grad Zagreb
+Osnovna škola Lauder-Hugo Kon;Grad Zagreb
+Osnovna škola Kreativan razvoj s pravom javnosti;Grad Zagreb
+OSNOVNA ŠKOLA JELKOVEC;Grad Zagreb
+ŠKOLA SUVREMENOG PLESA ANE MALETIĆ;Grad Zagreb
+Glazbena škola Blagoja Berse;Grad Zagreb
+
+
+
