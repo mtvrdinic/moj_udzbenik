@@ -1,5 +1,11 @@
 <?php
 	require "header.php";
+
+	//checking if the script got accessed properly
+	if (!isset($_GET['email'])) {
+		echo '<h2 class="mx-5 mt-5 text-muted text-center"> Unauthorized access! </h2>';
+		exit();
+	}
 ?>
 
 <main>
@@ -8,33 +14,39 @@
 	<div class="jumbotron jumbotron-fluid bg-light">
 	  	<div class="container" style="max-width: 700px">
 
-	  		<form action="includes/signup.inc.php" method="post">	  			
+	  		<form action="includes/signup-short.inc.php" method="post">	  			
 
 	  			<h2 class="float">Registracija</h2>
 
 	  			<div class="form-group">
 				    <label for="exampleInputEmail1">Korisničko ime</label>
-				    <input class="form-control" id="username-input" name="uid" type="text" placeholder="UID">
+				    
+				    <?php
+				    $username = strstr($_GET['email'], '@', true) . rand (100, 1000);
+
+				    echo '<input class="form-control" id="username-input" name="uid" type="text" value="'. $username .'">'
+				    ?>
+				    
 				    <small id="usernameError" class="form-text text-danger" hidden>Korisničko ime nije valjano ili se već koristi.</small>	 
 				</div>
+
 				<div class="form-group">
-				    <label for="exampleInputEmail1">Email adresa</label>
-				    <input type="email" id="email-input" name="mail" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
-				    <small id="emailError" class="form-text text-danger" hidden>Email se već koristi.</small>	
-				    <small id="emailHelp" class="form-text text-muted">Vašu email adresu nećemo dijeliti javno.</small>
+				    <label for="exampleInputRealName">Ime i prezime</label>
+				    <?php
+
+				    echo '<input class="form-control" id="realname-input" name="realname" type="text" value="'. $_GET['name'] .'">'
+				    ?>
+
+				    <small id="realNameHelp" class="form-text text-muted">Vaše ime nam je potrebno kako bi Vam drugi korisnici bili u mogućnosti poslati knjige. Vidljivo je <b>samo</b> korisnicima koji su zaprimili vašu narudžbu.</small>
 				</div>
-				
-				<!-- Inline password check -->
-				<div class="form-group">
-				    <label for="exampleInputPassword1">Lozinka</label>
-				    <input 	type="password" name="pwd" class="form-control" id="exampleInputPassword1" placeholder="Password" pattern="^\S{6,}$" required
-				    		onchange="	this.setCustomValidity(this.validity.patternMismatch ? 'Lozinka mora sadržavati barem 6 znakova' : ''); 
-				    					if(this.checkValidity()) form.password_two.pattern = this.value;">
-				</div>
-				<div class="form-group">
-				    <label for="exampleInputPassword1">Ponovi lozinku</label>
-				    <input 	type="password" id="password_two" name="pwd-repeat" class="form-control" placeholder="Password" required
-				    		pattern="^\S{6,}$" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Lozinke moraju biti jednake' : '');">
+
+				<!-- This will be sent to signup script -->
+				<div class="form-group" hidden>
+				    <?php
+				    $email = $_GET['email'];
+
+				    echo '<input type="email" id="email-input" name="email" class="form-control" aria-describedby="emailHelp" value="'. $email .'">';
+				    ?>				    
 				</div>
 
 				<div class="form-group">
@@ -69,14 +81,7 @@
 				    <label for="inputAddress">Adresa i kućni broj</label>
 				    <input class="form-control" name="address" type="text" placeholder="Ul." required>
 				    <small id="addressHelp" class="form-text text-muted">Adresa na koju želite primati naručene knjige.</small>	 
-				</div>
-
-				<div class="form-group">
-				    <label for="inputOIB">OIB</label>
-				    <input type="text" id="oib-input" name="oib-num" class="form-control" placeholder="73465510923">
-				    <small id="oibError" class="form-text text-danger" hidden> Uneseni OIB nije ispravan ili se već koristi. </small>
-				    <small id="oibHelp" class="form-text text-muted">Vaš OIB nam je potreban zbog autentičnosti korisnika, nećemo ga dijeliti javno.</small>
-				</div>
+				</div>				
 
 				<div class="form-group">
 				    <label for="exampleInputPassword1">Broj telefona</label>

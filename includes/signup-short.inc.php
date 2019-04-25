@@ -1,5 +1,10 @@
 <?php
 
+function password_generate($chars) {
+  	$data = '1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcefghijklmnopqrstuvwxyz';
+  	return substr(str_shuffle($data), 0, $chars);
+}
+
 //check if the users actually clicked the SIGNUP button
 if (isset($_POST['signup-submit'])) {
 	
@@ -11,48 +16,26 @@ if (isset($_POST['signup-submit'])) {
 
 	//grabbing posted values
 	$username = $_POST['uid'];
-	$email = $_POST['mail'];
-	$password = $_POST['pwd'];
-	$passwordRepeat = $_POST['pwd-repeat'];
+	$email = $_POST['email'];
 	$region = $_POST['region-select'];
 	$phoneNum = $_POST['phone-num'];
 	$address = $_POST['address'];
-	$oib = $_POST['oib-num'];
 	$avatarSrc = $_POST['signup-avatar-value'];
+	$name = $_POST['realname'];
 
-	//basic error handlers, obsolete -> added 'required'
-	if (empty($username) || empty($email) || empty($password) || empty($passwordRepeat) || empty($phoneNum) || empty($region)) {
-		//creating error mess
-		header("Location: ../signup.php?error=emptyfields&uid=".$username."&mail=".$email);
-		echo "Registration failed.";		
-		//stop script from running further
+	$oibPlaceholder = 'Google user';
+
+	//basic error handlers, backend (frontend checked aswell)
+	if (	empty($username) || empty($email) || empty($phoneNum) || empty($region) || empty($address) || empty($avatarSrc) || empty($name)
+			|| !filter_var($email, FILTER_VALIDATE_EMAIL)
+			|| !preg_match("/^[a-zA-Z0-9]*$/", $username)) {
+		
+		//creating error mess		
+		header("Location: ../index.php?error=sqlerror");		
 		exit();
 	}
-	//check both mail and password, send nothing back
-	else if (!filter_var($email, FILTER_VALIDATE_EMAIL) && !preg_match("/^[a-zA-Z0-9]*$/", $username)) {
-		header("Location: ../signup.php?error=invalidmailuid");
-		exit();
-	}
-	//check email, send username back
-	else if (!filter_var($email, FILTER_VALIDATE_EMAIL)){
-		header("Location: ../signup.php?error=invalidmail&uid=".$username);
-		exit();
-	}
-	//check username, send mail back
-	else if (!preg_match("/^[a-zA-Z0-9]*$/", $username)){
-		header("Location: ../signup.php?error=invaliduid&mail=".$email);
-		exit();
-	}
-	//pwds matching?
-	else if ($password !== $passwordRepeat) {
-		header("Location: ../signup.php?error=passwordcheck&mail=".$email."&uid=".$username);
-		exit();
-	}
-	else if (empty($avatarSrc)){
-		header("Location: ../signup.php?error=avatarfailure");	
-		exit();
-	}
-	//check if the username is alredy taken
+
+	//check if the username is alredy taken (it really shouldn't be)
 	else{
 
 		$sql = "SELECT uidUsers FROM users WHERE uidUsers=?";
@@ -61,7 +44,7 @@ if (isset($_POST['signup-submit'])) {
 		$stmt = mysqli_stmt_init($conn);
 
 		if (!mysqli_stmt_prepare($stmt, $sql)) {
-			header("Location: ../signup.php?error=sqlerror");
+			header("Location: ../index.php?error=sqlerror");
 			exit();
 		}
 		else {
@@ -75,24 +58,24 @@ if (isset($_POST['signup-submit'])) {
 
 			//if there are any rows, it means that username is alredy in the database
 			if($resultCheck > 0){
-				header("Location: ../signup.php?error=usernametaken");
+				header("Location: ../index.php?error=sqlerror");
 				exit();
 			}
 			//now check if the email or oib are taken
 			else{
 
-				$sql = "SELECT emailUsers FROM users WHERE emailUsers=? or oibUsers=?";
+				$sql = "SELECT emailUsers FROM users WHERE emailUsers=?";
 				
 				//preparing statement
 				$stmt = mysqli_stmt_init($conn);
 
 				if (!mysqli_stmt_prepare($stmt, $sql)) {
-					header("Location: ../signup.php?error=sqlerror");
+					header("Location: ../index.php?error=sqlerror");
 					exit();
 				}
 				else {
 					//inserting into DB and searching for matches
-					mysqli_stmt_bind_param($stmt, "ss", $email, $oib);
+					mysqli_stmt_bind_param($stmt, "s", $email);
 					mysqli_stmt_execute($stmt);
 
 					//stores result from DB to stmt
@@ -101,12 +84,13 @@ if (isset($_POST['signup-submit'])) {
 
 					//if there are any rows, it means that email is alredy in the database
 					if($resultCheck > 0){
-						header("Location: ../signup.php?error=taken");
+						header("Location: ../index.php?error=sqlerror");
 						exit();
 					}
 					//otherwise we can register the user
 					else {
-						$sql = "INSERT INTO users (uidUsers, emailUsers, pwdUsers, phoneNumUsers, regionUsers, avatarUsers, addressUsers, oibUsers) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+
+						$sql = "INSERT INTO users (uidUsers, emailUsers, pwdUsers, phoneNumUsers, regionUsers, avatarUsers, addressUsers, oibUsers, nameUsers) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
 						$stmt = mysqli_stmt_init($conn);
 
 						//can this sql command actually work inside mysql?
@@ -116,10 +100,9 @@ if (isset($_POST['signup-submit'])) {
 						}
 						else {
 							//hashing the pwd
-							$hashedPwd = password_hash($password, PASSWORD_DEFAULT);
+							$hashedPwd = password_hash(password_generate(10), PASSWORD_DEFAULT);
 
-							//6 * s for 6 parameters
-							mysqli_stmt_bind_param($stmt, "ssssssss", $username, $email, $hashedPwd, $phoneNum, $region, $avatarSrc, $address, $oib);
+							mysqli_stmt_bind_param($stmt, "sssssssss", $username, $email, $hashedPwd, $phoneNum, $region, $avatarSrc, $address, $oibPlaceholder, $name);
 							mysqli_stmt_execute($stmt);
 
 							// Sending registration email
@@ -143,6 +126,6 @@ if (isset($_POST['signup-submit'])) {
 
 //user didn't click the SIGNUP form
 else {
-	header("Location: ../signup.php");
+	header("Location: ../index.php");
     exit();
 }

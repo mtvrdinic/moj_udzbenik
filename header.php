@@ -8,6 +8,8 @@
 	    <!-- Required meta tags -->
 	    <meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <!-- Google Sign in -->
+	    <meta name="google-signin-client_id" content="24693107448-57f298fjeqe3i70e3h2al6qe1se61mhq.apps.googleusercontent.com">
 
 	    <!-- Bootstrap CSS -->
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -18,6 +20,8 @@
 	    <!-- Ajax jQuery and Bootstrap Typeahead used for live search -->
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js"></script>
+  		<!-- Google Platform Library -->
+  		<script src="https://apis.google.com/js/platform.js" async defer></script>
 
 	    <title>Moj udzbenik!</title>
 	    <link rel="shortcut icon" href="img/titleicon.png" />
@@ -39,7 +43,7 @@
 			      		<div class="modal-body">
 			        		<!--<input type="textarea" class="form-control" placeholder="Poštovani,">-->
 			        		<textarea name="" id="samaPoruka" class="form-control" cols="30" rows="7" placeholder="Poštovani,"></textarea>
-			        		<input type="hidden" id="idkorisnika" value"">
+			        		<input type="hidden" id="idkorisnika" value="">
 			      		</div>
 			     		<div class="modal-footer">
 			        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Odustani</button>			        		
@@ -182,24 +186,29 @@
 		    			// Sign in stuff
 		    			echo   '<a class="btn btn-primary" href="signup.php" role="button">Registracija</a>
 			    					<div class="nav-item dropdown">
-			    					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width:230px;">
-							          Imaš profil? Prijavi se
-							        </a>
-							        <!-- Login calls login.inc.php via post method -->
-									<form class="dropdown-menu p-4" action="includes/login.inc.php" method="post">
-									  <div class="form-group">
-									    <label for="exampleDropdownFormEmail2">Email adresa</label>
-									    <input type="email" name="mailuid" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com"
-									    	required>
-									  </div>
-									  <div class="form-group">
-									    <label for="exampleDropdownFormPassword2">Lozinka</label>
-									    <input type="password" name="pwd" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password"
-									    	required>
-									  </div>
-									  <button type="submit" name="login-submit" class="btn btn-primary">Prijavi se</button>
-									</form>
-								</div>';
+			    						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width:230px;">
+							          		Imaš profil? Prijavi se
+							        	</a>
+
+								        <!-- Login calls login.inc.php via post method -->
+										<form class="dropdown-menu p-4" action="includes/login.inc.php" method="post">
+										  	<div class="form-group">
+											    <label for="exampleDropdownFormEmail2">Email adresa</label>
+											    <input type="email" name="mailuid" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com"
+											    	required>
+										  	</div>
+										  	<div class="form-group">
+											    <label for="exampleDropdownFormPassword2">Lozinka</label>
+											    <input type="password" name="pwd" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password"
+											    	required>
+										  	</div>
+										  	
+										  	<button type="submit" name="login-submit" class="btn btn-primary">Prijavi se</button>
+										  	<div class="g-signin2 mt-4" data-onsuccess="onSignIn"></div>
+										</form>
+
+									</div>
+								</a>';
 		    		}
 		    	?>		   
 		  </div>

@@ -74,7 +74,7 @@ html, body{
 .jumbotron{
   border-radius: 0;
   margin-bottom: 0;
-}
+} 
 
 .carousel{
   padding-left: 10%;
@@ -139,6 +139,10 @@ html, body{
 
 .navbar {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#modal-body-des {
+  background-image: url("img/ai-pic2.jpg");
 }
 
 #profile-card {
@@ -339,8 +343,8 @@ hr.light-100{
   }
   
   .carousel{
-  padding-left: 0%;
-  padding-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
   }
 
   .carousel-caption{
@@ -358,24 +362,28 @@ hr.light-100{
   }
 
   .social a{
-  font-size: 2.5em;
-  padding: 1.5rem;
+    font-size: 2.5em;
+    padding: 1.5rem;
   }
 
   #profile-card-big {
-  width: 90%;
-}
+    width: 90%;
+  }
   
 }
 @media (max-width: 576px) {
 
-.badge-notify-mess{
-   color: white;
-   background: #BB4349;
-   position:relative;
-   top: -16px;
-   left: -82px;
-}
+  #trazi-index{
+    display: none;
+  } 
+
+  .badge-notify-mess{
+     color: white;
+     background: #BB4349;
+     position:relative;
+     top: -16px;
+     left: -82px;
+  }
 
   #poruke {
     font-size: 1.3em
@@ -391,17 +399,27 @@ hr.light-100{
   } 
 
   .carousel-caption{
-    top: 40%;
+    top: 30%;
   }
 
   .carousel-caption h1{
     font-size: 200%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
   }
 
   .carousel-caption h2{
-    font-size: 80%;
+    font-size: 100%;
     font-weight: 400;
-    padding-bottom: .1rem;
+    padding-bottom: .2rem;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+  }
+
+  .custom-carousel-image{
+    filter: brightness(65%);
   }
 
   .social a{

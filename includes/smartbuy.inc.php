@@ -2,27 +2,29 @@
 
 session_start();
 
+//this might take a while
+ini_set('max_execution_time', 300);
+
 //run the connection to DATABASE
 require 'dbh.inc.php';   //now we got access to variable CONN - connection to the database
 
 //we want Č Ć Š Ž and other chars!
 mysqli_set_charset($conn, "utf8");
 
+//$val = smart(0, 0, $binary, count($mapping), count($binary) - 1); //maping + 1?
 
 //recursion to find them users 
 function smart($mask, $i, $array, $maxBook, $users){
-
 
 	if($mask == pow(2, $maxBook - 1) - 1){
 		return 0;
 	}
 	//we haven't found everything, abort
 	if($i > $users) return 140000000000;
-
 	
 	$new_mask = $mask | $array[$i];
 	
-	//echo "<br>maska = " . decbin($mask) . " new_mask = " . decbin($new_mask) . "<br>";
+	echo "<br>maska = " . decbin($mask) . " new_mask = " . decbin($new_mask) . "<br>";
 	//echo "maska = " . decbin(pow(2, $maxBook - 1) - 1) . " new_mask = " . decbin(pow(2, $maxBook - 1) - 1) . "<br>";
 
 	//We take this user or...
@@ -49,7 +51,7 @@ if(!empty($_POST['check_list'])) {
 
 	//grabbing stuff
 	$nameSchool = $_POST['school'];
-	$numGrade = $_POST['grade'];
+	$nameGrade = $_POST['grade'];
 	$sellers = array();
 	$books = array();
 	$mapping = array();
@@ -59,7 +61,7 @@ if(!empty($_POST['check_list'])) {
 
 
 	//SMARTBUY - getting BOOKS
-	$sql = "SELECT DISTINCT idBooks, link.subjectLink FROM school JOIN grade USING (idSchool) JOIN link USING (idGrade) JOIN adds USING (idBooks) WHERE nameSchool = '$nameSchool' AND numGrade = $numGrade";
+	$sql = "SELECT DISTINCT idBooks, link.subjectLink FROM school JOIN grade USING (idSchool) JOIN link USING (idGrade) JOIN adds USING (idBooks) WHERE nameSchool = '$nameSchool' AND nameGrade = '$nameGrade'";
 	$result = mysqli_query($conn, $sql);
 
 	if(mysqli_num_rows($result)){
@@ -67,44 +69,28 @@ if(!empty($_POST['check_list'])) {
 		//first value is not usable
 		array_push($mapping, 0);
 
-		while($row = mysqli_fetch_array($result)) {
-			
+		while($row = mysqli_fetch_array($result)) {			
 			//push book if subject is wanted
 			if(in_array($row['subjectLink'], $_POST['check_list'])){
 				array_push($mapping, $row['idBooks']);
 			}
 		}
 	}
-	var_dump($mapping);
-	echo count($mapping) - 1;
+	//var_dump($mapping);
+	//echo count($mapping) - 1;
 
 
 
 
 
 
-
+	
 	//SMARTBUY - getting SELLERS
-	$sql = "SELECT DISTINCT uidUsers FROM school JOIN grade USING (idSchool) JOIN link USING (idGrade) JOIN adds USING (idBooks) WHERE nameSchool = ? AND numGrade = ?";
-
-	//initializing statement
-	$stmt = mysqli_stmt_init($conn);
-
-	//is the statement okay?
-	if(!mysqli_stmt_prepare($stmt, $sql)){
-		echo "This won't work!";
-	    exit();
-	}
-	else{
-		//binding
-		mysqli_stmt_bind_param($stmt, "si", $nameSchool, $numGrade);
-		
-		//execute parameters
-		mysqli_stmt_execute($stmt);
-
-		//grabbing the results woohoo
-		$result = mysqli_stmt_get_result($stmt);
-	}
+	//to query array, it has to be converted into comma separated string
+	$str = implode (", ", $mapping);
+	
+	$sql = "SELECT DISTINCT uidUsers FROM adds WHERE idBooks IN ($str)";
+	$result = mysqli_query($conn, $sql);
 
 	if(mysqli_num_rows($result)){
 		while($row = mysqli_fetch_array($result)){
@@ -119,28 +105,14 @@ if(!empty($_POST['check_list'])) {
 
 
 
-	//SMARTBUY - getting ADS, DODAJ PROVJERU ZA PREDMETEEEE
-	//$sql = "SELECT * FROM school JOIN grade USING (idSchool) JOIN link USING (idGrade) JOIN adds USING (idBooks) WHERE nameSchool = ? AND numGrade = ?";
-	$sql = "SELECT * FROM school JOIN grade USING (idSchool) JOIN link USING (idGrade) JOIN adds USING (idBooks) JOIN books USING (idBooks) WHERE nameSchool = ? AND numGrade = ? AND soldAdd = 0";
-
-	//initializing statement
-	$stmt = mysqli_stmt_init($conn);
-
-	//is the statement okay?
-	if(!mysqli_stmt_prepare($stmt, $sql)){
-		echo "This won't work!";
-	    exit();
-	}
-	else{
-		//binding
-		mysqli_stmt_bind_param($stmt, "si", $nameSchool, $numGrade);
-		
-		//execute parameters
-		mysqli_stmt_execute($stmt);
-
-		//grabbing the results woohoo
-		$result = mysqli_stmt_get_result($stmt);
-	}
+	//SMARTBUY - getting ADS
+	$sql = "	SELECT * FROM school 
+				JOIN grade USING (idSchool) 
+				JOIN link USING (idGrade) 
+				JOIN adds USING (idBooks) 
+				JOIN books USING (idBooks) 
+				WHERE nameSchool = '$nameSchool' AND nameGrade = '$nameGrade' AND soldAdd = 0";
+	$result = mysqli_query($conn, $sql);
 
 	if(mysqli_num_rows($result)){
 		while($row = mysqli_fetch_array($result)){
@@ -157,7 +129,6 @@ if(!empty($_POST['check_list'])) {
 				continue;
 			}
 			else {
-
 				//is this book wanted? there are subjects picked
 				if(in_array($tmpBook, $mapping)){
 					array_push($books[$key], $tmpBook);
@@ -184,6 +155,7 @@ if(!empty($_POST['check_list'])) {
 	
 	$val = smart(0, 0, $binary, count($mapping), count($binary) - 1); //maping + 1?
 	var_dump($chosen);
+	echo $val;
 
 	//EMPTY THE CART
 	unset($_SESSION['idAd']);
@@ -196,11 +168,10 @@ if(!empty($_POST['check_list'])) {
     //Pushing their values to CART
     for($i = 0; $i < count($chosen); $i++){
     	$uidUsers = $sellers[$chosen[$i]];
-    	echo $uidUsers;
+    	echo 'pusham nesto' . $uidUsers;
 
     	//going through all the ads
-    	mysqli_stmt_execute($stmt);
-    	$result = mysqli_stmt_get_result($stmt);
+    	$result = mysqli_query($conn, $sql);
     	while($row = mysqli_fetch_array($result)){
 			
 			//is this seller on our list?

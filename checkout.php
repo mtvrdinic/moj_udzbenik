@@ -65,7 +65,9 @@
 										<li class="list-group-item">
 									  		<div class="row align-items-center">
 									  			<span class="col-sm text-center mt-1">
-									  				<img src="'.$imagePath.'" style="max-height:100px; width: 100px;" alt="Nema slike">
+									  				<a href="'.$imagePath.'" data-fancybox data-caption="'.$row['nameBooks'].'">
+									  					<img src="'.$imagePath.'" style="max-height:100px; width: 100px;" alt="Nema slike">
+									  				</a>
 									  			</span>
 									  			<span class="col-sm text-center" style="font-size: 0.8em; max-height: 80px; overflow-y:hidden;">
 									  				<strong title="'.$row['nameBooks'].'">'.$row['nameBooks'].'</strong>

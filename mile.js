@@ -1,3 +1,39 @@
+// Google Sign in stuff   
+function onSignIn(googleUser) {
+    var profile = googleUser.getBasicProfile();
+    
+    /* Testing
+    console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+    console.log('Name: ' + profile.getName());
+    console.log('Image URL: ' + profile.getImageUrl());
+    console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+    */
+
+    if(profile != undefined){
+        $.ajax({
+            url: "includes/google.inc.php",
+            method: "POST",
+            data: {email : profile.getEmail()},
+            success: function(data){
+                if(data == 'Signed in!'){
+                    window.location.replace('http://localhost/web_project/profile.php');
+                }
+                else if(data == 'This one is new!') {
+                    // Redirect to shorter signup
+                    window.location.replace('http://localhost/web_project/signup-short.php?email=' + profile.getEmail() + '&name=' + profile.getName());
+                }
+                else {
+                    // Error happend
+                    console.log(data);
+                }               
+            }
+        });
+    }
+}
+
+
+
+
 // Scipt used to find SCHOOLS afer inputting partial string    
 $(document).ready(function(){
 
@@ -363,6 +399,11 @@ $(document).ready(function(){
                 //to get a [ADDED AFTER ADDING MODALS FOR IMAGES]
                 var parent = imgs[i].parentElement;
 
+                //few divs
+                parent = parent.parentElement;
+                parent = parent.parentElement;
+                parent = parent.parentElement;
+
                 //to get span
                 parent = parent.parentElement;
 
@@ -441,7 +482,7 @@ function addToCart(element){
 //Remove AD from CART
 function removeFromCart(element){
     var idAd = element.previousElementSibling.children[0].value;
-    console.log(idAd);
+    
     $.ajax({
       url    : 'includes/remove-from-cart.inc.php',
       method : 'post',
@@ -614,11 +655,15 @@ $(document).ready(function(){
 // Validations
 $(document).ready(function(){
 
-    // Require them all
-    if(window.location.href.indexOf("signup") > -1){
+    // Require them all -> First one is for regular signup, other one is for shorter one
+    if(window.location.href.indexOf("signup.") > -1){
         document.getElementById("username-input").required = true;
         document.getElementById("email-input").required = true;
         document.getElementById("oib-input").required = true;
+    }
+    else if(window.location.href.indexOf("signup") > -1){
+        document.getElementById("username-input").required = true;
+        document.getElementById("email-input").required = true;
     }
 
     // Username
@@ -700,6 +745,21 @@ $(document).ready(function(){
             input.removeClass('is-invalid');
             $('#signup-submit-button').attr('disabled', false);
             $('#oibError').attr('hidden', true);
+        }
+
+        if(query != ''){
+            $.ajax({
+                url: "includes/validate-oib.inc.php",
+                method: "GET",
+                data: {query:query},
+                success:    function(data){
+                                if(data == 1){
+                                    input.addClass('is-invalid');
+                                    $('#signup-submit-button').attr('disabled', true);
+                                    $('#oibError').attr('hidden', false);
+                                }                                
+                            }
+            })
         }
        
     });    

@@ -64,7 +64,7 @@ if(isset($_POST['checkout-submit']) && isset($_SESSION['userUid'])){
 			$_SESSION['mail']['address'] = $hisEmail;
 			$_SESSION['mail']['file'] = true;
 
-			require_once('mail.inc.php');
+			require_once('emails/mail.inc.php');
 
 		}
 

@@ -74,13 +74,17 @@
 				    	<option value="Dubrovačko-neretvanska">Dubrovačko-neretvanska</option>
 				    	<option value="Međimurska">Međimurska</option>
 				    	<option value="Grad Zagreb">Grad Zagreb</option>
-			  	</select>
+			  		</select>
+
+			  	<small class="text-danger my-2">Trenutno nije moguće mijenjati informacije profila</small>
+				
 				</div>
 
 	              <input type="hidden" id="idUser" value="" class="form-control">
 	            </div>
 	            <div class="modal-footer">
-	              <a href="#" id="promjeni" class="btn btn-primary pull-right">Update</a>
+	              <!-- <a href="#" id="promjeni" class="btn btn-primary pull-right">Update</a> -->
+	              <button id="promjeni" class="btn btn-primary pull-right" disabled>Update</button>	              
 	              <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
 	            </div>
 	          </div>
@@ -254,11 +258,13 @@
 				        		Brisanjem profila nestati će sve vaše informacije i oglasi. Nastaviti?
 				        		<input 	type="password" class="form-control my-1 mr-sm-2" 
 				        				id="delete-profile-password" placeholder="Unesite lozinku za nastavak"
-				        				name="delete-profile-password" required> 
+				        				name="delete-profile-password" required>
+				        				
+				        		<small class="text-info my-2">Brisanje profila trenutno nije moguće.</small> 
 				      		</div>
 				     		<div class="modal-footer">
 				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Odustani</button>			        		
-				        		<button type="submit" class="btn btn-danger" name="delete-profile-submit">Obriši</button>		        		
+				        		<button type="submit" class="btn btn-danger" name="delete-profile-submit" disabled>Obriši</button>		        		
 				     		</div>
 			     		</form>
 			    	</div>

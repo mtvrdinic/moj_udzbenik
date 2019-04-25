@@ -102,7 +102,7 @@ if (isset($_GET['schoolsearch-submit'])) {
 
 		echo 	'
 					<div class="modal fade" id="smartbuy-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-				        <div class="modal-dialog" role="document">
+				        <div class="modal-dialog" role="document" style="width: auto;">
 				            <div class="modal-content">
 				                <div class="modal-header bg-primary text-white">
 				                    <h5 class="modal-title" id="exampleModalLabel">Odaberi predmete</h5>
@@ -110,6 +110,14 @@ if (isset($_GET['schoolsearch-submit'])) {
 				                        <span aria-hidden="true" class="text-white">&times;</span>
 				                    </button>
 				                </div>
+
+				                <div class="modal-body text text-center mx-2" id="modal-body-des">
+					                	<h3> Što je SMARTBUY?</h3>
+					                	<p class="lead">
+										  Smartbuy je sustav koji će automatski pronaći sve knjige sa vašeg popisa, odnosno predmeta koje odaberete. Kod odabira knjiga, sustav prioritizira oglašivače koji nude više vama potrebnih knjiga, kako bi Vam <b>minimizirali</b> troškove dostave i <b>pojednostavili</b> kupovinu.
+										</p>
+				                </div>
+
 				                <form action="includes/smartbuy.inc.php" method="post">
 				                    <div class="modal-body">        	
 					';
@@ -371,7 +379,7 @@ if (isset($_GET['schoolsearch-submit'])) {
 
 					echo 	'
 							<h7 class="card-header">'.$row["nameBooks"].'<br><sub>'.$row["authorsBooks"].'</sub></h7>
-							  	<div class="card-body" style="overflow-y: scroll; height:300px;">
+							  	<div class="card-body" style="overflow-y: scroll; max-height:300px;">
 							    	
 							    	<ul class="list-group">
 							';
@@ -610,26 +618,33 @@ if (isset($_GET['schoolsearch-submit'])) {
 									';
 									
 						}
+
+						//here will more ads load
+						echo 	'<div id="show-more'.$idBooks.'">
+
+								</div>';
+						//using the button to show more ads
+						echo 	'<li class="list-group shadow p-1 rounded">
+									  		<div class="row align-items-center">
+									  			<span class="col-sm text-center mt-1">
+									  				<button id='.$idBooks.' type="button" class="btn btn-light plus"><i class="fas fa-plus fa-1x"></i></button>
+								  					<input type="hidden" id=book'.$idBooks.' value="">
+								  				</span>
+									  		</div>
+							  	</li>
+							
+								';
 					}
 					else{
-						echo "Ad not found :(";					
-					}
-					//here will more ads load
-					echo 	'<div id="show-more'.$idBooks.'">
-
-							</div>';
-					//using the button to show more ads
-					echo 	'<li class="list-group shadow p-1 rounded">
-								  		<div class="row align-items-center">
-								  			<span class="col-sm text-center mt-1">
-								  				<button id='.$idBooks.' type="button" class="btn btn-light plus"><i class="fas fa-plus fa-1x"></i></button>
-							  					<input type="hidden" id=book'.$idBooks.' value="">
-							  				</span>
+						echo 	'	<li class="list-group-item">
+								  		<div class="text-center text-muted">
+								  			Trenutno nema dostupnih oglasa
 								  		</div>
-						  	</li>
-						</ul>
-					</div>
-							';
+									</li>	';				
+					}
+
+					echo '</ul>
+						</div>';					
 				}
 			}
 			else{
