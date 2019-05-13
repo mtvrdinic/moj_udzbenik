@@ -168,7 +168,6 @@ if(!empty($_POST['check_list'])) {
     //Pushing their values to CART
     for($i = 0; $i < count($chosen); $i++){
     	$uidUsers = $sellers[$chosen[$i]];
-    	echo 'pusham nesto' . $uidUsers;
 
     	//going through all the ads
     	$result = mysqli_query($conn, $sql);

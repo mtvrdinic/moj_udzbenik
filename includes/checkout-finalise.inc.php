@@ -50,22 +50,8 @@ if(isset($_POST['checkout-submit']) && isset($_SESSION['userUid'])){
 		    exit();
 		}
 		else{
-
 			//execute parameters
 			mysqli_stmt_execute($stmt);
-
-			// Sending email to the seller
-			// Get his email
-			$sql = "SELECT emailUsers FROM users WHERE uidUsers = '$seller'";
-			$emailResult = mysqli_query($conn, $sql);
-			$row = mysqli_fetch_assoc($emailResult);
-			$hisEmail = $row['emailUsers'];
-
-			$_SESSION['mail']['address'] = $hisEmail;
-			$_SESSION['mail']['file'] = true;
-
-			require_once('emails/mail.inc.php');
-
 		}
 
 
@@ -85,6 +71,17 @@ if(isset($_POST['checkout-submit']) && isset($_SESSION['userUid'])){
 			//execute parameters
 			mysqli_stmt_execute($stmt);			
 		}
+
+		// Sending email to the seller
+		$sql = "SELECT emailUsers FROM users WHERE uidUsers = '$seller'";
+		$emailResult = mysqli_query($conn, $sql);
+		$row = mysqli_fetch_assoc($emailResult);
+		$hisEmail = $row['emailUsers'];
+
+		$_SESSION['mail']['address'] = $hisEmail;
+		$_SESSION['mail']['file'] = true;
+
+		require_once('emails/mail.inc.php');
 		
 
 

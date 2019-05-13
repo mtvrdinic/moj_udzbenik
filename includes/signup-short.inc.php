@@ -22,13 +22,14 @@ if (isset($_POST['signup-submit'])) {
 	$address = $_POST['address'];
 	$avatarSrc = $_POST['signup-avatar-value'];
 	$name = $_POST['realname'];
+	$codeCity = $_POST['registration-city'];
 
 	$oibPlaceholder = 'Google user';
 
 	//basic error handlers, backend (frontend checked aswell)
-	if (	empty($username) || empty($email) || empty($phoneNum) || empty($region) || empty($address) || empty($avatarSrc) || empty($name)
+	if (	empty($username) || empty($email) || empty($phoneNum) || empty($region) || empty($address) || empty($avatarSrc) || empty($name) || empty($codeCity)
 			|| !filter_var($email, FILTER_VALIDATE_EMAIL)
-			|| !preg_match("/^[a-zA-Z0-9]*$/", $username)) {
+			|| !preg_match("/^[a-zA-Z0-9].*$/", $username)) {
 		
 		//creating error mess		
 		header("Location: ../index.php?error=sqlerror");		
@@ -90,7 +91,7 @@ if (isset($_POST['signup-submit'])) {
 					//otherwise we can register the user
 					else {
 
-						$sql = "INSERT INTO users (uidUsers, emailUsers, pwdUsers, phoneNumUsers, regionUsers, avatarUsers, addressUsers, oibUsers, nameUsers) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
+						$sql = "INSERT INTO users (uidUsers, emailUsers, pwdUsers, phoneNumUsers, regionUsers, avatarUsers, addressUsers, oibUsers, nameUsers, codeCity) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 						$stmt = mysqli_stmt_init($conn);
 
 						//can this sql command actually work inside mysql?
@@ -102,7 +103,7 @@ if (isset($_POST['signup-submit'])) {
 							//hashing the pwd
 							$hashedPwd = password_hash(password_generate(10), PASSWORD_DEFAULT);
 
-							mysqli_stmt_bind_param($stmt, "sssssssss", $username, $email, $hashedPwd, $phoneNum, $region, $avatarSrc, $address, $oibPlaceholder, $name);
+							mysqli_stmt_bind_param($stmt, "ssssssssss", $username, $email, $hashedPwd, $phoneNum, $region, $avatarSrc, $address, $oibPlaceholder, $name, $codeCity);
 							mysqli_stmt_execute($stmt);
 
 							// Sending registration email

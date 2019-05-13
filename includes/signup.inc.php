@@ -19,28 +19,18 @@ if (isset($_POST['signup-submit'])) {
 	$address = $_POST['address'];
 	$oib = $_POST['oib-num'];
 	$avatarSrc = $_POST['signup-avatar-value'];
+	$name = $_POST['realname'];
+	$codeCity = $_POST['registration-city'];
 
-	//basic error handlers, obsolete -> added 'required'
-	if (empty($username) || empty($email) || empty($password) || empty($passwordRepeat) || empty($phoneNum) || empty($region)) {
+	//backend error handlers
+	if (empty($username) || empty($email) || empty($password) || empty($passwordRepeat) || empty($phoneNum) || empty($region) || empty($name) || empty($codeCity)) {
 		//creating error mess
-		header("Location: ../signup.php?error=emptyfields&uid=".$username."&mail=".$email);
-		echo "Registration failed.";		
-		//stop script from running further
+		header("Location: ../signup.php?error=emptyfields&uid=".$username."&mail=".$email);		
 		exit();
 	}
 	//check both mail and password, send nothing back
 	else if (!filter_var($email, FILTER_VALIDATE_EMAIL) && !preg_match("/^[a-zA-Z0-9]*$/", $username)) {
-		header("Location: ../signup.php?error=invalidmailuid");
-		exit();
-	}
-	//check email, send username back
-	else if (!filter_var($email, FILTER_VALIDATE_EMAIL)){
-		header("Location: ../signup.php?error=invalidmail&uid=".$username);
-		exit();
-	}
-	//check username, send mail back
-	else if (!preg_match("/^[a-zA-Z0-9]*$/", $username)){
-		header("Location: ../signup.php?error=invaliduid&mail=".$email);
+		header("Location: ../signup.php?error=invalidinput");
 		exit();
 	}
 	//pwds matching?
@@ -106,7 +96,7 @@ if (isset($_POST['signup-submit'])) {
 					}
 					//otherwise we can register the user
 					else {
-						$sql = "INSERT INTO users (uidUsers, emailUsers, pwdUsers, phoneNumUsers, regionUsers, avatarUsers, addressUsers, oibUsers) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+						$sql = "INSERT INTO users (uidUsers, emailUsers, pwdUsers, phoneNumUsers, regionUsers, avatarUsers, addressUsers, oibUsers, nameUsers, codeCity) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 						$stmt = mysqli_stmt_init($conn);
 
 						//can this sql command actually work inside mysql?
@@ -119,7 +109,7 @@ if (isset($_POST['signup-submit'])) {
 							$hashedPwd = password_hash($password, PASSWORD_DEFAULT);
 
 							//6 * s for 6 parameters
-							mysqli_stmt_bind_param($stmt, "ssssssss", $username, $email, $hashedPwd, $phoneNum, $region, $avatarSrc, $address, $oib);
+							mysqli_stmt_bind_param($stmt, "ssssssssss", $username, $email, $hashedPwd, $phoneNum, $region, $avatarSrc, $address, $oib, $name, $codeCity);
 							mysqli_stmt_execute($stmt);
 
 							// Sending registration email

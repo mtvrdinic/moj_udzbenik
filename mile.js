@@ -1,4 +1,25 @@
-// Google Sign in stuff   
+// Scipt used to find CITIES afer choosing region
+$(document).ready(function(){
+
+    $("#regionpicker-register").change(function(){ 
+
+        var regionpicker = $(this).val();
+        var dataString = "regionpicker="+regionpicker;
+
+        $.ajax({ 
+            type: "POST", 
+            url: "includes/region-city.inc.php", 
+            data: dataString,
+            success: function(result){ 
+                //console.log(result);
+                $("#registration-city").html(result);
+            }
+        });
+
+    });
+});
+
+// Google Sign in stuff 
 function onSignIn(googleUser) {
     var profile = googleUser.getBasicProfile();
     
@@ -28,10 +49,10 @@ function onSignIn(googleUser) {
                 }               
             }
         });
+
+        gapi.auth2.getAuthInstance().disconnect();
     }
 }
-
-
 
 
 // Scipt used to find SCHOOLS afer inputting partial string    
@@ -59,6 +80,11 @@ $(document).ready(function(){
 
     // Also, we need to get nameGrade if we're searching for highschools
     $(document).on('click', 'li', function(){
+        
+        if(document.URL.indexOf("profile.php") >= 0){
+            return 0; 
+        }
+
         var query = $(this).text();       
 
         if(query != ''){
@@ -634,21 +660,29 @@ $(".image-modal").on("click", function() {
 
 //Signup errors
 $(document).ready(function(){
+    
+    // Success
+    if(document.URL.indexOf("index.php?registration=success") >= 0){ 
+        alert("Registracija uspjela, prijavite se za nastavak.");
+    }
+
+    // Errors
     if(document.URL.indexOf("signup.php?error=taken") >= 0){ 
         alert("Registracija nije uspjela, email ili oib se već koriste.");
     }
 
     if(document.URL.indexOf("signup.php?error=sqlerror") >= 0){
-        alert("Registracije nije uspjela, grška s bazom podataka.");
+        alert("Registracija nije uspjela, greška s bazom podataka.");
     }
 
     if(document.URL.indexOf("signup.php?error=usernametaken") >= 0){
-        alert("Registracije nije uspjela, korisničko ime se već koristi.");
+        alert("Registracija nije uspjela, korisničko ime se već koristi.");
     }
 
-    if(window.location.href.indexOf("error") > -1) {
-       alert("Registracije nije uspjela.");
+    if(document.URL.indexOf("index.php?error=wrongpwd") >= 0){
+        alert("Prijava nije uspjela, pogrešna lozinka.");
     }
+
 });
 
 

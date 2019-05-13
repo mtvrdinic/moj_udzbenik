@@ -17,6 +17,13 @@
 				    <input class="form-control" id="username-input" name="uid" type="text" placeholder="UID">
 				    <small id="usernameError" class="form-text text-danger" hidden>Korisničko ime nije valjano ili se već koristi.</small>	 
 				</div>
+
+				<div class="form-group">
+				    <label for="exampleInputRealName">Ime i prezime</label>
+				    <input class="form-control" id="realname-input" name="realname" type="text" placeholder="Ivo Ivić" required>
+				    <small id="realNameHelp" class="form-text text-muted">Vaše ime nam je potrebno kako bi Vam drugi korisnici bili u mogućnosti poslati knjige. Vidljivo je <b>samo</b> korisnicima koji su zaprimili vašu narudžbu.</small>
+				</div>
+
 				<div class="form-group">
 				    <label for="exampleInputEmail1">Email adresa</label>
 				    <input type="email" id="email-input" name="mail" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
@@ -38,8 +45,9 @@
 				</div>
 
 				<div class="form-group">
-				    <label for="exampleInputPassword1">Odaberi županiju</label>
-				    <select class="custom-select my-1 mr-sm-2" name="region-select" required>
+				    <label for="exampleInputPassword1">Odaberi županiju i grad</label>
+				    <br>
+				    <select class="custom-select my-1 mr-sm-2 col-4" name="region-select" id="regionpicker-register" required>
 				    	<option value="" selected>Županija</option>
 				    	<option value="Zagrebačka">Zagrebačka</option>
 				    	<option value="Krapinsko-zagorska">Krapinsko-zagorska</option>
@@ -62,7 +70,10 @@
 				    	<option value="Dubrovačko-neretvanska">Dubrovačko-neretvanska</option>
 				    	<option value="Međimurska">Međimurska</option>
 				    	<option value="Grad Zagreb">Grad Zagreb</option>
-			  	</select>
+			  		</select>
+			  		<select class="custom-select mx-2 my-1 mr-sm-2 col-4" id="registration-city" name="registration-city" style="max-width: 200px;" required>
+				    				    	
+				  	</select>
 				</div>
 
 				<div class="form-group">

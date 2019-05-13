@@ -84,6 +84,7 @@
 		      		<li class="nav-item active">
 		        		<a class="nav-link" href="index.php">Naslovnica <span class="sr-only">(current)</span></a>
 		      		</li>
+
 			      	<?php												
 						if(isset($_SESSION['userUid'])){
 							echo 	'	
@@ -112,17 +113,16 @@
 			          	Informacije
 			        	</a>
 			        	<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          	<a class="dropdown-item" href="#">Action</a>
-			          	<a class="dropdown-item" href="#">Another action</a>
+			          	<a class="dropdown-item" href="about.php">O nama</a>
 			          	<div class="dropdown-divider"></div>
-			          		<a class="dropdown-item" href="#">Something else here</a>
+			          		<a class="dropdown-item" href="#">U izradi...</a>
 			        	</div>
 			      	</li>			      
 			      	<?php												
 						if(isset($_SESSION['userUid'])){
 							echo 	'	
 									<li class="nav-item">			      		
-						    			<a class="btn btn-outline-primary ml-lg-2" 
+						    			<a class="btn btn-outline-primary ml-lg-2 my-2" 
 						    					role="button" 
 						    					href="profile.php"
 						    					>
@@ -175,22 +175,21 @@
 		    			echo ' 	
 		    					<div class="nav-item dropdown">
 		    						<div class="row">
-		    							<a class="mt-3 mr-3" id="greet"> <i> Dobrodošli, '.$_SESSION['userUid'].' </i> &nbsp&nbsp <b> '.$_SESSION['userMoney'].' </b> </a>		    						
+		    							<a class="mt-3 mr-3" id="greet"> <i> Dobrodošli, '.$_SESSION['userUid'].' </i> &nbsp&nbsp </a>		    						
 		    							<form action="includes/logout.inc.php" method="post">
-		    								<button class="btn btn-outline-light ml-3 mr-2 mt-2 text-secondary" name="logout-submit" type="submit" title="Odjava"> <i class="fas fa-sign-out-alt"></i> </button>
+		    								<button class="btn btn-outline-light ml-3 mr-2 mt-2 text-secondary" id="logout-button" name="logout-submit" type="submit" title="Odjava"> <i class="fas fa-sign-out-alt"></i> </button>
 		    							</form>
 		    						</div>
 		    					</div>';
 		    		}
 		    		else {
 		    			// Sign in stuff
-		    			echo   '<a class="btn btn-primary" href="signup.php" role="button">Registracija</a>
+		    			echo   '	<a class="btn btn-primary my-1" href="signup.php" role="button">Registracija</a>
 			    					<div class="nav-item dropdown">
 			    						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width:230px;">
 							          		Imaš profil? Prijavi se
 							        	</a>
-
-								        <!-- Login calls login.inc.php via post method -->
+								      
 										<form class="dropdown-menu p-4" action="includes/login.inc.php" method="post">
 										  	<div class="form-group">
 											    <label for="exampleDropdownFormEmail2">Email adresa</label>
@@ -208,7 +207,7 @@
 										</form>
 
 									</div>
-								</a>';
+								';
 		    		}
 		    	?>		   
 		  </div>

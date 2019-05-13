@@ -116,7 +116,7 @@
       </div>
 
     <!--- Jumbotron -->
-	<div class="jumbotron jumbotron-fluid bg-light">
+	<div class="jumbotron jumbotron-fluid bg-light" style="overflow: hidden;">
 		 <div class="row text-center"> 	
 		  	<div class="card" id="profile-card">
 			  	
@@ -608,7 +608,7 @@
 
 
                          				//ZA ISPIS
-										$sql = "SELECT * FROM adds join sold_ads using (idAdd) join users ON sold_ads.uidUsersBuyer = users.uidUsers WHERE adds.uidUsers = '$tmp' AND soldAdd=1 order by dateSold desc";
+										$sql = "SELECT * FROM adds join sold_ads using (idAdd) join users ON sold_ads.uidUsersBuyer = users.uidUsers left join city using (codeCity) WHERE adds.uidUsers = '$tmp' AND soldAdd=1 order by dateSold desc";
 
 										$stmt = mysqli_stmt_init($conn);
 
@@ -740,8 +740,9 @@
 								  														class="btn btn-lg btn-outline-light text-muted" 
 								  														data-toggle="popover"
 								  														data-trigger="focus" 
-								  														title="Adresa kupca" 
-								  														data-content="'. $row["addressUsers"] .', '. $row["regionUsers"] .'">
+								  														title="Info o kupcu"
+								  														data-html="true" 
+								  														data-content="'. $row["addressUsers"] .'<br>'. $row["nameCity"] .', '. $row["codeCity"] .' <br>'. $row['nameUsers'] .'">
 								  															<i class="fas fa-user mr-1"></i> '.$row["uidUsersBuyer"].'
 								  											</button>
 															  			</span> 															  		

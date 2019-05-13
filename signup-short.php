@@ -34,7 +34,7 @@
 				    <label for="exampleInputRealName">Ime i prezime</label>
 				    <?php
 
-				    echo '<input class="form-control" id="realname-input" name="realname" type="text" value="'. $_GET['name'] .'">'
+				    echo '<input class="form-control" id="realname-input" name="realname" type="text" value="'. $_GET['name'] .'" required>'
 				    ?>
 
 				    <small id="realNameHelp" class="form-text text-muted">Vaše ime nam je potrebno kako bi Vam drugi korisnici bili u mogućnosti poslati knjige. Vidljivo je <b>samo</b> korisnicima koji su zaprimili vašu narudžbu.</small>
@@ -50,8 +50,9 @@
 				</div>
 
 				<div class="form-group">
-				    <label for="exampleInputPassword1">Odaberi županiju</label>
-				    <select class="custom-select my-1 mr-sm-2" name="region-select" required>
+				    <label for="exampleInputPassword1">Odaberi županiju i grad</label>
+				    <br>
+				    <select class="custom-select my-1 mr-sm-2 col-4" name="region-select" id="regionpicker-register" required>
 				    	<option value="" selected>Županija</option>
 				    	<option value="Zagrebačka">Zagrebačka</option>
 				    	<option value="Krapinsko-zagorska">Krapinsko-zagorska</option>
@@ -74,7 +75,10 @@
 				    	<option value="Dubrovačko-neretvanska">Dubrovačko-neretvanska</option>
 				    	<option value="Međimurska">Međimurska</option>
 				    	<option value="Grad Zagreb">Grad Zagreb</option>
-			  	</select>
+			  		</select>
+			  		<select class="custom-select mx-2 my-1 mr-sm-2 col-4" id="registration-city" name="registration-city" style="max-width: 200px;" required>
+				    				    	
+				  	</select>
 				</div>
 
 				<div class="form-group">
